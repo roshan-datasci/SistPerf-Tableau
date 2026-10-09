@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- paste at the bottom of your existing .gitignore ---
+# secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+# ERP sessions
+cookies.json
+session.json
+storage_state.json
+auth.json
+*.session
+# private data
+data/private/*
+!data/private/.gitkeep
+data/raw/
+*.db
+*.sqlite
+*.sqlite3
+# Tableau extracts and real-data workbooks
+*.hyper
+*.tde
+tableau/private/
+# local config and logs
+config.local.*
+config.private.*
+logs/
+*.log
+# raw ERP captures (contain personal data and tokens)
+*.har
+raw_responses/
+captures/
+erp_dump*
