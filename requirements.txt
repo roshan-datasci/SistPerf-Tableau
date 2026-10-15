@@ -1,6 +1,7 @@
-pandas
 numpy
-scikit-learn
-streamlit
+pandas
 plotly
 pyyaml
+scikit-learn
+streamlit
+streamlit>=1.50

@@ -1,7 +1,8 @@
-# PLACEHOLDER rules - edit to match the official SIST grading scheme (check the regulations).
-weights: {"CAE 1": 0.15, "CAE 2": 0.15, "Semester": 0.70}   # must sum to 1
-pass_mark: 50            # minimum % in the semester exam
+# PLACEHOLDER rules - confirm against the official SIST regulations.
+weights: {"Internal": 0.5, "Exam": 0.5}   # final % = 0.5*Internal + 0.5*Exam (must sum to 1)
+# Current term has only CAE marks: the CAE average stands in for the Internal mark until it is published.
+pass_mark: 50            # minimum % in the exam
 default_credits: 3
-credits: {}              # e.g. {"Mathematics": 4}
+credits: {}              # by subject code, e.g. {"SCSB1303": 4}
 grade_bands: [[90, "O", 10], [80, "A+", 9], [70, "A", 8], [60, "B+", 7], [50, "B", 6], [0, "F", 0]]
 stable_sd: 5             # std-dev (in %) at or below this = "Consistent"
