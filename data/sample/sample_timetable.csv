@@ -1,0 +1,31 @@
+Day,Period,Start,End,Subject_Code,Subject,Type
+Monday,1,09:00,09:50,S12BLH31,Programming in Java,Theory
+Monday,2,09:50,10:40,S731BLH32,Machine Learning Essentials,Theory
+Monday,3,11:00,11:50,SCSB1303,Theory of Computation,Theory
+Monday,4,11:50,12:40,SCSBOB1301,Computer Architecture and Organization,Theory
+Monday,5,13:30,14:20,SISB4301,Universal Human Values,Theory
+Monday,6,14:20,15:10,SMTB1304,Matrices and Linear Algebra,Theory
+Tuesday,1,09:00,09:50,SCSB1303,Theory of Computation,Theory
+Tuesday,2,09:50,10:40,SCSBOB1301,Computer Architecture and Organization,Theory
+Tuesday,3,11:00,11:50,SISB4301,Universal Human Values,Theory
+Tuesday,4,11:50,12:40,SMTB1304,Matrices and Linear Algebra,Theory
+Tuesday,5,13:30,14:20,S12BLH31,Programming in Java,Theory
+Tuesday,6,14:20,15:10,S731BLH32,Machine Learning Essentials,Theory
+Wednesday,1,09:00,09:50,SISB4301,Universal Human Values,Theory
+Wednesday,2,09:50,10:40,SMTB1304,Matrices and Linear Algebra,Theory
+Wednesday,3,11:00,11:50,S12BLH31,Programming in Java,Theory
+Wednesday,4,11:50,12:40,S731BLH32,Machine Learning Essentials,Theory
+Wednesday,5,13:30,14:20,SCSB1303,Theory of Computation,Theory
+Wednesday,6,14:20,15:10,SCSBOB1301,Computer Architecture and Organization,Theory
+Thursday,1,09:00,09:50,S12BLH31,Programming in Java,Theory
+Thursday,2,09:50,10:40,S731BLH32,Machine Learning Essentials,Theory
+Thursday,3,11:00,11:50,SCSB1303,Theory of Computation,Theory
+Thursday,4,11:50,12:40,SCSBOB1301,Computer Architecture and Organization,Theory
+Thursday,5,13:30,14:20,SISB4301,Universal Human Values,Theory
+Thursday,6,14:20,15:10,SMTB1304,Matrices and Linear Algebra,Theory
+Friday,1,09:00,09:50,SCSB1303,Theory of Computation,Theory
+Friday,2,09:50,10:40,SCSBOB1301,Computer Architecture and Organization,Theory
+Friday,3,11:00,11:50,SISB4301,Universal Human Values,Theory
+Friday,4,11:50,12:40,SMTB1304,Matrices and Linear Algebra,Theory
+Friday,5,13:30,14:20,SCSL1301,Programming Lab,Practical
+Friday,6,14:20,15:10,SCSL1301,Programming Lab,Practical

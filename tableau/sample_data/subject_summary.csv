@@ -1,0 +1,761 @@
+Student_ID,Semester,Subject_Code,Subject,CAE 1,Exam,Internal,CAE 2,Int_eff,Average,Improvement,Internal→Exam gap,Std Dev,Stability,Final %,Grade,GP,Alert
+STU001,Sem 1,SYN1101,Engineering Mathematics I,,72.0,82.0,,82.0,77.0,,-10.0,7.0710678118654755,Variable,77.0,B++,8.0,Exam well below internal
+STU001,Sem 1,SYN1102,Engineering Physics,,76.0,74.0,,74.0,75.0,,2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU001,Sem 1,SYN1103,Problem Solving with C,,82.0,88.0,,88.0,85.0,,-6.0,4.242640687119285,Consistent,85.0,A+,9.0,Exam well below internal
+STU001,Sem 1,SYN1104,Technical English,,82.0,88.0,,88.0,85.0,,-6.0,4.242640687119285,Consistent,85.0,A+,9.0,Exam well below internal
+STU001,Sem 1,SYN1105,Physics Lab,,76.0,76.0,,76.0,76.0,,0.0,0.0,Consistent,76.0,B++,8.0,
+STU001,Sem 1,SYN1106,C Programming Lab,,52.0,72.0,,72.0,62.0,,-20.0,14.142135623730951,Variable,62.0,B+,7.0,Exam well below internal
+STU001,Sem 2,S11BLH21,Programming in Python,,66.0,82.0,,82.0,74.0,,-16.0,11.313708498984761,Variable,74.0,B++,8.0,Exam well below internal
+STU001,Sem 2,S731BLH22,Data Structures & Algorithms,,68.0,64.0,,64.0,66.0,,4.0,2.8284271247461903,Consistent,66.0,B+,7.0,
+STU001,Sem 2,SCSB1231,Data and Information Science,,84.0,86.0,,86.0,85.0,,-2.0,1.4142135623730951,Consistent,85.0,A+,9.0,
+STU001,Sem 2,SCSB1232,Exploratory Data Analysis,,68.0,74.0,,74.0,71.0,,-6.0,4.242640687119285,Consistent,71.0,B++,8.0,Exam well below internal
+STU001,Sem 2,SCYB1101,Chemistry,,72.0,68.0,,68.0,70.0,,4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU001,Sem 2,SCYB2101,Chemistry Lab,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU001,Sem 2,SMTB1212,Discrete Structures,,86.0,86.0,,86.0,86.0,,0.0,0.0,Consistent,86.0,A+,9.0,
+STU001,Sem 3,S12BLH31,Programming in Java,80.0,,,,80.0,80.0,,,,-,,-,,
+STU001,Sem 3,S731BLH32,Machine Learning Essentials,70.0,,,,70.0,70.0,,,,-,,-,,
+STU001,Sem 3,SCSB1303,Theory of Computation,78.0,,,,78.0,78.0,,,,-,,-,,
+STU001,Sem 3,SCSBOB1301,Computer Architecture and Organization,84.0,,,,84.0,84.0,,,,-,,-,,
+STU001,Sem 3,SISB4301,Universal Human Values,86.0,,,,86.0,86.0,,,,-,,-,,
+STU001,Sem 3,SMTB1304,Matrices and Linear Algebra,76.0,,,,76.0,76.0,,,,-,,-,,
+STU002,Sem 1,SYN1101,Engineering Mathematics I,,88.0,86.0,,86.0,87.0,,2.0,1.4142135623730951,Consistent,87.0,A+,9.0,
+STU002,Sem 1,SYN1102,Engineering Physics,,90.0,86.0,,86.0,88.0,,4.0,2.8284271247461903,Consistent,88.0,A+,9.0,
+STU002,Sem 1,SYN1103,Problem Solving with C,,70.0,78.0,,78.0,74.0,,-8.0,5.656854249492381,Variable,74.0,B++,8.0,Exam well below internal
+STU002,Sem 1,SYN1104,Technical English,,74.0,78.0,,78.0,76.0,,-4.0,2.8284271247461903,Consistent,76.0,B++,8.0,
+STU002,Sem 1,SYN1105,Physics Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU002,Sem 1,SYN1106,C Programming Lab,,76.0,68.0,,68.0,72.0,,8.0,5.656854249492381,Variable,72.0,B++,8.0,
+STU002,Sem 2,S11BLH21,Programming in Python,,78.0,78.0,,78.0,78.0,,0.0,0.0,Consistent,78.0,B++,8.0,
+STU002,Sem 2,S731BLH22,Data Structures & Algorithms,,64.0,66.0,,66.0,65.0,,-2.0,1.4142135623730951,Consistent,65.0,B+,7.0,
+STU002,Sem 2,SCSB1231,Data and Information Science,,88.0,88.0,,88.0,88.0,,0.0,0.0,Consistent,88.0,A+,9.0,
+STU002,Sem 2,SCSB1232,Exploratory Data Analysis,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU002,Sem 2,SCYB1101,Chemistry,,88.0,78.0,,78.0,83.0,,10.0,7.0710678118654755,Variable,83.0,A+,9.0,
+STU002,Sem 2,SCYB2101,Chemistry Lab,,84.0,96.0,,96.0,90.0,,-12.0,8.48528137423857,Variable,90.0,A++,10.0,Exam well below internal
+STU002,Sem 2,SMTB1212,Discrete Structures,,88.0,80.0,,80.0,84.0,,8.0,5.656854249492381,Variable,84.0,A+,9.0,
+STU002,Sem 3,S12BLH31,Programming in Java,82.0,,,,82.0,82.0,,,,-,,-,,
+STU002,Sem 3,S731BLH32,Machine Learning Essentials,82.0,,,,82.0,82.0,,,,-,,-,,
+STU002,Sem 3,SCSB1303,Theory of Computation,72.0,,,,72.0,72.0,,,,-,,-,,
+STU002,Sem 3,SCSBOB1301,Computer Architecture and Organization,54.0,,,,54.0,54.0,,,,-,,-,,
+STU002,Sem 3,SISB4301,Universal Human Values,72.0,,,,72.0,72.0,,,,-,,-,,
+STU002,Sem 3,SMTB1304,Matrices and Linear Algebra,94.0,,,,94.0,94.0,,,,-,,-,,
+STU003,Sem 1,SYN1101,Engineering Mathematics I,,70.0,72.0,,72.0,71.0,,-2.0,1.4142135623730951,Consistent,71.0,B++,8.0,
+STU003,Sem 1,SYN1102,Engineering Physics,,74.0,72.0,,72.0,73.0,,2.0,1.4142135623730951,Consistent,73.0,B++,8.0,
+STU003,Sem 1,SYN1103,Problem Solving with C,,74.0,72.0,,72.0,73.0,,2.0,1.4142135623730951,Consistent,73.0,B++,8.0,
+STU003,Sem 1,SYN1104,Technical English,,72.0,70.0,,70.0,71.0,,2.0,1.4142135623730951,Consistent,71.0,B++,8.0,
+STU003,Sem 1,SYN1105,Physics Lab,,68.0,72.0,,72.0,70.0,,-4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU003,Sem 1,SYN1106,C Programming Lab,,72.0,72.0,,72.0,72.0,,0.0,0.0,Consistent,72.0,B++,8.0,
+STU003,Sem 2,S11BLH21,Programming in Python,,82.0,68.0,,68.0,75.0,,14.0,9.899494936611665,Variable,75.0,B++,8.0,
+STU003,Sem 2,S731BLH22,Data Structures & Algorithms,,60.0,54.0,,54.0,57.0,,6.0,4.242640687119285,Consistent,57.0,C,6.0,
+STU003,Sem 2,SCSB1231,Data and Information Science,,60.0,70.0,,70.0,65.0,,-10.0,7.0710678118654755,Variable,65.0,B+,7.0,Exam well below internal
+STU003,Sem 2,SCSB1232,Exploratory Data Analysis,,78.0,84.0,,84.0,81.0,,-6.0,4.242640687119285,Consistent,81.0,A+,9.0,Exam well below internal
+STU003,Sem 2,SCYB1101,Chemistry,,82.0,76.0,,76.0,79.0,,6.0,4.242640687119285,Consistent,79.0,B++,8.0,
+STU003,Sem 2,SCYB2101,Chemistry Lab,,40.0,64.0,,64.0,52.0,,-24.0,16.97056274847714,Variable,52.0,C,6.0,Exam well below internal
+STU003,Sem 2,SMTB1212,Discrete Structures,,78.0,68.0,,68.0,73.0,,10.0,7.0710678118654755,Variable,73.0,B++,8.0,
+STU003,Sem 3,S12BLH31,Programming in Java,57.99999999999999,,,,57.99999999999999,57.99999999999999,,,,-,,-,,
+STU003,Sem 3,S731BLH32,Machine Learning Essentials,78.0,,,,78.0,78.0,,,,-,,-,,
+STU003,Sem 3,SCSB1303,Theory of Computation,78.0,,,,78.0,78.0,,,,-,,-,,
+STU003,Sem 3,SCSBOB1301,Computer Architecture and Organization,64.0,,,,64.0,64.0,,,,-,,-,,
+STU003,Sem 3,SISB4301,Universal Human Values,66.0,,,,66.0,66.0,,,,-,,-,,
+STU003,Sem 3,SMTB1304,Matrices and Linear Algebra,66.0,,,,66.0,66.0,,,,-,,-,,
+STU004,Sem 1,SYN1101,Engineering Mathematics I,,54.0,72.0,,72.0,63.0,,-18.0,12.727922061357855,Variable,63.0,B+,7.0,Exam well below internal
+STU004,Sem 1,SYN1102,Engineering Physics,,70.0,64.0,,64.0,67.0,,6.0,4.242640687119285,Consistent,67.0,B+,7.0,
+STU004,Sem 1,SYN1103,Problem Solving with C,,50.0,57.99999999999999,,57.99999999999999,54.0,,-7.999999999999993,5.656854249492375,Variable,54.0,C,6.0,Exam well below internal
+STU004,Sem 1,SYN1104,Technical English,,54.0,60.0,,60.0,57.0,,-6.0,4.242640687119285,Consistent,57.0,C,6.0,Exam well below internal
+STU004,Sem 1,SYN1105,Physics Lab,,68.0,68.0,,68.0,68.0,,0.0,0.0,Consistent,68.0,B+,7.0,
+STU004,Sem 1,SYN1106,C Programming Lab,,52.0,64.0,,64.0,58.0,,-12.0,8.48528137423857,Variable,58.0,C,6.0,Exam well below internal
+STU004,Sem 2,S11BLH21,Programming in Python,,74.0,68.0,,68.0,71.0,,6.0,4.242640687119285,Consistent,71.0,B++,8.0,
+STU004,Sem 2,S731BLH22,Data Structures & Algorithms,,54.0,68.0,,68.0,61.0,,-14.0,9.899494936611665,Variable,61.0,B+,7.0,Exam well below internal
+STU004,Sem 2,SCSB1231,Data and Information Science,,70.0,72.0,,72.0,71.0,,-2.0,1.4142135623730951,Consistent,71.0,B++,8.0,
+STU004,Sem 2,SCSB1232,Exploratory Data Analysis,,66.0,76.0,,76.0,71.0,,-10.0,7.0710678118654755,Variable,71.0,B++,8.0,Exam well below internal
+STU004,Sem 2,SCYB1101,Chemistry,,60.0,70.0,,70.0,65.0,,-10.0,7.0710678118654755,Variable,65.0,B+,7.0,Exam well below internal
+STU004,Sem 2,SCYB2101,Chemistry Lab,,64.0,72.0,,72.0,68.0,,-8.0,5.656854249492381,Variable,68.0,B+,7.0,Exam well below internal
+STU004,Sem 2,SMTB1212,Discrete Structures,,64.0,64.0,,64.0,64.0,,0.0,0.0,Consistent,64.0,B+,7.0,
+STU004,Sem 3,S12BLH31,Programming in Java,76.0,,,,76.0,76.0,,,,-,,-,,
+STU004,Sem 3,S731BLH32,Machine Learning Essentials,72.0,,,,72.0,72.0,,,,-,,-,,
+STU004,Sem 3,SCSB1303,Theory of Computation,62.0,,,,62.0,62.0,,,,-,,-,,
+STU004,Sem 3,SCSBOB1301,Computer Architecture and Organization,74.0,,,,74.0,74.0,,,,-,,-,,
+STU004,Sem 3,SISB4301,Universal Human Values,88.0,,,,88.0,88.0,,,,-,,-,,
+STU004,Sem 3,SMTB1304,Matrices and Linear Algebra,48.0,,,,48.0,48.0,,,,-,,-,,
+STU005,Sem 1,SYN1101,Engineering Mathematics I,,84.0,82.0,,82.0,83.0,,2.0,1.4142135623730951,Consistent,83.0,A+,9.0,
+STU005,Sem 1,SYN1102,Engineering Physics,,76.0,68.0,,68.0,72.0,,8.0,5.656854249492381,Variable,72.0,B++,8.0,
+STU005,Sem 1,SYN1103,Problem Solving with C,,86.0,88.0,,88.0,87.0,,-2.0,1.4142135623730951,Consistent,87.0,A+,9.0,
+STU005,Sem 1,SYN1104,Technical English,,78.0,76.0,,76.0,77.0,,2.0,1.4142135623730951,Consistent,77.0,B++,8.0,
+STU005,Sem 1,SYN1105,Physics Lab,,84.0,76.0,,76.0,80.0,,8.0,5.656854249492381,Variable,80.0,A+,9.0,
+STU005,Sem 1,SYN1106,C Programming Lab,,76.0,92.0,,92.0,84.0,,-16.0,11.313708498984761,Variable,84.0,A+,9.0,Exam well below internal
+STU005,Sem 2,S11BLH21,Programming in Python,,92.0,96.0,,96.0,94.0,,-4.0,2.8284271247461903,Consistent,94.0,A++,10.0,
+STU005,Sem 2,S731BLH22,Data Structures & Algorithms,,74.0,80.0,,80.0,77.0,,-6.0,4.242640687119285,Consistent,77.0,B++,8.0,Exam well below internal
+STU005,Sem 2,SCSB1231,Data and Information Science,,76.0,98.0,,98.0,87.0,,-22.0,15.556349186104045,Variable,87.0,A+,9.0,Exam well below internal
+STU005,Sem 2,SCSB1232,Exploratory Data Analysis,,82.0,76.0,,76.0,79.0,,6.0,4.242640687119285,Consistent,79.0,B++,8.0,
+STU005,Sem 2,SCYB1101,Chemistry,,76.0,100.0,,100.0,88.0,,-24.0,16.97056274847714,Variable,88.0,A+,9.0,Exam well below internal
+STU005,Sem 2,SCYB2101,Chemistry Lab,,88.0,88.0,,88.0,88.0,,0.0,0.0,Consistent,88.0,A+,9.0,
+STU005,Sem 2,SMTB1212,Discrete Structures,,82.0,90.0,,90.0,86.0,,-8.0,5.656854249492381,Variable,86.0,A+,9.0,Exam well below internal
+STU005,Sem 3,S12BLH31,Programming in Java,68.0,,,,68.0,68.0,,,,-,,-,,
+STU005,Sem 3,S731BLH32,Machine Learning Essentials,60.0,,,,60.0,60.0,,,,-,,-,,
+STU005,Sem 3,SCSB1303,Theory of Computation,94.0,,,,94.0,94.0,,,,-,,-,,
+STU005,Sem 3,SCSBOB1301,Computer Architecture and Organization,72.0,,,,72.0,72.0,,,,-,,-,,
+STU005,Sem 3,SISB4301,Universal Human Values,94.0,,,,94.0,94.0,,,,-,,-,,
+STU005,Sem 3,SMTB1304,Matrices and Linear Algebra,86.0,,,,86.0,86.0,,,,-,,-,,
+STU006,Sem 1,SYN1101,Engineering Mathematics I,,86.0,90.0,,90.0,88.0,,-4.0,2.8284271247461903,Consistent,88.0,A+,9.0,
+STU006,Sem 1,SYN1102,Engineering Physics,,66.0,78.0,,78.0,72.0,,-12.0,8.48528137423857,Variable,72.0,B++,8.0,Exam well below internal
+STU006,Sem 1,SYN1103,Problem Solving with C,,84.0,84.0,,84.0,84.0,,0.0,0.0,Consistent,84.0,A+,9.0,
+STU006,Sem 1,SYN1104,Technical English,,92.0,76.0,,76.0,84.0,,16.0,11.313708498984761,Variable,84.0,A+,9.0,
+STU006,Sem 1,SYN1105,Physics Lab,,96.0,92.0,,92.0,94.0,,4.0,2.8284271247461903,Consistent,94.0,A++,10.0,
+STU006,Sem 1,SYN1106,C Programming Lab,,84.0,72.0,,72.0,78.0,,12.0,8.48528137423857,Variable,78.0,B++,8.0,
+STU006,Sem 2,S11BLH21,Programming in Python,,60.0,76.0,,76.0,68.0,,-16.0,11.313708498984761,Variable,68.0,B+,7.0,Exam well below internal
+STU006,Sem 2,S731BLH22,Data Structures & Algorithms,,70.0,82.0,,82.0,76.0,,-12.0,8.48528137423857,Variable,76.0,B++,8.0,Exam well below internal
+STU006,Sem 2,SCSB1231,Data and Information Science,,78.0,80.0,,80.0,79.0,,-2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU006,Sem 2,SCSB1232,Exploratory Data Analysis,,96.0,98.0,,98.0,97.0,,-2.0,1.4142135623730951,Consistent,97.0,A++,10.0,
+STU006,Sem 2,SCYB1101,Chemistry,,92.0,84.0,,84.0,88.0,,8.0,5.656854249492381,Variable,88.0,A+,9.0,
+STU006,Sem 2,SCYB2101,Chemistry Lab,,84.0,80.0,,80.0,82.0,,4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU006,Sem 2,SMTB1212,Discrete Structures,,84.0,88.0,,88.0,86.0,,-4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU006,Sem 3,S12BLH31,Programming in Java,92.0,,,,92.0,92.0,,,,-,,-,,
+STU006,Sem 3,S731BLH32,Machine Learning Essentials,74.0,,,,74.0,74.0,,,,-,,-,,
+STU006,Sem 3,SCSB1303,Theory of Computation,84.0,,,,84.0,84.0,,,,-,,-,,
+STU006,Sem 3,SCSBOB1301,Computer Architecture and Organization,82.0,,,,82.0,82.0,,,,-,,-,,
+STU006,Sem 3,SISB4301,Universal Human Values,70.0,,,,70.0,70.0,,,,-,,-,,
+STU006,Sem 3,SMTB1304,Matrices and Linear Algebra,84.0,,,,84.0,84.0,,,,-,,-,,
+STU007,Sem 1,SYN1101,Engineering Mathematics I,,74.0,76.0,,76.0,75.0,,-2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU007,Sem 1,SYN1102,Engineering Physics,,56.00000000000001,66.0,,66.0,61.0,,-9.999999999999993,7.07106781186547,Variable,61.0,B+,7.0,Exam well below internal
+STU007,Sem 1,SYN1103,Problem Solving with C,,86.0,80.0,,80.0,83.0,,6.0,4.242640687119285,Consistent,83.0,A+,9.0,
+STU007,Sem 1,SYN1104,Technical English,,80.0,88.0,,88.0,84.0,,-8.0,5.656854249492381,Variable,84.0,A+,9.0,Exam well below internal
+STU007,Sem 1,SYN1105,Physics Lab,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU007,Sem 1,SYN1106,C Programming Lab,,76.0,92.0,,92.0,84.0,,-16.0,11.313708498984761,Variable,84.0,A+,9.0,Exam well below internal
+STU007,Sem 2,S11BLH21,Programming in Python,,92.0,84.0,,84.0,88.0,,8.0,5.656854249492381,Variable,88.0,A+,9.0,
+STU007,Sem 2,S731BLH22,Data Structures & Algorithms,,76.0,72.0,,72.0,74.0,,4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU007,Sem 2,SCSB1231,Data and Information Science,,64.0,68.0,,68.0,66.0,,-4.0,2.8284271247461903,Consistent,66.0,B+,7.0,
+STU007,Sem 2,SCSB1232,Exploratory Data Analysis,,62.0,74.0,,74.0,68.0,,-12.0,8.48528137423857,Variable,68.0,B+,7.0,Exam well below internal
+STU007,Sem 2,SCYB1101,Chemistry,,80.0,78.0,,78.0,79.0,,2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU007,Sem 2,SCYB2101,Chemistry Lab,,76.0,64.0,,64.0,70.0,,12.0,8.48528137423857,Variable,70.0,B++,8.0,
+STU007,Sem 2,SMTB1212,Discrete Structures,,82.0,86.0,,86.0,84.0,,-4.0,2.8284271247461903,Consistent,84.0,A+,9.0,
+STU007,Sem 3,S12BLH31,Programming in Java,76.0,,,,76.0,76.0,,,,-,,-,,
+STU007,Sem 3,S731BLH32,Machine Learning Essentials,78.0,,,,78.0,78.0,,,,-,,-,,
+STU007,Sem 3,SCSB1303,Theory of Computation,72.0,,,,72.0,72.0,,,,-,,-,,
+STU007,Sem 3,SCSBOB1301,Computer Architecture and Organization,76.0,,,,76.0,76.0,,,,-,,-,,
+STU007,Sem 3,SISB4301,Universal Human Values,90.0,,,,90.0,90.0,,,,-,,-,,
+STU007,Sem 3,SMTB1304,Matrices and Linear Algebra,78.0,,,,78.0,78.0,,,,-,,-,,
+STU008,Sem 1,SYN1101,Engineering Mathematics I,,54.0,60.0,,60.0,57.0,,-6.0,4.242640687119285,Consistent,57.0,C,6.0,Exam well below internal
+STU008,Sem 1,SYN1102,Engineering Physics,,68.0,76.0,,76.0,72.0,,-8.0,5.656854249492381,Variable,72.0,B++,8.0,Exam well below internal
+STU008,Sem 1,SYN1103,Problem Solving with C,,46.0,52.0,,52.0,49.0,,-6.0,4.242640687119285,Consistent,49.0,RA,0.0,Arrear (RA)
+STU008,Sem 1,SYN1104,Technical English,,70.0,82.0,,82.0,76.0,,-12.0,8.48528137423857,Variable,76.0,B++,8.0,Exam well below internal
+STU008,Sem 1,SYN1105,Physics Lab,,56.00000000000001,56.00000000000001,,56.00000000000001,56.00000000000001,,0.0,0.0,Consistent,56.00000000000001,C,6.0,
+STU008,Sem 1,SYN1106,C Programming Lab,,64.0,60.0,,60.0,62.0,,4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU008,Sem 2,S11BLH21,Programming in Python,,60.0,50.0,,50.0,55.0,,10.0,7.0710678118654755,Variable,55.0,C,6.0,
+STU008,Sem 2,S731BLH22,Data Structures & Algorithms,,64.0,64.0,,64.0,64.0,,0.0,0.0,Consistent,64.0,B+,7.0,
+STU008,Sem 2,SCSB1231,Data and Information Science,,74.0,68.0,,68.0,71.0,,6.0,4.242640687119285,Consistent,71.0,B++,8.0,
+STU008,Sem 2,SCSB1232,Exploratory Data Analysis,,70.0,66.0,,66.0,68.0,,4.0,2.8284271247461903,Consistent,68.0,B+,7.0,
+STU008,Sem 2,SCYB1101,Chemistry,,60.0,64.0,,64.0,62.0,,-4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU008,Sem 2,SCYB2101,Chemistry Lab,,76.0,72.0,,72.0,74.0,,4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU008,Sem 2,SMTB1212,Discrete Structures,,52.0,50.0,,50.0,51.0,,2.0,1.4142135623730951,Consistent,51.0,C,6.0,
+STU008,Sem 3,S12BLH31,Programming in Java,57.99999999999999,,,,57.99999999999999,57.99999999999999,,,,-,,-,,
+STU008,Sem 3,S731BLH32,Machine Learning Essentials,62.0,,,,62.0,62.0,,,,-,,-,,
+STU008,Sem 3,SCSB1303,Theory of Computation,54.0,,,,54.0,54.0,,,,-,,-,,
+STU008,Sem 3,SCSBOB1301,Computer Architecture and Organization,76.0,,,,76.0,76.0,,,,-,,-,,
+STU008,Sem 3,SISB4301,Universal Human Values,70.0,,,,70.0,70.0,,,,-,,-,,
+STU008,Sem 3,SMTB1304,Matrices and Linear Algebra,54.0,,,,54.0,54.0,,,,-,,-,,
+STU009,Sem 1,SYN1101,Engineering Mathematics I,,94.0,100.0,,100.0,97.0,,-6.0,4.242640687119285,Consistent,97.0,A++,10.0,Exam well below internal
+STU009,Sem 1,SYN1102,Engineering Physics,,98.0,98.0,,98.0,98.0,,0.0,0.0,Consistent,98.0,A++,10.0,
+STU009,Sem 1,SYN1103,Problem Solving with C,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU009,Sem 1,SYN1104,Technical English,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU009,Sem 1,SYN1105,Physics Lab,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU009,Sem 1,SYN1106,C Programming Lab,,88.0,96.0,,96.0,92.0,,-8.0,5.656854249492381,Variable,92.0,A++,10.0,Exam well below internal
+STU009,Sem 2,S11BLH21,Programming in Python,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU009,Sem 2,S731BLH22,Data Structures & Algorithms,,98.0,96.0,,96.0,97.0,,2.0,1.4142135623730951,Consistent,97.0,A++,10.0,
+STU009,Sem 2,SCSB1231,Data and Information Science,,94.0,96.0,,96.0,95.0,,-2.0,1.4142135623730951,Consistent,95.0,A++,10.0,
+STU009,Sem 2,SCSB1232,Exploratory Data Analysis,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU009,Sem 2,SCYB1101,Chemistry,,90.0,100.0,,100.0,95.0,,-10.0,7.0710678118654755,Variable,95.0,A++,10.0,Exam well below internal
+STU009,Sem 2,SCYB2101,Chemistry Lab,,84.0,96.0,,96.0,90.0,,-12.0,8.48528137423857,Variable,90.0,A++,10.0,Exam well below internal
+STU009,Sem 2,SMTB1212,Discrete Structures,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU009,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU009,Sem 3,S731BLH32,Machine Learning Essentials,90.0,,,,90.0,90.0,,,,-,,-,,
+STU009,Sem 3,SCSB1303,Theory of Computation,98.0,,,,98.0,98.0,,,,-,,-,,
+STU009,Sem 3,SCSBOB1301,Computer Architecture and Organization,88.0,,,,88.0,88.0,,,,-,,-,,
+STU009,Sem 3,SISB4301,Universal Human Values,100.0,,,,100.0,100.0,,,,-,,-,,
+STU009,Sem 3,SMTB1304,Matrices and Linear Algebra,88.0,,,,88.0,88.0,,,,-,,-,,
+STU010,Sem 1,SYN1101,Engineering Mathematics I,,64.0,70.0,,70.0,67.0,,-6.0,4.242640687119285,Consistent,67.0,B+,7.0,Exam well below internal
+STU010,Sem 1,SYN1102,Engineering Physics,,76.0,72.0,,72.0,74.0,,4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU010,Sem 1,SYN1103,Problem Solving with C,,46.0,57.99999999999999,,57.99999999999999,52.0,,-11.999999999999993,8.485281374238566,Variable,52.0,C,6.0,Exam well below internal
+STU010,Sem 1,SYN1104,Technical English,,82.0,84.0,,84.0,83.0,,-2.0,1.4142135623730951,Consistent,83.0,A+,9.0,
+STU010,Sem 1,SYN1105,Physics Lab,,68.0,72.0,,72.0,70.0,,-4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU010,Sem 1,SYN1106,C Programming Lab,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU010,Sem 2,S11BLH21,Programming in Python,,80.0,70.0,,70.0,75.0,,10.0,7.0710678118654755,Variable,75.0,B++,8.0,
+STU010,Sem 2,S731BLH22,Data Structures & Algorithms,,66.0,57.99999999999999,,57.99999999999999,62.0,,8.000000000000007,5.656854249492385,Variable,62.0,B+,7.0,
+STU010,Sem 2,SCSB1231,Data and Information Science,,50.0,64.0,,64.0,57.0,,-14.0,9.899494936611665,Variable,57.0,C,6.0,Exam well below internal
+STU010,Sem 2,SCSB1232,Exploratory Data Analysis,,48.0,62.0,,62.0,55.0,,-14.0,9.899494936611665,Variable,55.0,C,6.0,Exam well below internal
+STU010,Sem 2,SCYB1101,Chemistry,,42.0,76.0,,76.0,59.0,,-34.0,24.041630560342615,Variable,59.0,C,6.0,Exam well below internal
+STU010,Sem 2,SCYB2101,Chemistry Lab,,64.0,72.0,,72.0,68.0,,-8.0,5.656854249492381,Variable,68.0,B+,7.0,Exam well below internal
+STU010,Sem 2,SMTB1212,Discrete Structures,,68.0,72.0,,72.0,70.0,,-4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU010,Sem 3,S12BLH31,Programming in Java,64.0,,,,64.0,64.0,,,,-,,-,,
+STU010,Sem 3,S731BLH32,Machine Learning Essentials,66.0,,,,66.0,66.0,,,,-,,-,,
+STU010,Sem 3,SCSB1303,Theory of Computation,60.0,,,,60.0,60.0,,,,-,,-,,
+STU010,Sem 3,SCSBOB1301,Computer Architecture and Organization,76.0,,,,76.0,76.0,,,,-,,-,,
+STU010,Sem 3,SISB4301,Universal Human Values,80.0,,,,80.0,80.0,,,,-,,-,,
+STU010,Sem 3,SMTB1304,Matrices and Linear Algebra,62.0,,,,62.0,62.0,,,,-,,-,,
+STU011,Sem 1,SYN1101,Engineering Mathematics I,,57.99999999999999,72.0,,72.0,65.0,,-14.000000000000007,9.89949493661167,Variable,65.0,B+,7.0,Exam well below internal
+STU011,Sem 1,SYN1102,Engineering Physics,,78.0,80.0,,80.0,79.0,,-2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU011,Sem 1,SYN1103,Problem Solving with C,,64.0,72.0,,72.0,68.0,,-8.0,5.656854249492381,Variable,68.0,B+,7.0,Exam well below internal
+STU011,Sem 1,SYN1104,Technical English,,72.0,72.0,,72.0,72.0,,0.0,0.0,Consistent,72.0,B++,8.0,
+STU011,Sem 1,SYN1105,Physics Lab,,72.0,68.0,,68.0,70.0,,4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU011,Sem 1,SYN1106,C Programming Lab,,60.0,64.0,,64.0,62.0,,-4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU011,Sem 2,S11BLH21,Programming in Python,,76.0,72.0,,72.0,74.0,,4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU011,Sem 2,S731BLH22,Data Structures & Algorithms,,60.0,62.0,,62.0,61.0,,-2.0,1.4142135623730951,Consistent,61.0,B+,7.0,
+STU011,Sem 2,SCSB1231,Data and Information Science,,78.0,80.0,,80.0,79.0,,-2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU011,Sem 2,SCSB1232,Exploratory Data Analysis,,70.0,76.0,,76.0,73.0,,-6.0,4.242640687119285,Consistent,73.0,B++,8.0,Exam well below internal
+STU011,Sem 2,SCYB1101,Chemistry,,62.0,68.0,,68.0,65.0,,-6.0,4.242640687119285,Consistent,65.0,B+,7.0,Exam well below internal
+STU011,Sem 2,SCYB2101,Chemistry Lab,,68.0,72.0,,72.0,70.0,,-4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU011,Sem 2,SMTB1212,Discrete Structures,,80.0,72.0,,72.0,76.0,,8.0,5.656854249492381,Variable,76.0,B++,8.0,
+STU011,Sem 3,S12BLH31,Programming in Java,66.0,,,,66.0,66.0,,,,-,,-,,
+STU011,Sem 3,S731BLH32,Machine Learning Essentials,80.0,,,,80.0,80.0,,,,-,,-,,
+STU011,Sem 3,SCSB1303,Theory of Computation,64.0,,,,64.0,64.0,,,,-,,-,,
+STU011,Sem 3,SCSBOB1301,Computer Architecture and Organization,84.0,,,,84.0,84.0,,,,-,,-,,
+STU011,Sem 3,SISB4301,Universal Human Values,82.0,,,,82.0,82.0,,,,-,,-,,
+STU011,Sem 3,SMTB1304,Matrices and Linear Algebra,68.0,,,,68.0,68.0,,,,-,,-,,
+STU012,Sem 1,SYN1101,Engineering Mathematics I,,48.0,64.0,,64.0,56.0,,-16.0,11.313708498984761,Variable,56.0,C,6.0,Exam well below internal
+STU012,Sem 1,SYN1102,Engineering Physics,,78.0,68.0,,68.0,73.0,,10.0,7.0710678118654755,Variable,73.0,B++,8.0,
+STU012,Sem 1,SYN1103,Problem Solving with C,,88.0,80.0,,80.0,84.0,,8.0,5.656854249492381,Variable,84.0,A+,9.0,
+STU012,Sem 1,SYN1104,Technical English,,86.0,92.0,,92.0,89.0,,-6.0,4.242640687119285,Consistent,89.0,A+,9.0,Exam well below internal
+STU012,Sem 1,SYN1105,Physics Lab,,72.0,68.0,,68.0,70.0,,4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU012,Sem 1,SYN1106,C Programming Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU012,Sem 2,S11BLH21,Programming in Python,,64.0,72.0,,72.0,68.0,,-8.0,5.656854249492381,Variable,68.0,B+,7.0,Exam well below internal
+STU012,Sem 2,S731BLH22,Data Structures & Algorithms,,78.0,74.0,,74.0,76.0,,4.0,2.8284271247461903,Consistent,76.0,B++,8.0,
+STU012,Sem 2,SCSB1231,Data and Information Science,,78.0,82.0,,82.0,80.0,,-4.0,2.8284271247461903,Consistent,80.0,A+,9.0,
+STU012,Sem 2,SCSB1232,Exploratory Data Analysis,,76.0,74.0,,74.0,75.0,,2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU012,Sem 2,SCYB1101,Chemistry,,66.0,80.0,,80.0,73.0,,-14.0,9.899494936611665,Variable,73.0,B++,8.0,Exam well below internal
+STU012,Sem 2,SCYB2101,Chemistry Lab,,84.0,92.0,,92.0,88.0,,-8.0,5.656854249492381,Variable,88.0,A+,9.0,Exam well below internal
+STU012,Sem 2,SMTB1212,Discrete Structures,,54.0,72.0,,72.0,63.0,,-18.0,12.727922061357855,Variable,63.0,B+,7.0,Exam well below internal
+STU012,Sem 3,S12BLH31,Programming in Java,72.0,,,,72.0,72.0,,,,-,,-,,
+STU012,Sem 3,S731BLH32,Machine Learning Essentials,66.0,,,,66.0,66.0,,,,-,,-,,
+STU012,Sem 3,SCSB1303,Theory of Computation,80.0,,,,80.0,80.0,,,,-,,-,,
+STU012,Sem 3,SCSBOB1301,Computer Architecture and Organization,92.0,,,,92.0,92.0,,,,-,,-,,
+STU012,Sem 3,SISB4301,Universal Human Values,86.0,,,,86.0,86.0,,,,-,,-,,
+STU012,Sem 3,SMTB1304,Matrices and Linear Algebra,84.0,,,,84.0,84.0,,,,-,,-,,
+STU013,Sem 1,SYN1101,Engineering Mathematics I,,88.0,82.0,,82.0,85.0,,6.0,4.242640687119285,Consistent,85.0,A+,9.0,
+STU013,Sem 1,SYN1102,Engineering Physics,,74.0,76.0,,76.0,75.0,,-2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU013,Sem 1,SYN1103,Problem Solving with C,,94.0,86.0,,86.0,90.0,,8.0,5.656854249492381,Variable,90.0,A++,10.0,
+STU013,Sem 1,SYN1104,Technical English,,64.0,70.0,,70.0,67.0,,-6.0,4.242640687119285,Consistent,67.0,B+,7.0,Exam well below internal
+STU013,Sem 1,SYN1105,Physics Lab,,68.0,88.0,,88.0,78.0,,-20.0,14.142135623730951,Variable,78.0,B++,8.0,Exam well below internal
+STU013,Sem 1,SYN1106,C Programming Lab,,60.0,72.0,,72.0,66.0,,-12.0,8.48528137423857,Variable,66.0,B+,7.0,Exam well below internal
+STU013,Sem 2,S11BLH21,Programming in Python,,62.0,72.0,,72.0,67.0,,-10.0,7.0710678118654755,Variable,67.0,B+,7.0,Exam well below internal
+STU013,Sem 2,S731BLH22,Data Structures & Algorithms,,66.0,72.0,,72.0,69.0,,-6.0,4.242640687119285,Consistent,69.0,B+,7.0,Exam well below internal
+STU013,Sem 2,SCSB1231,Data and Information Science,,78.0,70.0,,70.0,74.0,,8.0,5.656854249492381,Variable,74.0,B++,8.0,
+STU013,Sem 2,SCSB1232,Exploratory Data Analysis,,70.0,84.0,,84.0,77.0,,-14.0,9.899494936611665,Variable,77.0,B++,8.0,Exam well below internal
+STU013,Sem 2,SCYB1101,Chemistry,,64.0,80.0,,80.0,72.0,,-16.0,11.313708498984761,Variable,72.0,B++,8.0,Exam well below internal
+STU013,Sem 2,SCYB2101,Chemistry Lab,,84.0,80.0,,80.0,82.0,,4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU013,Sem 2,SMTB1212,Discrete Structures,,80.0,76.0,,76.0,78.0,,4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU013,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU013,Sem 3,S731BLH32,Machine Learning Essentials,74.0,,,,74.0,74.0,,,,-,,-,,
+STU013,Sem 3,SCSB1303,Theory of Computation,84.0,,,,84.0,84.0,,,,-,,-,,
+STU013,Sem 3,SCSBOB1301,Computer Architecture and Organization,68.0,,,,68.0,68.0,,,,-,,-,,
+STU013,Sem 3,SISB4301,Universal Human Values,72.0,,,,72.0,72.0,,,,-,,-,,
+STU013,Sem 3,SMTB1304,Matrices and Linear Algebra,54.0,,,,54.0,54.0,,,,-,,-,,
+STU014,Sem 1,SYN1101,Engineering Mathematics I,,80.0,82.0,,82.0,81.0,,-2.0,1.4142135623730951,Consistent,81.0,A+,9.0,
+STU014,Sem 1,SYN1102,Engineering Physics,,92.0,90.0,,90.0,91.0,,2.0,1.4142135623730951,Consistent,91.0,A++,10.0,
+STU014,Sem 1,SYN1103,Problem Solving with C,,70.0,80.0,,80.0,75.0,,-10.0,7.0710678118654755,Variable,75.0,B++,8.0,Exam well below internal
+STU014,Sem 1,SYN1104,Technical English,,86.0,96.0,,96.0,91.0,,-10.0,7.0710678118654755,Variable,91.0,A++,10.0,Exam well below internal
+STU014,Sem 1,SYN1105,Physics Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU014,Sem 1,SYN1106,C Programming Lab,,68.0,72.0,,72.0,70.0,,-4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU014,Sem 2,S11BLH21,Programming in Python,,100.0,90.0,,90.0,95.0,,10.0,7.0710678118654755,Variable,95.0,A++,10.0,
+STU014,Sem 2,S731BLH22,Data Structures & Algorithms,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU014,Sem 2,SCSB1231,Data and Information Science,,84.0,94.0,,94.0,89.0,,-10.0,7.0710678118654755,Variable,89.0,A+,9.0,Exam well below internal
+STU014,Sem 2,SCSB1232,Exploratory Data Analysis,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU014,Sem 2,SCYB1101,Chemistry,,86.0,92.0,,92.0,89.0,,-6.0,4.242640687119285,Consistent,89.0,A+,9.0,Exam well below internal
+STU014,Sem 2,SCYB2101,Chemistry Lab,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU014,Sem 2,SMTB1212,Discrete Structures,,68.0,76.0,,76.0,72.0,,-8.0,5.656854249492381,Variable,72.0,B++,8.0,Exam well below internal
+STU014,Sem 3,S12BLH31,Programming in Java,74.0,,,,74.0,74.0,,,,-,,-,,
+STU014,Sem 3,S731BLH32,Machine Learning Essentials,76.0,,,,76.0,76.0,,,,-,,-,,
+STU014,Sem 3,SCSB1303,Theory of Computation,78.0,,,,78.0,78.0,,,,-,,-,,
+STU014,Sem 3,SCSBOB1301,Computer Architecture and Organization,76.0,,,,76.0,76.0,,,,-,,-,,
+STU014,Sem 3,SISB4301,Universal Human Values,92.0,,,,92.0,92.0,,,,-,,-,,
+STU014,Sem 3,SMTB1304,Matrices and Linear Algebra,98.0,,,,98.0,98.0,,,,-,,-,,
+STU015,Sem 1,SYN1101,Engineering Mathematics I,,52.0,54.0,,54.0,53.0,,-2.0,1.4142135623730951,Consistent,53.0,C,6.0,
+STU015,Sem 1,SYN1102,Engineering Physics,,66.0,56.00000000000001,,56.00000000000001,61.0,,9.999999999999993,7.07106781186547,Variable,61.0,B+,7.0,
+STU015,Sem 1,SYN1103,Problem Solving with C,,50.0,56.00000000000001,,56.00000000000001,53.0,,-6.000000000000007,4.24264068711929,Consistent,53.0,C,6.0,Exam well below internal
+STU015,Sem 1,SYN1104,Technical English,,56.00000000000001,64.0,,64.0,60.0,,-7.999999999999993,5.656854249492375,Variable,60.0,B+,7.0,Exam well below internal
+STU015,Sem 1,SYN1105,Physics Lab,,56.00000000000001,52.0,,52.0,54.0,,4.000000000000007,2.828427124746195,Consistent,54.0,C,6.0,
+STU015,Sem 1,SYN1106,C Programming Lab,,84.0,88.0,,88.0,86.0,,-4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU015,Sem 2,S11BLH21,Programming in Python,,72.0,56.00000000000001,,56.00000000000001,64.0,,15.999999999999993,11.313708498984756,Variable,64.0,B+,7.0,
+STU015,Sem 2,S731BLH22,Data Structures & Algorithms,,78.0,68.0,,68.0,73.0,,10.0,7.0710678118654755,Variable,73.0,B++,8.0,
+STU015,Sem 2,SCSB1231,Data and Information Science,,70.0,74.0,,74.0,72.0,,-4.0,2.8284271247461903,Consistent,72.0,B++,8.0,
+STU015,Sem 2,SCSB1232,Exploratory Data Analysis,,66.0,64.0,,64.0,65.0,,2.0,1.4142135623730951,Consistent,65.0,B+,7.0,
+STU015,Sem 2,SCYB1101,Chemistry,,62.0,64.0,,64.0,63.0,,-2.0,1.4142135623730951,Consistent,63.0,B+,7.0,
+STU015,Sem 2,SCYB2101,Chemistry Lab,,60.0,64.0,,64.0,62.0,,-4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU015,Sem 2,SMTB1212,Discrete Structures,,66.0,66.0,,66.0,66.0,,0.0,0.0,Consistent,66.0,B+,7.0,
+STU015,Sem 3,S12BLH31,Programming in Java,68.0,,,,68.0,68.0,,,,-,,-,,
+STU015,Sem 3,S731BLH32,Machine Learning Essentials,60.0,,,,60.0,60.0,,,,-,,-,,
+STU015,Sem 3,SCSB1303,Theory of Computation,60.0,,,,60.0,60.0,,,,-,,-,,
+STU015,Sem 3,SCSBOB1301,Computer Architecture and Organization,54.0,,,,54.0,54.0,,,,-,,-,,
+STU015,Sem 3,SISB4301,Universal Human Values,70.0,,,,70.0,70.0,,,,-,,-,,
+STU015,Sem 3,SMTB1304,Matrices and Linear Algebra,62.0,,,,62.0,62.0,,,,-,,-,,
+STU016,Sem 1,SYN1101,Engineering Mathematics I,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU016,Sem 1,SYN1102,Engineering Physics,,76.0,72.0,,72.0,74.0,,4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU016,Sem 1,SYN1103,Problem Solving with C,,78.0,76.0,,76.0,77.0,,2.0,1.4142135623730951,Consistent,77.0,B++,8.0,
+STU016,Sem 1,SYN1104,Technical English,,86.0,98.0,,98.0,92.0,,-12.0,8.48528137423857,Variable,92.0,A++,10.0,Exam well below internal
+STU016,Sem 1,SYN1105,Physics Lab,,68.0,76.0,,76.0,72.0,,-8.0,5.656854249492381,Variable,72.0,B++,8.0,Exam well below internal
+STU016,Sem 1,SYN1106,C Programming Lab,,72.0,84.0,,84.0,78.0,,-12.0,8.48528137423857,Variable,78.0,B++,8.0,Exam well below internal
+STU016,Sem 2,S11BLH21,Programming in Python,,76.0,94.0,,94.0,85.0,,-18.0,12.727922061357855,Variable,85.0,A+,9.0,Exam well below internal
+STU016,Sem 2,S731BLH22,Data Structures & Algorithms,,70.0,78.0,,78.0,74.0,,-8.0,5.656854249492381,Variable,74.0,B++,8.0,Exam well below internal
+STU016,Sem 2,SCSB1231,Data and Information Science,,74.0,72.0,,72.0,73.0,,2.0,1.4142135623730951,Consistent,73.0,B++,8.0,
+STU016,Sem 2,SCSB1232,Exploratory Data Analysis,,86.0,86.0,,86.0,86.0,,0.0,0.0,Consistent,86.0,A+,9.0,
+STU016,Sem 2,SCYB1101,Chemistry,,88.0,96.0,,96.0,92.0,,-8.0,5.656854249492381,Variable,92.0,A++,10.0,Exam well below internal
+STU016,Sem 2,SCYB2101,Chemistry Lab,,92.0,92.0,,92.0,92.0,,0.0,0.0,Consistent,92.0,A++,10.0,
+STU016,Sem 2,SMTB1212,Discrete Structures,,76.0,88.0,,88.0,82.0,,-12.0,8.48528137423857,Variable,82.0,A+,9.0,Exam well below internal
+STU016,Sem 3,S12BLH31,Programming in Java,80.0,,,,80.0,80.0,,,,-,,-,,
+STU016,Sem 3,S731BLH32,Machine Learning Essentials,82.0,,,,82.0,82.0,,,,-,,-,,
+STU016,Sem 3,SCSB1303,Theory of Computation,84.0,,,,84.0,84.0,,,,-,,-,,
+STU016,Sem 3,SCSBOB1301,Computer Architecture and Organization,90.0,,,,90.0,90.0,,,,-,,-,,
+STU016,Sem 3,SISB4301,Universal Human Values,96.0,,,,96.0,96.0,,,,-,,-,,
+STU016,Sem 3,SMTB1304,Matrices and Linear Algebra,76.0,,,,76.0,76.0,,,,-,,-,,
+STU017,Sem 1,SYN1101,Engineering Mathematics I,,76.0,78.0,,78.0,77.0,,-2.0,1.4142135623730951,Consistent,77.0,B++,8.0,
+STU017,Sem 1,SYN1102,Engineering Physics,,74.0,78.0,,78.0,76.0,,-4.0,2.8284271247461903,Consistent,76.0,B++,8.0,
+STU017,Sem 1,SYN1103,Problem Solving with C,,68.0,68.0,,68.0,68.0,,0.0,0.0,Consistent,68.0,B+,7.0,
+STU017,Sem 1,SYN1104,Technical English,,72.0,90.0,,90.0,81.0,,-18.0,12.727922061357855,Variable,81.0,A+,9.0,Exam well below internal
+STU017,Sem 1,SYN1105,Physics Lab,,88.0,88.0,,88.0,88.0,,0.0,0.0,Consistent,88.0,A+,9.0,
+STU017,Sem 1,SYN1106,C Programming Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU017,Sem 2,S11BLH21,Programming in Python,,90.0,100.0,,100.0,95.0,,-10.0,7.0710678118654755,Variable,95.0,A++,10.0,Exam well below internal
+STU017,Sem 2,S731BLH22,Data Structures & Algorithms,,74.0,80.0,,80.0,77.0,,-6.0,4.242640687119285,Consistent,77.0,B++,8.0,Exam well below internal
+STU017,Sem 2,SCSB1231,Data and Information Science,,84.0,88.0,,88.0,86.0,,-4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU017,Sem 2,SCSB1232,Exploratory Data Analysis,,84.0,86.0,,86.0,85.0,,-2.0,1.4142135623730951,Consistent,85.0,A+,9.0,
+STU017,Sem 2,SCYB1101,Chemistry,,76.0,90.0,,90.0,83.0,,-14.0,9.899494936611665,Variable,83.0,A+,9.0,Exam well below internal
+STU017,Sem 2,SCYB2101,Chemistry Lab,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU017,Sem 2,SMTB1212,Discrete Structures,,80.0,96.0,,96.0,88.0,,-16.0,11.313708498984761,Variable,88.0,A+,9.0,Exam well below internal
+STU017,Sem 3,S12BLH31,Programming in Java,96.0,,,,96.0,96.0,,,,-,,-,,
+STU017,Sem 3,S731BLH32,Machine Learning Essentials,84.0,,,,84.0,84.0,,,,-,,-,,
+STU017,Sem 3,SCSB1303,Theory of Computation,100.0,,,,100.0,100.0,,,,-,,-,,
+STU017,Sem 3,SCSBOB1301,Computer Architecture and Organization,92.0,,,,92.0,92.0,,,,-,,-,,
+STU017,Sem 3,SISB4301,Universal Human Values,96.0,,,,96.0,96.0,,,,-,,-,,
+STU017,Sem 3,SMTB1304,Matrices and Linear Algebra,78.0,,,,78.0,78.0,,,,-,,-,,
+STU018,Sem 1,SYN1101,Engineering Mathematics I,,90.0,90.0,,90.0,90.0,,0.0,0.0,Consistent,90.0,A++,10.0,
+STU018,Sem 1,SYN1102,Engineering Physics,,80.0,84.0,,84.0,82.0,,-4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU018,Sem 1,SYN1103,Problem Solving with C,,82.0,78.0,,78.0,80.0,,4.0,2.8284271247461903,Consistent,80.0,A+,9.0,
+STU018,Sem 1,SYN1104,Technical English,,80.0,78.0,,78.0,79.0,,2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU018,Sem 1,SYN1105,Physics Lab,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU018,Sem 1,SYN1106,C Programming Lab,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU018,Sem 2,S11BLH21,Programming in Python,,86.0,84.0,,84.0,85.0,,2.0,1.4142135623730951,Consistent,85.0,A+,9.0,
+STU018,Sem 2,S731BLH22,Data Structures & Algorithms,,82.0,88.0,,88.0,85.0,,-6.0,4.242640687119285,Consistent,85.0,A+,9.0,Exam well below internal
+STU018,Sem 2,SCSB1231,Data and Information Science,,88.0,92.0,,92.0,90.0,,-4.0,2.8284271247461903,Consistent,90.0,A++,10.0,
+STU018,Sem 2,SCSB1232,Exploratory Data Analysis,,92.0,92.0,,92.0,92.0,,0.0,0.0,Consistent,92.0,A++,10.0,
+STU018,Sem 2,SCYB1101,Chemistry,,100.0,94.0,,94.0,97.0,,6.0,4.242640687119285,Consistent,97.0,A++,10.0,
+STU018,Sem 2,SCYB2101,Chemistry Lab,,72.0,96.0,,96.0,84.0,,-24.0,16.97056274847714,Variable,84.0,A+,9.0,Exam well below internal
+STU018,Sem 2,SMTB1212,Discrete Structures,,86.0,72.0,,72.0,79.0,,14.0,9.899494936611665,Variable,79.0,B++,8.0,
+STU018,Sem 3,S12BLH31,Programming in Java,86.0,,,,86.0,86.0,,,,-,,-,,
+STU018,Sem 3,S731BLH32,Machine Learning Essentials,76.0,,,,76.0,76.0,,,,-,,-,,
+STU018,Sem 3,SCSB1303,Theory of Computation,82.0,,,,82.0,82.0,,,,-,,-,,
+STU018,Sem 3,SCSBOB1301,Computer Architecture and Organization,86.0,,,,86.0,86.0,,,,-,,-,,
+STU018,Sem 3,SISB4301,Universal Human Values,82.0,,,,82.0,82.0,,,,-,,-,,
+STU018,Sem 3,SMTB1304,Matrices and Linear Algebra,74.0,,,,74.0,74.0,,,,-,,-,,
+STU019,Sem 1,SYN1101,Engineering Mathematics I,,78.0,92.0,,92.0,85.0,,-14.0,9.899494936611665,Variable,85.0,A+,9.0,Exam well below internal
+STU019,Sem 1,SYN1102,Engineering Physics,,72.0,86.0,,86.0,79.0,,-14.0,9.899494936611665,Variable,79.0,B++,8.0,Exam well below internal
+STU019,Sem 1,SYN1103,Problem Solving with C,,72.0,82.0,,82.0,77.0,,-10.0,7.0710678118654755,Variable,77.0,B++,8.0,Exam well below internal
+STU019,Sem 1,SYN1104,Technical English,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU019,Sem 1,SYN1105,Physics Lab,,80.0,72.0,,72.0,76.0,,8.0,5.656854249492381,Variable,76.0,B++,8.0,
+STU019,Sem 1,SYN1106,C Programming Lab,,84.0,84.0,,84.0,84.0,,0.0,0.0,Consistent,84.0,A+,9.0,
+STU019,Sem 2,S11BLH21,Programming in Python,,86.0,88.0,,88.0,87.0,,-2.0,1.4142135623730951,Consistent,87.0,A+,9.0,
+STU019,Sem 2,S731BLH22,Data Structures & Algorithms,,72.0,94.0,,94.0,83.0,,-22.0,15.556349186104045,Variable,83.0,A+,9.0,Exam well below internal
+STU019,Sem 2,SCSB1231,Data and Information Science,,86.0,78.0,,78.0,82.0,,8.0,5.656854249492381,Variable,82.0,A+,9.0,
+STU019,Sem 2,SCSB1232,Exploratory Data Analysis,,80.0,80.0,,80.0,80.0,,0.0,0.0,Consistent,80.0,A+,9.0,
+STU019,Sem 2,SCYB1101,Chemistry,,78.0,80.0,,80.0,79.0,,-2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU019,Sem 2,SCYB2101,Chemistry Lab,,96.0,84.0,,84.0,90.0,,12.0,8.48528137423857,Variable,90.0,A++,10.0,
+STU019,Sem 2,SMTB1212,Discrete Structures,,56.00000000000001,84.0,,84.0,70.0,,-27.999999999999993,19.798989873223324,Variable,70.0,B++,8.0,Exam well below internal
+STU019,Sem 3,S12BLH31,Programming in Java,68.0,,,,68.0,68.0,,,,-,,-,,
+STU019,Sem 3,S731BLH32,Machine Learning Essentials,72.0,,,,72.0,72.0,,,,-,,-,,
+STU019,Sem 3,SCSB1303,Theory of Computation,57.99999999999999,,,,57.99999999999999,57.99999999999999,,,,-,,-,,
+STU019,Sem 3,SCSBOB1301,Computer Architecture and Organization,78.0,,,,78.0,78.0,,,,-,,-,,
+STU019,Sem 3,SISB4301,Universal Human Values,82.0,,,,82.0,82.0,,,,-,,-,,
+STU019,Sem 3,SMTB1304,Matrices and Linear Algebra,82.0,,,,82.0,82.0,,,,-,,-,,
+STU020,Sem 1,SYN1101,Engineering Mathematics I,,78.0,90.0,,90.0,84.0,,-12.0,8.48528137423857,Variable,84.0,A+,9.0,Exam well below internal
+STU020,Sem 1,SYN1102,Engineering Physics,,76.0,78.0,,78.0,77.0,,-2.0,1.4142135623730951,Consistent,77.0,B++,8.0,
+STU020,Sem 1,SYN1103,Problem Solving with C,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU020,Sem 1,SYN1104,Technical English,,84.0,80.0,,80.0,82.0,,4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU020,Sem 1,SYN1105,Physics Lab,,96.0,80.0,,80.0,88.0,,16.0,11.313708498984761,Variable,88.0,A+,9.0,
+STU020,Sem 1,SYN1106,C Programming Lab,,88.0,92.0,,92.0,90.0,,-4.0,2.8284271247461903,Consistent,90.0,A++,10.0,
+STU020,Sem 2,S11BLH21,Programming in Python,,74.0,80.0,,80.0,77.0,,-6.0,4.242640687119285,Consistent,77.0,B++,8.0,Exam well below internal
+STU020,Sem 2,S731BLH22,Data Structures & Algorithms,,76.0,74.0,,74.0,75.0,,2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU020,Sem 2,SCSB1231,Data and Information Science,,62.0,82.0,,82.0,72.0,,-20.0,14.142135623730951,Variable,72.0,B++,8.0,Exam well below internal
+STU020,Sem 2,SCSB1232,Exploratory Data Analysis,,64.0,80.0,,80.0,72.0,,-16.0,11.313708498984761,Variable,72.0,B++,8.0,Exam well below internal
+STU020,Sem 2,SCYB1101,Chemistry,,46.0,68.0,,68.0,57.0,,-22.0,15.556349186104045,Variable,57.0,C,6.0,Exam well below internal
+STU020,Sem 2,SCYB2101,Chemistry Lab,,76.0,80.0,,80.0,78.0,,-4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU020,Sem 2,SMTB1212,Discrete Structures,,48.0,64.0,,64.0,56.0,,-16.0,11.313708498984761,Variable,56.0,C,6.0,Exam well below internal
+STU020,Sem 3,S12BLH31,Programming in Java,74.0,,,,74.0,74.0,,,,-,,-,,
+STU020,Sem 3,S731BLH32,Machine Learning Essentials,78.0,,,,78.0,78.0,,,,-,,-,,
+STU020,Sem 3,SCSB1303,Theory of Computation,80.0,,,,80.0,80.0,,,,-,,-,,
+STU020,Sem 3,SCSBOB1301,Computer Architecture and Organization,90.0,,,,90.0,90.0,,,,-,,-,,
+STU020,Sem 3,SISB4301,Universal Human Values,72.0,,,,72.0,72.0,,,,-,,-,,
+STU020,Sem 3,SMTB1304,Matrices and Linear Algebra,80.0,,,,80.0,80.0,,,,-,,-,,
+STU021,Sem 1,SYN1101,Engineering Mathematics I,,70.0,98.0,,98.0,84.0,,-28.0,19.79898987322333,Variable,84.0,A+,9.0,Exam well below internal
+STU021,Sem 1,SYN1102,Engineering Physics,,80.0,92.0,,92.0,86.0,,-12.0,8.48528137423857,Variable,86.0,A+,9.0,Exam well below internal
+STU021,Sem 1,SYN1103,Problem Solving with C,,68.0,82.0,,82.0,75.0,,-14.0,9.899494936611665,Variable,75.0,B++,8.0,Exam well below internal
+STU021,Sem 1,SYN1104,Technical English,,96.0,100.0,,100.0,98.0,,-4.0,2.8284271247461903,Consistent,98.0,A++,10.0,
+STU021,Sem 1,SYN1105,Physics Lab,,76.0,76.0,,76.0,76.0,,0.0,0.0,Consistent,76.0,B++,8.0,
+STU021,Sem 1,SYN1106,C Programming Lab,,88.0,92.0,,92.0,90.0,,-4.0,2.8284271247461903,Consistent,90.0,A++,10.0,
+STU021,Sem 2,S11BLH21,Programming in Python,,98.0,100.0,,100.0,99.0,,-2.0,1.4142135623730951,Consistent,99.0,A++,10.0,
+STU021,Sem 2,S731BLH22,Data Structures & Algorithms,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU021,Sem 2,SCSB1231,Data and Information Science,,56.00000000000001,86.0,,86.0,71.0,,-29.999999999999993,21.21320343559642,Variable,71.0,B++,8.0,Exam well below internal
+STU021,Sem 2,SCSB1232,Exploratory Data Analysis,,86.0,86.0,,86.0,86.0,,0.0,0.0,Consistent,86.0,A+,9.0,
+STU021,Sem 2,SCYB1101,Chemistry,,64.0,78.0,,78.0,71.0,,-14.0,9.899494936611665,Variable,71.0,B++,8.0,Exam well below internal
+STU021,Sem 2,SCYB2101,Chemistry Lab,,72.0,72.0,,72.0,72.0,,0.0,0.0,Consistent,72.0,B++,8.0,
+STU021,Sem 2,SMTB1212,Discrete Structures,,80.0,80.0,,80.0,80.0,,0.0,0.0,Consistent,80.0,A+,9.0,
+STU021,Sem 3,S12BLH31,Programming in Java,76.0,,,,76.0,76.0,,,,-,,-,,
+STU021,Sem 3,S731BLH32,Machine Learning Essentials,84.0,,,,84.0,84.0,,,,-,,-,,
+STU021,Sem 3,SCSB1303,Theory of Computation,86.0,,,,86.0,86.0,,,,-,,-,,
+STU021,Sem 3,SCSBOB1301,Computer Architecture and Organization,80.0,,,,80.0,80.0,,,,-,,-,,
+STU021,Sem 3,SISB4301,Universal Human Values,82.0,,,,82.0,82.0,,,,-,,-,,
+STU021,Sem 3,SMTB1304,Matrices and Linear Algebra,88.0,,,,88.0,88.0,,,,-,,-,,
+STU022,Sem 1,SYN1101,Engineering Mathematics I,,68.0,74.0,,74.0,71.0,,-6.0,4.242640687119285,Consistent,71.0,B++,8.0,Exam well below internal
+STU022,Sem 1,SYN1102,Engineering Physics,,84.0,80.0,,80.0,82.0,,4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU022,Sem 1,SYN1103,Problem Solving with C,,80.0,66.0,,66.0,73.0,,14.0,9.899494936611665,Variable,73.0,B++,8.0,
+STU022,Sem 1,SYN1104,Technical English,,74.0,80.0,,80.0,77.0,,-6.0,4.242640687119285,Consistent,77.0,B++,8.0,Exam well below internal
+STU022,Sem 1,SYN1105,Physics Lab,,60.0,68.0,,68.0,64.0,,-8.0,5.656854249492381,Variable,64.0,B+,7.0,Exam well below internal
+STU022,Sem 1,SYN1106,C Programming Lab,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU022,Sem 2,S11BLH21,Programming in Python,,74.0,72.0,,72.0,73.0,,2.0,1.4142135623730951,Consistent,73.0,B++,8.0,
+STU022,Sem 2,S731BLH22,Data Structures & Algorithms,,54.0,66.0,,66.0,60.0,,-12.0,8.48528137423857,Variable,60.0,B+,7.0,Exam well below internal
+STU022,Sem 2,SCSB1231,Data and Information Science,,80.0,72.0,,72.0,76.0,,8.0,5.656854249492381,Variable,76.0,B++,8.0,
+STU022,Sem 2,SCSB1232,Exploratory Data Analysis,,62.0,72.0,,72.0,67.0,,-10.0,7.0710678118654755,Variable,67.0,B+,7.0,Exam well below internal
+STU022,Sem 2,SCYB1101,Chemistry,,74.0,80.0,,80.0,77.0,,-6.0,4.242640687119285,Consistent,77.0,B++,8.0,Exam well below internal
+STU022,Sem 2,SCYB2101,Chemistry Lab,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU022,Sem 2,SMTB1212,Discrete Structures,,60.0,66.0,,66.0,63.0,,-6.0,4.242640687119285,Consistent,63.0,B+,7.0,Exam well below internal
+STU022,Sem 3,S12BLH31,Programming in Java,50.0,,,,50.0,50.0,,,,-,,-,,
+STU022,Sem 3,S731BLH32,Machine Learning Essentials,52.0,,,,52.0,52.0,,,,-,,-,,
+STU022,Sem 3,SCSB1303,Theory of Computation,76.0,,,,76.0,76.0,,,,-,,-,,
+STU022,Sem 3,SCSBOB1301,Computer Architecture and Organization,66.0,,,,66.0,66.0,,,,-,,-,,
+STU022,Sem 3,SISB4301,Universal Human Values,76.0,,,,76.0,76.0,,,,-,,-,,
+STU022,Sem 3,SMTB1304,Matrices and Linear Algebra,72.0,,,,72.0,72.0,,,,-,,-,,
+STU023,Sem 1,SYN1101,Engineering Mathematics I,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU023,Sem 1,SYN1102,Engineering Physics,,86.0,98.0,,98.0,92.0,,-12.0,8.48528137423857,Variable,92.0,A++,10.0,Exam well below internal
+STU023,Sem 1,SYN1103,Problem Solving with C,,72.0,84.0,,84.0,78.0,,-12.0,8.48528137423857,Variable,78.0,B++,8.0,Exam well below internal
+STU023,Sem 1,SYN1104,Technical English,,100.0,92.0,,92.0,96.0,,8.0,5.656854249492381,Variable,96.0,A++,10.0,
+STU023,Sem 1,SYN1105,Physics Lab,,80.0,84.0,,84.0,82.0,,-4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU023,Sem 1,SYN1106,C Programming Lab,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU023,Sem 2,S11BLH21,Programming in Python,,68.0,86.0,,86.0,77.0,,-18.0,12.727922061357855,Variable,77.0,B++,8.0,Exam well below internal
+STU023,Sem 2,S731BLH22,Data Structures & Algorithms,,74.0,78.0,,78.0,76.0,,-4.0,2.8284271247461903,Consistent,76.0,B++,8.0,
+STU023,Sem 2,SCSB1231,Data and Information Science,,82.0,86.0,,86.0,84.0,,-4.0,2.8284271247461903,Consistent,84.0,A+,9.0,
+STU023,Sem 2,SCSB1232,Exploratory Data Analysis,,62.0,92.0,,92.0,77.0,,-30.0,21.213203435596427,Variable,77.0,B++,8.0,Exam well below internal
+STU023,Sem 2,SCYB1101,Chemistry,,88.0,90.0,,90.0,89.0,,-2.0,1.4142135623730951,Consistent,89.0,A+,9.0,
+STU023,Sem 2,SCYB2101,Chemistry Lab,,84.0,96.0,,96.0,90.0,,-12.0,8.48528137423857,Variable,90.0,A++,10.0,Exam well below internal
+STU023,Sem 2,SMTB1212,Discrete Structures,,82.0,90.0,,90.0,86.0,,-8.0,5.656854249492381,Variable,86.0,A+,9.0,Exam well below internal
+STU023,Sem 3,S12BLH31,Programming in Java,76.0,,,,76.0,76.0,,,,-,,-,,
+STU023,Sem 3,S731BLH32,Machine Learning Essentials,82.0,,,,82.0,82.0,,,,-,,-,,
+STU023,Sem 3,SCSB1303,Theory of Computation,86.0,,,,86.0,86.0,,,,-,,-,,
+STU023,Sem 3,SCSBOB1301,Computer Architecture and Organization,98.0,,,,98.0,98.0,,,,-,,-,,
+STU023,Sem 3,SISB4301,Universal Human Values,90.0,,,,90.0,90.0,,,,-,,-,,
+STU023,Sem 3,SMTB1304,Matrices and Linear Algebra,100.0,,,,100.0,100.0,,,,-,,-,,
+STU024,Sem 1,SYN1101,Engineering Mathematics I,,96.0,92.0,,92.0,94.0,,4.0,2.8284271247461903,Consistent,94.0,A++,10.0,
+STU024,Sem 1,SYN1102,Engineering Physics,,76.0,86.0,,86.0,81.0,,-10.0,7.0710678118654755,Variable,81.0,A+,9.0,Exam well below internal
+STU024,Sem 1,SYN1103,Problem Solving with C,,80.0,84.0,,84.0,82.0,,-4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU024,Sem 1,SYN1104,Technical English,,98.0,98.0,,98.0,98.0,,0.0,0.0,Consistent,98.0,A++,10.0,
+STU024,Sem 1,SYN1105,Physics Lab,,84.0,92.0,,92.0,88.0,,-8.0,5.656854249492381,Variable,88.0,A+,9.0,Exam well below internal
+STU024,Sem 1,SYN1106,C Programming Lab,,100.0,96.0,,96.0,98.0,,4.0,2.8284271247461903,Consistent,98.0,A++,10.0,
+STU024,Sem 2,S11BLH21,Programming in Python,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU024,Sem 2,S731BLH22,Data Structures & Algorithms,,90.0,100.0,,100.0,95.0,,-10.0,7.0710678118654755,Variable,95.0,A++,10.0,Exam well below internal
+STU024,Sem 2,SCSB1231,Data and Information Science,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU024,Sem 2,SCSB1232,Exploratory Data Analysis,,88.0,88.0,,88.0,88.0,,0.0,0.0,Consistent,88.0,A+,9.0,
+STU024,Sem 2,SCYB1101,Chemistry,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU024,Sem 2,SCYB2101,Chemistry Lab,,76.0,80.0,,80.0,78.0,,-4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU024,Sem 2,SMTB1212,Discrete Structures,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU024,Sem 3,S12BLH31,Programming in Java,80.0,,,,80.0,80.0,,,,-,,-,,
+STU024,Sem 3,S731BLH32,Machine Learning Essentials,90.0,,,,90.0,90.0,,,,-,,-,,
+STU024,Sem 3,SCSB1303,Theory of Computation,94.0,,,,94.0,94.0,,,,-,,-,,
+STU024,Sem 3,SCSBOB1301,Computer Architecture and Organization,92.0,,,,92.0,92.0,,,,-,,-,,
+STU024,Sem 3,SISB4301,Universal Human Values,96.0,,,,96.0,96.0,,,,-,,-,,
+STU024,Sem 3,SMTB1304,Matrices and Linear Algebra,100.0,,,,100.0,100.0,,,,-,,-,,
+STU025,Sem 1,SYN1101,Engineering Mathematics I,,60.0,64.0,,64.0,62.0,,-4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU025,Sem 1,SYN1102,Engineering Physics,,84.0,80.0,,80.0,82.0,,4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU025,Sem 1,SYN1103,Problem Solving with C,,94.0,76.0,,76.0,85.0,,18.0,12.727922061357855,Variable,85.0,A+,9.0,
+STU025,Sem 1,SYN1104,Technical English,,80.0,76.0,,76.0,78.0,,4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU025,Sem 1,SYN1105,Physics Lab,,92.0,84.0,,84.0,88.0,,8.0,5.656854249492381,Variable,88.0,A+,9.0,
+STU025,Sem 1,SYN1106,C Programming Lab,,80.0,76.0,,76.0,78.0,,4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU025,Sem 2,S11BLH21,Programming in Python,,96.0,94.0,,94.0,95.0,,2.0,1.4142135623730951,Consistent,95.0,A++,10.0,
+STU025,Sem 2,S731BLH22,Data Structures & Algorithms,,90.0,88.0,,88.0,89.0,,2.0,1.4142135623730951,Consistent,89.0,A+,9.0,
+STU025,Sem 2,SCSB1231,Data and Information Science,,96.0,94.0,,94.0,95.0,,2.0,1.4142135623730951,Consistent,95.0,A++,10.0,
+STU025,Sem 2,SCSB1232,Exploratory Data Analysis,,80.0,84.0,,84.0,82.0,,-4.0,2.8284271247461903,Consistent,82.0,A+,9.0,
+STU025,Sem 2,SCYB1101,Chemistry,,90.0,94.0,,94.0,92.0,,-4.0,2.8284271247461903,Consistent,92.0,A++,10.0,
+STU025,Sem 2,SCYB2101,Chemistry Lab,,76.0,100.0,,100.0,88.0,,-24.0,16.97056274847714,Variable,88.0,A+,9.0,Exam well below internal
+STU025,Sem 2,SMTB1212,Discrete Structures,,96.0,92.0,,92.0,94.0,,4.0,2.8284271247461903,Consistent,94.0,A++,10.0,
+STU025,Sem 3,S12BLH31,Programming in Java,74.0,,,,74.0,74.0,,,,-,,-,,
+STU025,Sem 3,S731BLH32,Machine Learning Essentials,64.0,,,,64.0,64.0,,,,-,,-,,
+STU025,Sem 3,SCSB1303,Theory of Computation,88.0,,,,88.0,88.0,,,,-,,-,,
+STU025,Sem 3,SCSBOB1301,Computer Architecture and Organization,94.0,,,,94.0,94.0,,,,-,,-,,
+STU025,Sem 3,SISB4301,Universal Human Values,100.0,,,,100.0,100.0,,,,-,,-,,
+STU025,Sem 3,SMTB1304,Matrices and Linear Algebra,80.0,,,,80.0,80.0,,,,-,,-,,
+STU026,Sem 1,SYN1101,Engineering Mathematics I,,80.0,82.0,,82.0,81.0,,-2.0,1.4142135623730951,Consistent,81.0,A+,9.0,
+STU026,Sem 1,SYN1102,Engineering Physics,,92.0,86.0,,86.0,89.0,,6.0,4.242640687119285,Consistent,89.0,A+,9.0,
+STU026,Sem 1,SYN1103,Problem Solving with C,,80.0,78.0,,78.0,79.0,,2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU026,Sem 1,SYN1104,Technical English,,66.0,86.0,,86.0,76.0,,-20.0,14.142135623730951,Variable,76.0,B++,8.0,Exam well below internal
+STU026,Sem 1,SYN1105,Physics Lab,,92.0,88.0,,88.0,90.0,,4.0,2.8284271247461903,Consistent,90.0,A++,10.0,
+STU026,Sem 1,SYN1106,C Programming Lab,,72.0,72.0,,72.0,72.0,,0.0,0.0,Consistent,72.0,B++,8.0,
+STU026,Sem 2,S11BLH21,Programming in Python,,90.0,76.0,,76.0,83.0,,14.0,9.899494936611665,Variable,83.0,A+,9.0,
+STU026,Sem 2,S731BLH22,Data Structures & Algorithms,,82.0,92.0,,92.0,87.0,,-10.0,7.0710678118654755,Variable,87.0,A+,9.0,Exam well below internal
+STU026,Sem 2,SCSB1231,Data and Information Science,,84.0,82.0,,82.0,83.0,,2.0,1.4142135623730951,Consistent,83.0,A+,9.0,
+STU026,Sem 2,SCSB1232,Exploratory Data Analysis,,88.0,94.0,,94.0,91.0,,-6.0,4.242640687119285,Consistent,91.0,A++,10.0,Exam well below internal
+STU026,Sem 2,SCYB1101,Chemistry,,90.0,96.0,,96.0,93.0,,-6.0,4.242640687119285,Consistent,93.0,A++,10.0,Exam well below internal
+STU026,Sem 2,SCYB2101,Chemistry Lab,,92.0,76.0,,76.0,84.0,,16.0,11.313708498984761,Variable,84.0,A+,9.0,
+STU026,Sem 2,SMTB1212,Discrete Structures,,62.0,82.0,,82.0,72.0,,-20.0,14.142135623730951,Variable,72.0,B++,8.0,Exam well below internal
+STU026,Sem 3,S12BLH31,Programming in Java,84.0,,,,84.0,84.0,,,,-,,-,,
+STU026,Sem 3,S731BLH32,Machine Learning Essentials,66.0,,,,66.0,66.0,,,,-,,-,,
+STU026,Sem 3,SCSB1303,Theory of Computation,74.0,,,,74.0,74.0,,,,-,,-,,
+STU026,Sem 3,SCSBOB1301,Computer Architecture and Organization,62.0,,,,62.0,62.0,,,,-,,-,,
+STU026,Sem 3,SISB4301,Universal Human Values,64.0,,,,64.0,64.0,,,,-,,-,,
+STU026,Sem 3,SMTB1304,Matrices and Linear Algebra,60.0,,,,60.0,60.0,,,,-,,-,,
+STU027,Sem 1,SYN1101,Engineering Mathematics I,,70.0,96.0,,96.0,83.0,,-26.0,18.384776310850235,Variable,83.0,A+,9.0,Exam well below internal
+STU027,Sem 1,SYN1102,Engineering Physics,,74.0,84.0,,84.0,79.0,,-10.0,7.0710678118654755,Variable,79.0,B++,8.0,Exam well below internal
+STU027,Sem 1,SYN1103,Problem Solving with C,,74.0,90.0,,90.0,82.0,,-16.0,11.313708498984761,Variable,82.0,A+,9.0,Exam well below internal
+STU027,Sem 1,SYN1104,Technical English,,74.0,68.0,,68.0,71.0,,6.0,4.242640687119285,Consistent,71.0,B++,8.0,
+STU027,Sem 1,SYN1105,Physics Lab,,72.0,80.0,,80.0,76.0,,-8.0,5.656854249492381,Variable,76.0,B++,8.0,Exam well below internal
+STU027,Sem 1,SYN1106,C Programming Lab,,80.0,92.0,,92.0,86.0,,-12.0,8.48528137423857,Variable,86.0,A+,9.0,Exam well below internal
+STU027,Sem 2,S11BLH21,Programming in Python,,100.0,84.0,,84.0,92.0,,16.0,11.313708498984761,Variable,92.0,A++,10.0,
+STU027,Sem 2,S731BLH22,Data Structures & Algorithms,,70.0,90.0,,90.0,80.0,,-20.0,14.142135623730951,Variable,80.0,A+,9.0,Exam well below internal
+STU027,Sem 2,SCSB1231,Data and Information Science,,64.0,84.0,,84.0,74.0,,-20.0,14.142135623730951,Variable,74.0,B++,8.0,Exam well below internal
+STU027,Sem 2,SCSB1232,Exploratory Data Analysis,,82.0,80.0,,80.0,81.0,,2.0,1.4142135623730951,Consistent,81.0,A+,9.0,
+STU027,Sem 2,SCYB1101,Chemistry,,70.0,68.0,,68.0,69.0,,2.0,1.4142135623730951,Consistent,69.0,B+,7.0,
+STU027,Sem 2,SCYB2101,Chemistry Lab,,72.0,84.0,,84.0,78.0,,-12.0,8.48528137423857,Variable,78.0,B++,8.0,Exam well below internal
+STU027,Sem 2,SMTB1212,Discrete Structures,,78.0,92.0,,92.0,85.0,,-14.0,9.899494936611665,Variable,85.0,A+,9.0,Exam well below internal
+STU027,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU027,Sem 3,S731BLH32,Machine Learning Essentials,86.0,,,,86.0,86.0,,,,-,,-,,
+STU027,Sem 3,SCSB1303,Theory of Computation,100.0,,,,100.0,100.0,,,,-,,-,,
+STU027,Sem 3,SCSBOB1301,Computer Architecture and Organization,90.0,,,,90.0,90.0,,,,-,,-,,
+STU027,Sem 3,SISB4301,Universal Human Values,70.0,,,,70.0,70.0,,,,-,,-,,
+STU027,Sem 3,SMTB1304,Matrices and Linear Algebra,54.0,,,,54.0,54.0,,,,-,,-,,
+STU028,Sem 1,SYN1101,Engineering Mathematics I,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU028,Sem 1,SYN1102,Engineering Physics,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU028,Sem 1,SYN1103,Problem Solving with C,,84.0,88.0,,88.0,86.0,,-4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU028,Sem 1,SYN1104,Technical English,,82.0,82.0,,82.0,82.0,,0.0,0.0,Consistent,82.0,A+,9.0,
+STU028,Sem 1,SYN1105,Physics Lab,,84.0,76.0,,76.0,80.0,,8.0,5.656854249492381,Variable,80.0,A+,9.0,
+STU028,Sem 1,SYN1106,C Programming Lab,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU028,Sem 2,S11BLH21,Programming in Python,,86.0,86.0,,86.0,86.0,,0.0,0.0,Consistent,86.0,A+,9.0,
+STU028,Sem 2,S731BLH22,Data Structures & Algorithms,,82.0,68.0,,68.0,75.0,,14.0,9.899494936611665,Variable,75.0,B++,8.0,
+STU028,Sem 2,SCSB1231,Data and Information Science,,76.0,76.0,,76.0,76.0,,0.0,0.0,Consistent,76.0,B++,8.0,
+STU028,Sem 2,SCSB1232,Exploratory Data Analysis,,62.0,76.0,,76.0,69.0,,-14.0,9.899494936611665,Variable,69.0,B+,7.0,Exam well below internal
+STU028,Sem 2,SCYB1101,Chemistry,,90.0,86.0,,86.0,88.0,,4.0,2.8284271247461903,Consistent,88.0,A+,9.0,
+STU028,Sem 2,SCYB2101,Chemistry Lab,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU028,Sem 2,SMTB1212,Discrete Structures,,74.0,72.0,,72.0,73.0,,2.0,1.4142135623730951,Consistent,73.0,B++,8.0,
+STU028,Sem 3,S12BLH31,Programming in Java,64.0,,,,64.0,64.0,,,,-,,-,,
+STU028,Sem 3,S731BLH32,Machine Learning Essentials,76.0,,,,76.0,76.0,,,,-,,-,,
+STU028,Sem 3,SCSB1303,Theory of Computation,96.0,,,,96.0,96.0,,,,-,,-,,
+STU028,Sem 3,SCSBOB1301,Computer Architecture and Organization,86.0,,,,86.0,86.0,,,,-,,-,,
+STU028,Sem 3,SISB4301,Universal Human Values,78.0,,,,78.0,78.0,,,,-,,-,,
+STU028,Sem 3,SMTB1304,Matrices and Linear Algebra,57.99999999999999,,,,57.99999999999999,57.99999999999999,,,,-,,-,,
+STU029,Sem 1,SYN1101,Engineering Mathematics I,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU029,Sem 1,SYN1102,Engineering Physics,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU029,Sem 1,SYN1103,Problem Solving with C,,98.0,100.0,,100.0,99.0,,-2.0,1.4142135623730951,Consistent,99.0,A++,10.0,
+STU029,Sem 1,SYN1104,Technical English,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU029,Sem 1,SYN1105,Physics Lab,,80.0,100.0,,100.0,90.0,,-20.0,14.142135623730951,Variable,90.0,A++,10.0,Exam well below internal
+STU029,Sem 1,SYN1106,C Programming Lab,,84.0,100.0,,100.0,92.0,,-16.0,11.313708498984761,Variable,92.0,A++,10.0,Exam well below internal
+STU029,Sem 2,S11BLH21,Programming in Python,,94.0,100.0,,100.0,97.0,,-6.0,4.242640687119285,Consistent,97.0,A++,10.0,Exam well below internal
+STU029,Sem 2,S731BLH22,Data Structures & Algorithms,,98.0,100.0,,100.0,99.0,,-2.0,1.4142135623730951,Consistent,99.0,A++,10.0,
+STU029,Sem 2,SCSB1231,Data and Information Science,,92.0,94.0,,94.0,93.0,,-2.0,1.4142135623730951,Consistent,93.0,A++,10.0,
+STU029,Sem 2,SCSB1232,Exploratory Data Analysis,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU029,Sem 2,SCYB1101,Chemistry,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU029,Sem 2,SCYB2101,Chemistry Lab,,96.0,100.0,,100.0,98.0,,-4.0,2.8284271247461903,Consistent,98.0,A++,10.0,
+STU029,Sem 2,SMTB1212,Discrete Structures,,94.0,100.0,,100.0,97.0,,-6.0,4.242640687119285,Consistent,97.0,A++,10.0,Exam well below internal
+STU029,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU029,Sem 3,S731BLH32,Machine Learning Essentials,98.0,,,,98.0,98.0,,,,-,,-,,
+STU029,Sem 3,SCSB1303,Theory of Computation,100.0,,,,100.0,100.0,,,,-,,-,,
+STU029,Sem 3,SCSBOB1301,Computer Architecture and Organization,100.0,,,,100.0,100.0,,,,-,,-,,
+STU029,Sem 3,SISB4301,Universal Human Values,100.0,,,,100.0,100.0,,,,-,,-,,
+STU029,Sem 3,SMTB1304,Matrices and Linear Algebra,100.0,,,,100.0,100.0,,,,-,,-,,
+STU030,Sem 1,SYN1101,Engineering Mathematics I,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 1,SYN1102,Engineering Physics,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 1,SYN1103,Problem Solving with C,,90.0,100.0,,100.0,95.0,,-10.0,7.0710678118654755,Variable,95.0,A++,10.0,Exam well below internal
+STU030,Sem 1,SYN1104,Technical English,,96.0,98.0,,98.0,97.0,,-2.0,1.4142135623730951,Consistent,97.0,A++,10.0,
+STU030,Sem 1,SYN1105,Physics Lab,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU030,Sem 1,SYN1106,C Programming Lab,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 2,S11BLH21,Programming in Python,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 2,S731BLH22,Data Structures & Algorithms,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 2,SCSB1231,Data and Information Science,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU030,Sem 2,SCSB1232,Exploratory Data Analysis,,100.0,98.0,,98.0,99.0,,2.0,1.4142135623730951,Consistent,99.0,A++,10.0,
+STU030,Sem 2,SCYB1101,Chemistry,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 2,SCYB2101,Chemistry Lab,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 2,SMTB1212,Discrete Structures,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU030,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU030,Sem 3,S731BLH32,Machine Learning Essentials,100.0,,,,100.0,100.0,,,,-,,-,,
+STU030,Sem 3,SCSB1303,Theory of Computation,84.0,,,,84.0,84.0,,,,-,,-,,
+STU030,Sem 3,SCSBOB1301,Computer Architecture and Organization,92.0,,,,92.0,92.0,,,,-,,-,,
+STU030,Sem 3,SISB4301,Universal Human Values,100.0,,,,100.0,100.0,,,,-,,-,,
+STU030,Sem 3,SMTB1304,Matrices and Linear Algebra,100.0,,,,100.0,100.0,,,,-,,-,,
+STU031,Sem 1,SYN1101,Engineering Mathematics I,,82.0,96.0,,96.0,89.0,,-14.0,9.899494936611665,Variable,89.0,A+,9.0,Exam well below internal
+STU031,Sem 1,SYN1102,Engineering Physics,,86.0,88.0,,88.0,87.0,,-2.0,1.4142135623730951,Consistent,87.0,A+,9.0,
+STU031,Sem 1,SYN1103,Problem Solving with C,,78.0,84.0,,84.0,81.0,,-6.0,4.242640687119285,Consistent,81.0,A+,9.0,Exam well below internal
+STU031,Sem 1,SYN1104,Technical English,,74.0,88.0,,88.0,81.0,,-14.0,9.899494936611665,Variable,81.0,A+,9.0,Exam well below internal
+STU031,Sem 1,SYN1105,Physics Lab,,76.0,72.0,,72.0,74.0,,4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU031,Sem 1,SYN1106,C Programming Lab,,80.0,88.0,,88.0,84.0,,-8.0,5.656854249492381,Variable,84.0,A+,9.0,Exam well below internal
+STU031,Sem 2,S11BLH21,Programming in Python,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU031,Sem 2,S731BLH22,Data Structures & Algorithms,,68.0,74.0,,74.0,71.0,,-6.0,4.242640687119285,Consistent,71.0,B++,8.0,Exam well below internal
+STU031,Sem 2,SCSB1231,Data and Information Science,,74.0,80.0,,80.0,77.0,,-6.0,4.242640687119285,Consistent,77.0,B++,8.0,Exam well below internal
+STU031,Sem 2,SCSB1232,Exploratory Data Analysis,,78.0,90.0,,90.0,84.0,,-12.0,8.48528137423857,Variable,84.0,A+,9.0,Exam well below internal
+STU031,Sem 2,SCYB1101,Chemistry,,88.0,96.0,,96.0,92.0,,-8.0,5.656854249492381,Variable,92.0,A++,10.0,Exam well below internal
+STU031,Sem 2,SCYB2101,Chemistry Lab,,88.0,88.0,,88.0,88.0,,0.0,0.0,Consistent,88.0,A+,9.0,
+STU031,Sem 2,SMTB1212,Discrete Structures,,64.0,82.0,,82.0,73.0,,-18.0,12.727922061357855,Variable,73.0,B++,8.0,Exam well below internal
+STU031,Sem 3,S12BLH31,Programming in Java,66.0,,,,66.0,66.0,,,,-,,-,,
+STU031,Sem 3,S731BLH32,Machine Learning Essentials,80.0,,,,80.0,80.0,,,,-,,-,,
+STU031,Sem 3,SCSB1303,Theory of Computation,74.0,,,,74.0,74.0,,,,-,,-,,
+STU031,Sem 3,SCSBOB1301,Computer Architecture and Organization,68.0,,,,68.0,68.0,,,,-,,-,,
+STU031,Sem 3,SISB4301,Universal Human Values,84.0,,,,84.0,84.0,,,,-,,-,,
+STU031,Sem 3,SMTB1304,Matrices and Linear Algebra,82.0,,,,82.0,82.0,,,,-,,-,,
+STU032,Sem 1,SYN1101,Engineering Mathematics I,,80.0,78.0,,78.0,79.0,,2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU032,Sem 1,SYN1102,Engineering Physics,,50.0,57.99999999999999,,57.99999999999999,54.0,,-7.999999999999993,5.656854249492375,Variable,54.0,C,6.0,Exam well below internal
+STU032,Sem 1,SYN1103,Problem Solving with C,,60.0,66.0,,66.0,63.0,,-6.0,4.242640687119285,Consistent,63.0,B+,7.0,Exam well below internal
+STU032,Sem 1,SYN1104,Technical English,,78.0,76.0,,76.0,77.0,,2.0,1.4142135623730951,Consistent,77.0,B++,8.0,
+STU032,Sem 1,SYN1105,Physics Lab,,80.0,76.0,,76.0,78.0,,4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU032,Sem 1,SYN1106,C Programming Lab,,80.0,92.0,,92.0,86.0,,-12.0,8.48528137423857,Variable,86.0,A+,9.0,Exam well below internal
+STU032,Sem 2,S11BLH21,Programming in Python,,62.0,66.0,,66.0,64.0,,-4.0,2.8284271247461903,Consistent,64.0,B+,7.0,
+STU032,Sem 2,S731BLH22,Data Structures & Algorithms,,76.0,74.0,,74.0,75.0,,2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU032,Sem 2,SCSB1231,Data and Information Science,,78.0,90.0,,90.0,84.0,,-12.0,8.48528137423857,Variable,84.0,A+,9.0,Exam well below internal
+STU032,Sem 2,SCSB1232,Exploratory Data Analysis,,86.0,92.0,,92.0,89.0,,-6.0,4.242640687119285,Consistent,89.0,A+,9.0,Exam well below internal
+STU032,Sem 2,SCYB1101,Chemistry,,84.0,84.0,,84.0,84.0,,0.0,0.0,Consistent,84.0,A+,9.0,
+STU032,Sem 2,SCYB2101,Chemistry Lab,,80.0,80.0,,80.0,80.0,,0.0,0.0,Consistent,80.0,A+,9.0,
+STU032,Sem 2,SMTB1212,Discrete Structures,,76.0,74.0,,74.0,75.0,,2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU032,Sem 3,S12BLH31,Programming in Java,86.0,,,,86.0,86.0,,,,-,,-,,
+STU032,Sem 3,S731BLH32,Machine Learning Essentials,70.0,,,,70.0,70.0,,,,-,,-,,
+STU032,Sem 3,SCSB1303,Theory of Computation,74.0,,,,74.0,74.0,,,,-,,-,,
+STU032,Sem 3,SCSBOB1301,Computer Architecture and Organization,60.0,,,,60.0,60.0,,,,-,,-,,
+STU032,Sem 3,SISB4301,Universal Human Values,78.0,,,,78.0,78.0,,,,-,,-,,
+STU032,Sem 3,SMTB1304,Matrices and Linear Algebra,70.0,,,,70.0,70.0,,,,-,,-,,
+STU033,Sem 1,SYN1101,Engineering Mathematics I,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU033,Sem 1,SYN1102,Engineering Physics,,74.0,82.0,,82.0,78.0,,-8.0,5.656854249492381,Variable,78.0,B++,8.0,Exam well below internal
+STU033,Sem 1,SYN1103,Problem Solving with C,,72.0,72.0,,72.0,72.0,,0.0,0.0,Consistent,72.0,B++,8.0,
+STU033,Sem 1,SYN1104,Technical English,,96.0,82.0,,82.0,89.0,,14.0,9.899494936611665,Variable,89.0,A+,9.0,
+STU033,Sem 1,SYN1105,Physics Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU033,Sem 1,SYN1106,C Programming Lab,,56.00000000000001,60.0,,60.0,58.0,,-3.999999999999993,2.828427124746185,Consistent,58.0,C,6.0,
+STU033,Sem 2,S11BLH21,Programming in Python,,60.0,64.0,,64.0,62.0,,-4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU033,Sem 2,S731BLH22,Data Structures & Algorithms,,68.0,76.0,,76.0,72.0,,-8.0,5.656854249492381,Variable,72.0,B++,8.0,Exam well below internal
+STU033,Sem 2,SCSB1231,Data and Information Science,,90.0,72.0,,72.0,81.0,,18.0,12.727922061357855,Variable,81.0,A+,9.0,
+STU033,Sem 2,SCSB1232,Exploratory Data Analysis,,80.0,82.0,,82.0,81.0,,-2.0,1.4142135623730951,Consistent,81.0,A+,9.0,
+STU033,Sem 2,SCYB1101,Chemistry,,62.0,66.0,,66.0,64.0,,-4.0,2.8284271247461903,Consistent,64.0,B+,7.0,
+STU033,Sem 2,SCYB2101,Chemistry Lab,,80.0,68.0,,68.0,74.0,,12.0,8.48528137423857,Variable,74.0,B++,8.0,
+STU033,Sem 2,SMTB1212,Discrete Structures,,62.0,70.0,,70.0,66.0,,-8.0,5.656854249492381,Variable,66.0,B+,7.0,Exam well below internal
+STU033,Sem 3,S12BLH31,Programming in Java,68.0,,,,68.0,68.0,,,,-,,-,,
+STU033,Sem 3,S731BLH32,Machine Learning Essentials,84.0,,,,84.0,84.0,,,,-,,-,,
+STU033,Sem 3,SCSB1303,Theory of Computation,84.0,,,,84.0,84.0,,,,-,,-,,
+STU033,Sem 3,SCSBOB1301,Computer Architecture and Organization,84.0,,,,84.0,84.0,,,,-,,-,,
+STU033,Sem 3,SISB4301,Universal Human Values,84.0,,,,84.0,84.0,,,,-,,-,,
+STU033,Sem 3,SMTB1304,Matrices and Linear Algebra,88.0,,,,88.0,88.0,,,,-,,-,,
+STU034,Sem 1,SYN1101,Engineering Mathematics I,,78.0,74.0,,74.0,76.0,,4.0,2.8284271247461903,Consistent,76.0,B++,8.0,
+STU034,Sem 1,SYN1102,Engineering Physics,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU034,Sem 1,SYN1103,Problem Solving with C,,80.0,74.0,,74.0,77.0,,6.0,4.242640687119285,Consistent,77.0,B++,8.0,
+STU034,Sem 1,SYN1104,Technical English,,84.0,84.0,,84.0,84.0,,0.0,0.0,Consistent,84.0,A+,9.0,
+STU034,Sem 1,SYN1105,Physics Lab,,56.00000000000001,68.0,,68.0,62.0,,-11.999999999999993,8.485281374238566,Variable,62.0,B+,7.0,Exam well below internal
+STU034,Sem 1,SYN1106,C Programming Lab,,92.0,80.0,,80.0,86.0,,12.0,8.48528137423857,Variable,86.0,A+,9.0,
+STU034,Sem 2,S11BLH21,Programming in Python,,82.0,100.0,,100.0,91.0,,-18.0,12.727922061357855,Variable,91.0,A++,10.0,Exam well below internal
+STU034,Sem 2,S731BLH22,Data Structures & Algorithms,,70.0,86.0,,86.0,78.0,,-16.0,11.313708498984761,Variable,78.0,B++,8.0,Exam well below internal
+STU034,Sem 2,SCSB1231,Data and Information Science,,66.0,74.0,,74.0,70.0,,-8.0,5.656854249492381,Variable,70.0,B++,8.0,Exam well below internal
+STU034,Sem 2,SCSB1232,Exploratory Data Analysis,,76.0,76.0,,76.0,76.0,,0.0,0.0,Consistent,76.0,B++,8.0,
+STU034,Sem 2,SCYB1101,Chemistry,,66.0,76.0,,76.0,71.0,,-10.0,7.0710678118654755,Variable,71.0,B++,8.0,Exam well below internal
+STU034,Sem 2,SCYB2101,Chemistry Lab,,68.0,88.0,,88.0,78.0,,-20.0,14.142135623730951,Variable,78.0,B++,8.0,Exam well below internal
+STU034,Sem 2,SMTB1212,Discrete Structures,,78.0,94.0,,94.0,86.0,,-16.0,11.313708498984761,Variable,86.0,A+,9.0,Exam well below internal
+STU034,Sem 3,S12BLH31,Programming in Java,82.0,,,,82.0,82.0,,,,-,,-,,
+STU034,Sem 3,S731BLH32,Machine Learning Essentials,96.0,,,,96.0,96.0,,,,-,,-,,
+STU034,Sem 3,SCSB1303,Theory of Computation,80.0,,,,80.0,80.0,,,,-,,-,,
+STU034,Sem 3,SCSBOB1301,Computer Architecture and Organization,94.0,,,,94.0,94.0,,,,-,,-,,
+STU034,Sem 3,SISB4301,Universal Human Values,72.0,,,,72.0,72.0,,,,-,,-,,
+STU034,Sem 3,SMTB1304,Matrices and Linear Algebra,86.0,,,,86.0,86.0,,,,-,,-,,
+STU035,Sem 1,SYN1101,Engineering Mathematics I,,70.0,82.0,,82.0,76.0,,-12.0,8.48528137423857,Variable,76.0,B++,8.0,Exam well below internal
+STU035,Sem 1,SYN1102,Engineering Physics,,70.0,68.0,,68.0,69.0,,2.0,1.4142135623730951,Consistent,69.0,B+,7.0,
+STU035,Sem 1,SYN1103,Problem Solving with C,,78.0,82.0,,82.0,80.0,,-4.0,2.8284271247461903,Consistent,80.0,A+,9.0,
+STU035,Sem 1,SYN1104,Technical English,,68.0,66.0,,66.0,67.0,,2.0,1.4142135623730951,Consistent,67.0,B+,7.0,
+STU035,Sem 1,SYN1105,Physics Lab,,68.0,84.0,,84.0,76.0,,-16.0,11.313708498984761,Variable,76.0,B++,8.0,Exam well below internal
+STU035,Sem 1,SYN1106,C Programming Lab,,56.00000000000001,72.0,,72.0,64.0,,-15.999999999999993,11.313708498984756,Variable,64.0,B+,7.0,Exam well below internal
+STU035,Sem 2,S11BLH21,Programming in Python,,46.0,62.0,,62.0,54.0,,-16.0,11.313708498984761,Variable,54.0,C,6.0,Exam well below internal
+STU035,Sem 2,S731BLH22,Data Structures & Algorithms,,50.0,66.0,,66.0,58.0,,-16.0,11.313708498984761,Variable,58.0,C,6.0,Exam well below internal
+STU035,Sem 2,SCSB1231,Data and Information Science,,84.0,78.0,,78.0,81.0,,6.0,4.242640687119285,Consistent,81.0,A+,9.0,
+STU035,Sem 2,SCSB1232,Exploratory Data Analysis,,62.0,70.0,,70.0,66.0,,-8.0,5.656854249492381,Variable,66.0,B+,7.0,Exam well below internal
+STU035,Sem 2,SCYB1101,Chemistry,,66.0,66.0,,66.0,66.0,,0.0,0.0,Consistent,66.0,B+,7.0,
+STU035,Sem 2,SCYB2101,Chemistry Lab,,60.0,64.0,,64.0,62.0,,-4.0,2.8284271247461903,Consistent,62.0,B+,7.0,
+STU035,Sem 2,SMTB1212,Discrete Structures,,54.0,74.0,,74.0,64.0,,-20.0,14.142135623730951,Variable,64.0,B+,7.0,Exam well below internal
+STU035,Sem 3,S12BLH31,Programming in Java,74.0,,,,74.0,74.0,,,,-,,-,,
+STU035,Sem 3,S731BLH32,Machine Learning Essentials,72.0,,,,72.0,72.0,,,,-,,-,,
+STU035,Sem 3,SCSB1303,Theory of Computation,64.0,,,,64.0,64.0,,,,-,,-,,
+STU035,Sem 3,SCSBOB1301,Computer Architecture and Organization,86.0,,,,86.0,86.0,,,,-,,-,,
+STU035,Sem 3,SISB4301,Universal Human Values,86.0,,,,86.0,86.0,,,,-,,-,,
+STU035,Sem 3,SMTB1304,Matrices and Linear Algebra,68.0,,,,68.0,68.0,,,,-,,-,,
+STU036,Sem 1,SYN1101,Engineering Mathematics I,,86.0,86.0,,86.0,86.0,,0.0,0.0,Consistent,86.0,A+,9.0,
+STU036,Sem 1,SYN1102,Engineering Physics,,82.0,82.0,,82.0,82.0,,0.0,0.0,Consistent,82.0,A+,9.0,
+STU036,Sem 1,SYN1103,Problem Solving with C,,90.0,84.0,,84.0,87.0,,6.0,4.242640687119285,Consistent,87.0,A+,9.0,
+STU036,Sem 1,SYN1104,Technical English,,68.0,72.0,,72.0,70.0,,-4.0,2.8284271247461903,Consistent,70.0,B++,8.0,
+STU036,Sem 1,SYN1105,Physics Lab,,72.0,88.0,,88.0,80.0,,-16.0,11.313708498984761,Variable,80.0,A+,9.0,Exam well below internal
+STU036,Sem 1,SYN1106,C Programming Lab,,84.0,92.0,,92.0,88.0,,-8.0,5.656854249492381,Variable,88.0,A+,9.0,Exam well below internal
+STU036,Sem 2,S11BLH21,Programming in Python,,80.0,86.0,,86.0,83.0,,-6.0,4.242640687119285,Consistent,83.0,A+,9.0,Exam well below internal
+STU036,Sem 2,S731BLH22,Data Structures & Algorithms,,78.0,74.0,,74.0,76.0,,4.0,2.8284271247461903,Consistent,76.0,B++,8.0,
+STU036,Sem 2,SCSB1231,Data and Information Science,,90.0,92.0,,92.0,91.0,,-2.0,1.4142135623730951,Consistent,91.0,A++,10.0,
+STU036,Sem 2,SCSB1232,Exploratory Data Analysis,,100.0,96.0,,96.0,98.0,,4.0,2.8284271247461903,Consistent,98.0,A++,10.0,
+STU036,Sem 2,SCYB1101,Chemistry,,90.0,100.0,,100.0,95.0,,-10.0,7.0710678118654755,Variable,95.0,A++,10.0,Exam well below internal
+STU036,Sem 2,SCYB2101,Chemistry Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU036,Sem 2,SMTB1212,Discrete Structures,,94.0,98.0,,98.0,96.0,,-4.0,2.8284271247461903,Consistent,96.0,A++,10.0,
+STU036,Sem 3,S12BLH31,Programming in Java,88.0,,,,88.0,88.0,,,,-,,-,,
+STU036,Sem 3,S731BLH32,Machine Learning Essentials,96.0,,,,96.0,96.0,,,,-,,-,,
+STU036,Sem 3,SCSB1303,Theory of Computation,90.0,,,,90.0,90.0,,,,-,,-,,
+STU036,Sem 3,SCSBOB1301,Computer Architecture and Organization,96.0,,,,96.0,96.0,,,,-,,-,,
+STU036,Sem 3,SISB4301,Universal Human Values,74.0,,,,74.0,74.0,,,,-,,-,,
+STU036,Sem 3,SMTB1304,Matrices and Linear Algebra,78.0,,,,78.0,78.0,,,,-,,-,,
+STU037,Sem 1,SYN1101,Engineering Mathematics I,,90.0,100.0,,100.0,95.0,,-10.0,7.0710678118654755,Variable,95.0,A++,10.0,Exam well below internal
+STU037,Sem 1,SYN1102,Engineering Physics,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU037,Sem 1,SYN1103,Problem Solving with C,,94.0,100.0,,100.0,97.0,,-6.0,4.242640687119285,Consistent,97.0,A++,10.0,Exam well below internal
+STU037,Sem 1,SYN1104,Technical English,,88.0,94.0,,94.0,91.0,,-6.0,4.242640687119285,Consistent,91.0,A++,10.0,Exam well below internal
+STU037,Sem 1,SYN1105,Physics Lab,,84.0,88.0,,88.0,86.0,,-4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU037,Sem 1,SYN1106,C Programming Lab,,100.0,92.0,,92.0,96.0,,8.0,5.656854249492381,Variable,96.0,A++,10.0,
+STU037,Sem 2,S11BLH21,Programming in Python,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU037,Sem 2,S731BLH22,Data Structures & Algorithms,,100.0,100.0,,100.0,100.0,,0.0,0.0,Consistent,100.0,A++,10.0,
+STU037,Sem 2,SCSB1231,Data and Information Science,,100.0,98.0,,98.0,99.0,,2.0,1.4142135623730951,Consistent,99.0,A++,10.0,
+STU037,Sem 2,SCSB1232,Exploratory Data Analysis,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU037,Sem 2,SCYB1101,Chemistry,,96.0,100.0,,100.0,98.0,,-4.0,2.8284271247461903,Consistent,98.0,A++,10.0,
+STU037,Sem 2,SCYB2101,Chemistry Lab,,92.0,100.0,,100.0,96.0,,-8.0,5.656854249492381,Variable,96.0,A++,10.0,Exam well below internal
+STU037,Sem 2,SMTB1212,Discrete Structures,,90.0,98.0,,98.0,94.0,,-8.0,5.656854249492381,Variable,94.0,A++,10.0,Exam well below internal
+STU037,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU037,Sem 3,S731BLH32,Machine Learning Essentials,100.0,,,,100.0,100.0,,,,-,,-,,
+STU037,Sem 3,SCSB1303,Theory of Computation,100.0,,,,100.0,100.0,,,,-,,-,,
+STU037,Sem 3,SCSBOB1301,Computer Architecture and Organization,100.0,,,,100.0,100.0,,,,-,,-,,
+STU037,Sem 3,SISB4301,Universal Human Values,100.0,,,,100.0,100.0,,,,-,,-,,
+STU037,Sem 3,SMTB1304,Matrices and Linear Algebra,100.0,,,,100.0,100.0,,,,-,,-,,
+STU038,Sem 1,SYN1101,Engineering Mathematics I,,74.0,90.0,,90.0,82.0,,-16.0,11.313708498984761,Variable,82.0,A+,9.0,Exam well below internal
+STU038,Sem 1,SYN1102,Engineering Physics,,94.0,92.0,,92.0,93.0,,2.0,1.4142135623730951,Consistent,93.0,A++,10.0,
+STU038,Sem 1,SYN1103,Problem Solving with C,,66.0,78.0,,78.0,72.0,,-12.0,8.48528137423857,Variable,72.0,B++,8.0,Exam well below internal
+STU038,Sem 1,SYN1104,Technical English,,82.0,88.0,,88.0,85.0,,-6.0,4.242640687119285,Consistent,85.0,A+,9.0,Exam well below internal
+STU038,Sem 1,SYN1105,Physics Lab,,72.0,80.0,,80.0,76.0,,-8.0,5.656854249492381,Variable,76.0,B++,8.0,Exam well below internal
+STU038,Sem 1,SYN1106,C Programming Lab,,72.0,100.0,,100.0,86.0,,-28.0,19.79898987322333,Variable,86.0,A+,9.0,Exam well below internal
+STU038,Sem 2,S11BLH21,Programming in Python,,74.0,90.0,,90.0,82.0,,-16.0,11.313708498984761,Variable,82.0,A+,9.0,Exam well below internal
+STU038,Sem 2,S731BLH22,Data Structures & Algorithms,,88.0,86.0,,86.0,87.0,,2.0,1.4142135623730951,Consistent,87.0,A+,9.0,
+STU038,Sem 2,SCSB1231,Data and Information Science,,90.0,90.0,,90.0,90.0,,0.0,0.0,Consistent,90.0,A++,10.0,
+STU038,Sem 2,SCSB1232,Exploratory Data Analysis,,88.0,94.0,,94.0,91.0,,-6.0,4.242640687119285,Consistent,91.0,A++,10.0,Exam well below internal
+STU038,Sem 2,SCYB1101,Chemistry,,88.0,94.0,,94.0,91.0,,-6.0,4.242640687119285,Consistent,91.0,A++,10.0,Exam well below internal
+STU038,Sem 2,SCYB2101,Chemistry Lab,,68.0,80.0,,80.0,74.0,,-12.0,8.48528137423857,Variable,74.0,B++,8.0,Exam well below internal
+STU038,Sem 2,SMTB1212,Discrete Structures,,82.0,100.0,,100.0,91.0,,-18.0,12.727922061357855,Variable,91.0,A++,10.0,Exam well below internal
+STU038,Sem 3,S12BLH31,Programming in Java,72.0,,,,72.0,72.0,,,,-,,-,,
+STU038,Sem 3,S731BLH32,Machine Learning Essentials,76.0,,,,76.0,76.0,,,,-,,-,,
+STU038,Sem 3,SCSB1303,Theory of Computation,74.0,,,,74.0,74.0,,,,-,,-,,
+STU038,Sem 3,SCSBOB1301,Computer Architecture and Organization,68.0,,,,68.0,68.0,,,,-,,-,,
+STU038,Sem 3,SISB4301,Universal Human Values,86.0,,,,86.0,86.0,,,,-,,-,,
+STU038,Sem 3,SMTB1304,Matrices and Linear Algebra,88.0,,,,88.0,88.0,,,,-,,-,,
+STU039,Sem 1,SYN1101,Engineering Mathematics I,,76.0,88.0,,88.0,82.0,,-12.0,8.48528137423857,Variable,82.0,A+,9.0,Exam well below internal
+STU039,Sem 1,SYN1102,Engineering Physics,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU039,Sem 1,SYN1103,Problem Solving with C,,90.0,92.0,,92.0,91.0,,-2.0,1.4142135623730951,Consistent,91.0,A++,10.0,
+STU039,Sem 1,SYN1104,Technical English,,94.0,100.0,,100.0,97.0,,-6.0,4.242640687119285,Consistent,97.0,A++,10.0,Exam well below internal
+STU039,Sem 1,SYN1105,Physics Lab,,88.0,84.0,,84.0,86.0,,4.0,2.8284271247461903,Consistent,86.0,A+,9.0,
+STU039,Sem 1,SYN1106,C Programming Lab,,88.0,100.0,,100.0,94.0,,-12.0,8.48528137423857,Variable,94.0,A++,10.0,Exam well below internal
+STU039,Sem 2,S11BLH21,Programming in Python,,86.0,92.0,,92.0,89.0,,-6.0,4.242640687119285,Consistent,89.0,A+,9.0,Exam well below internal
+STU039,Sem 2,S731BLH22,Data Structures & Algorithms,,72.0,72.0,,72.0,72.0,,0.0,0.0,Consistent,72.0,B++,8.0,
+STU039,Sem 2,SCSB1231,Data and Information Science,,74.0,88.0,,88.0,81.0,,-14.0,9.899494936611665,Variable,81.0,A+,9.0,Exam well below internal
+STU039,Sem 2,SCSB1232,Exploratory Data Analysis,,80.0,76.0,,76.0,78.0,,4.0,2.8284271247461903,Consistent,78.0,B++,8.0,
+STU039,Sem 2,SCYB1101,Chemistry,,80.0,90.0,,90.0,85.0,,-10.0,7.0710678118654755,Variable,85.0,A+,9.0,Exam well below internal
+STU039,Sem 2,SCYB2101,Chemistry Lab,,72.0,76.0,,76.0,74.0,,-4.0,2.8284271247461903,Consistent,74.0,B++,8.0,
+STU039,Sem 2,SMTB1212,Discrete Structures,,80.0,78.0,,78.0,79.0,,2.0,1.4142135623730951,Consistent,79.0,B++,8.0,
+STU039,Sem 3,S12BLH31,Programming in Java,100.0,,,,100.0,100.0,,,,-,,-,,
+STU039,Sem 3,S731BLH32,Machine Learning Essentials,76.0,,,,76.0,76.0,,,,-,,-,,
+STU039,Sem 3,SCSB1303,Theory of Computation,84.0,,,,84.0,84.0,,,,-,,-,,
+STU039,Sem 3,SCSBOB1301,Computer Architecture and Organization,100.0,,,,100.0,100.0,,,,-,,-,,
+STU039,Sem 3,SISB4301,Universal Human Values,90.0,,,,90.0,90.0,,,,-,,-,,
+STU039,Sem 3,SMTB1304,Matrices and Linear Algebra,84.0,,,,84.0,84.0,,,,-,,-,,
+STU040,Sem 1,SYN1101,Engineering Mathematics I,,82.0,80.0,,80.0,81.0,,2.0,1.4142135623730951,Consistent,81.0,A+,9.0,
+STU040,Sem 1,SYN1102,Engineering Physics,,76.0,70.0,,70.0,73.0,,6.0,4.242640687119285,Consistent,73.0,B++,8.0,
+STU040,Sem 1,SYN1103,Problem Solving with C,,84.0,70.0,,70.0,77.0,,14.0,9.899494936611665,Variable,77.0,B++,8.0,
+STU040,Sem 1,SYN1104,Technical English,,100.0,84.0,,84.0,92.0,,16.0,11.313708498984761,Variable,92.0,A++,10.0,
+STU040,Sem 1,SYN1105,Physics Lab,,84.0,84.0,,84.0,84.0,,0.0,0.0,Consistent,84.0,A+,9.0,
+STU040,Sem 1,SYN1106,C Programming Lab,,76.0,76.0,,76.0,76.0,,0.0,0.0,Consistent,76.0,B++,8.0,
+STU040,Sem 2,S11BLH21,Programming in Python,,92.0,94.0,,94.0,93.0,,-2.0,1.4142135623730951,Consistent,93.0,A++,10.0,
+STU040,Sem 2,S731BLH22,Data Structures & Algorithms,,92.0,80.0,,80.0,86.0,,12.0,8.48528137423857,Variable,86.0,A+,9.0,
+STU040,Sem 2,SCSB1231,Data and Information Science,,70.0,80.0,,80.0,75.0,,-10.0,7.0710678118654755,Variable,75.0,B++,8.0,Exam well below internal
+STU040,Sem 2,SCSB1232,Exploratory Data Analysis,,76.0,74.0,,74.0,75.0,,2.0,1.4142135623730951,Consistent,75.0,B++,8.0,
+STU040,Sem 2,SCYB1101,Chemistry,,86.0,96.0,,96.0,91.0,,-10.0,7.0710678118654755,Variable,91.0,A++,10.0,Exam well below internal
+STU040,Sem 2,SCYB2101,Chemistry Lab,,92.0,96.0,,96.0,94.0,,-4.0,2.8284271247461903,Consistent,94.0,A++,10.0,
+STU040,Sem 2,SMTB1212,Discrete Structures,,92.0,92.0,,92.0,92.0,,0.0,0.0,Consistent,92.0,A++,10.0,
+STU040,Sem 3,S12BLH31,Programming in Java,72.0,,,,72.0,72.0,,,,-,,-,,
+STU040,Sem 3,S731BLH32,Machine Learning Essentials,82.0,,,,82.0,82.0,,,,-,,-,,
+STU040,Sem 3,SCSB1303,Theory of Computation,72.0,,,,72.0,72.0,,,,-,,-,,
+STU040,Sem 3,SCSBOB1301,Computer Architecture and Organization,84.0,,,,84.0,84.0,,,,-,,-,,
+STU040,Sem 3,SISB4301,Universal Human Values,82.0,,,,82.0,82.0,,,,-,,-,,
+STU040,Sem 3,SMTB1304,Matrices and Linear Algebra,84.0,,,,84.0,84.0,,,,-,,-,,

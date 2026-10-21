@@ -33,3 +33,7 @@ logs/
 raw_responses/
 captures/
 erp_dump*
+
+# keep the example env file, ignore real ones
+!.env.example
+tableau/private/

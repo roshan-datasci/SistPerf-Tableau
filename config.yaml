@@ -1,8 +1,16 @@
-# PLACEHOLDER rules - confirm against the official SIST regulations.
-weights: {"Internal": 0.5, "Exam": 0.5}   # final % = 0.5*Internal + 0.5*Exam (must sum to 1)
-# Current term has only CAE marks: the CAE average stands in for the Internal mark until it is published.
-pass_mark: 50            # minimum % in the exam
-default_credits: 3
-credits: {}              # by subject code, e.g. {"SCSB1303": 4}
-grade_bands: [[90, "O", 10], [80, "A+", 9], [70, "A", 8], [60, "B+", 7], [50, "B", 6], [0, "F", 0]]
-stable_sd: 5             # std-dev (in %) at or below this = "Consistent"
+# From SIST Academic Regulations 2019, UG B.E./B.Tech. (clauses 14-16, 19). Edit if your batch differs.
+weights: {"Internal": 0.5, "Exam": 0.5}      # 50 internal + 50 end-semester
+cae_weight_of_internal: 0.8                  # internal 50 = (CAE1+CAE2)/100 x 40 + assignments 10
+assignment_marks: {}                         # optional, by subject code, out of 10. Unknown -> assumed equal to your CAE %
+pass_total_pct: 50                           # at least 50% of total marks
+pass_exam_pct: 30                            # and at least 30% in the exam (15/50), otherwise RA (arrear)
+grade_bands: [[90, "A++", 10], [80, "A+", 9], [70, "B++", 8], [60, "B+", 7], [50, "C", 6], [0, "RA", 0]]
+classification: [[9.0, "First Class - Exemplary"], [7.5, "First Class with Distinction"], [6.0, "First Class"], [5.0, "Second Class"]]
+total_credits_required: 165                  # theory 124 + lab 26 + project 10 + training 5
+default_credits: 3                           # PLACEHOLDER: real credits differ per course. Set them below from your syllabus
+credits: {}                                  # by subject code, e.g. {"SCSB1303": 4, "SCYB2101": 1}
+stable_sd: 5                                 # std-dev (in %) at or below this = "Consistent"
+# Attendance minimums (regulation 9.1(d): 80% theory, 100% practical). Change if your department applies the 90% lab rule.
+attendance: {theory_min: 80, practical_min: 100}
+# Eligibility thresholds (regulations 12 and 16)
+eligibility: {degree_min_cgpa: 5.0, exposure_min_cgpa: 6.0}
