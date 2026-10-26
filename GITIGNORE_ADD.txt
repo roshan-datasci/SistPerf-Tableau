@@ -37,3 +37,7 @@ erp_dump*
 # keep the example env file, ignore real ones
 !.env.example
 tableau/private/
+
+# generated Tableau workbooks (contain local paths; Live one reads your real marks)
+tableau/SistPerf_*.twb
+tableau/SistPerf_*.twbx

@@ -1,0 +1,61 @@
+Time,Event,Semester,Subject_Code,Subject,Assessment,Old,New,Maximum
+2026-10-26T16:36:42,NEW,1,SMTB1103,Calculus and Numerical Methods,Internal,,48.0,50.0
+2026-10-26T16:36:42,NEW,1,SMTB1103,Calculus and Numerical Methods,Exam,,50.0,50.0
+2026-10-26T16:36:42,NEW,1,SEEB1101,Electrical and Electronics Engineering,Internal,,47.0,50.0
+2026-10-26T16:36:42,NEW,1,SEEB1101,Electrical and Electronics Engineering,Exam,,42.0,50.0
+2026-10-26T16:36:42,NEW,1,SPHB1104,Physics,Internal,,45.0,50.0
+2026-10-26T16:36:42,NEW,1,SPHB1104,Physics,Exam,,40.0,50.0
+2026-10-26T16:36:42,NEW,1,S11BLH11,Programming in C,Internal,,48.0,50.0
+2026-10-26T16:36:42,NEW,1,S11BLH11,Programming in C,Exam,,50.0,50.0
+2026-10-26T16:36:42,NEW,1,SPHB2101,Physics Lab,Internal,,16.0,25.0
+2026-10-26T16:36:42,NEW,1,SPHB2101,Physics Lab,Exam,,22.0,25.0
+2026-10-26T16:36:42,NEW,1,SHSBOB1107,Technical English,Internal,,41.0,50.0
+2026-10-26T16:36:42,NEW,1,SHSBOB1107,Technical English,Exam,,34.0,50.0
+2026-10-26T16:36:42,NEW,1,S11BLH11,Programming in C,CAE 1,,41.0,50.0
+2026-10-26T16:36:42,NEW,1,SEEB1101,Electrical and Electronics Engineering,CAE 1,,43.0,50.0
+2026-10-26T16:36:42,NEW,1,SHSBOB1107,Technical English,CAE 1,,35.0,50.0
+2026-10-26T16:36:42,NEW,1,SMTB1103,Calculus and Numerical Methods,CAE 1,,49.0,50.0
+2026-10-26T16:36:42,NEW,1,SPHB1104,Physics,CAE 1,,35.0,50.0
+2026-10-26T16:36:42,NEW,1,S11BLH11,Programming in C,CAE 2,,49.0,50.0
+2026-10-26T16:36:42,NEW,1,SEEB1101,Electrical and Electronics Engineering,CAE 2,,41.0,50.0
+2026-10-26T16:36:42,NEW,1,SHSBOB1107,Technical English,CAE 2,,35.0,50.0
+2026-10-26T16:36:42,NEW,1,SMTB1103,Calculus and Numerical Methods,CAE 2,,41.0,50.0
+2026-10-26T16:36:42,NEW,1,SPHB1104,Physics,CAE 2,,44.0,50.0
+2026-10-26T16:36:42,NEW,2,S731BLH22,Data Structures & Algorithms,Internal,,47.0,50.0
+2026-10-26T16:36:42,NEW,2,S731BLH22,Data Structures & Algorithms,Exam,,48.0,50.0
+2026-10-26T16:36:42,NEW,2,SCYB2101,Chemistry Lab,Internal,,24.0,25.0
+2026-10-26T16:36:42,NEW,2,SCYB2101,Chemistry Lab,Exam,,25.0,25.0
+2026-10-26T16:36:42,NEW,2,SCYB1101,Chemistry,Internal,,48.0,50.0
+2026-10-26T16:36:42,NEW,2,SCYB1101,Chemistry,Exam,,40.0,50.0
+2026-10-26T16:36:42,NEW,2,S11BLH21,Programming in Python,Internal,,45.0,50.0
+2026-10-26T16:36:42,NEW,2,S11BLH21,Programming in Python,Exam,,38.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1232,Exploratory Data Analysis,Internal,,48.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1232,Exploratory Data Analysis,Exam,,36.0,50.0
+2026-10-26T16:36:42,NEW,2,SMTB1212,Discrete Structures,Internal,,45.0,50.0
+2026-10-26T16:36:42,NEW,2,SMTB1212,Discrete Structures,Exam,,36.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1231,Data and Information Science,Internal,,41.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1231,Data and Information Science,Exam,,41.0,50.0
+2026-10-26T16:36:42,NEW,2,SMTB1212,Discrete Structures,CAE 1,,44.0,50.0
+2026-10-26T16:36:42,NEW,2,SCYB1101,Chemistry,CAE 1,,40.0,50.0
+2026-10-26T16:36:42,NEW,2,S11BLH21,Programming in Python,CAE 1,,43.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1231,Data and Information Science,CAE 1,,31.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1232,Exploratory Data Analysis,CAE 1,,47.0,50.0
+2026-10-26T16:36:42,NEW,2,S731BLH22,Data Structures & Algorithms,CAE 1,,41.0,50.0
+2026-10-26T16:36:42,NEW,2,SMTB1212,Discrete Structures,CAE 2,,37.0,50.0
+2026-10-26T16:36:42,NEW,2,SCYB1101,Chemistry,CAE 2,,50.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1231,Data and Information Science,CAE 2,,40.0,50.0
+2026-10-26T16:36:42,NEW,2,S11BLH21,Programming in Python,CAE 2,,38.0,50.0
+2026-10-26T16:36:42,NEW,2,S731BLH22,Data Structures & Algorithms,CAE 2,,45.0,50.0
+2026-10-26T16:36:42,NEW,2,SCSB1232,Exploratory Data Analysis,CAE 2,,44.0,50.0
+2026-10-26T16:36:42,NEW,3,S12BLH31,Programming in Java,CAE 1,,49.0,50.0
+2026-10-26T16:36:42,NEW,3,S731BLH32,Machine Learning Essentials,CAE 1,,48.0,50.0
+2026-10-26T16:36:42,NEW,3,SCSB1303,Theory of Computation,CAE 1,,50.0,50.0
+2026-10-26T16:36:42,NEW,3,SCSBOB1301,Computer Architecture and Organization,CAE 1,,35.0,50.0
+2026-10-26T16:36:42,NEW,3,SISB4301,Universal Human Values,CAE 1,,38.0,50.0
+2026-10-26T16:36:42,NEW,3,SMTB1304,Matrices and Linear Algebra,CAE 1,,40.0,50.0
+2026-10-26T16:36:42,NEW,3,S12BLH31,Programming in Java,CAE 2,,45.0,50.0
+2026-10-26T16:36:42,NEW,3,S731BLH32,Machine Learning Essentials,CAE 2,,48.0,50.0
+2026-10-26T16:36:42,NEW,3,SCSB1303,Theory of Computation,CAE 2,,49.0,50.0
+2026-10-26T16:36:42,NEW,3,SCSBOB1301,Computer Architecture and Organization,CAE 2,,32.0,50.0
+2026-10-26T16:36:42,NEW,3,SISB4301,Universal Human Values,CAE 2,,40.0,50.0
+2026-10-26T16:36:42,NEW,3,SMTB1304,Matrices and Linear Algebra,CAE 2,,43.0,50.0

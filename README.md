@@ -1,34 +1,21 @@
 # SistPerf-Tableau
 
-Academic performance analytics and live mark tracking for **Sathyabama Institute of Science and Technology (SIST)** students. Python backend + Streamlit dashboard + Tableau export.
+A **Tableau** dashboard for Sathyabama Institute of Science and Technology (SIST) students, fed by your actual ERP marks. Python only fetches the marks and prepares the data; Tableau does all calculations and visualisation.
 
-> All demo data is **synthetic**. Real marks, passwords and tokens never go in this repo. Everything runs on your own computer.
+> Demo data is **synthetic**. Real marks, passwords and tokens never go in this repo. Everything runs on your own computer.
 
-## Features
-| Feature | Status |
-|---|---|
-| Marks dashboard: averages, CAE vs Internal vs Exam, heatmap, trends, centums, consistency | Working |
-| SIST rules: 50/50 internal-exam, RA if exam < 30% or total < 50%, A++ to RA grades, SGPA/CGPA, degree class | Working (`docs/regulations.md`) |
-| Arrear-risk check, exam mark needed per grade, what-if and target planners (SGPA and CGPA) | Working |
-| Eligibility checks (5.0 CGPA degree minimum; 6.0 and no arrears for outside exposure) | Working |
-| Attendance: percent, classes you can still miss, classes needed to recover | Working on CSV/sample data; ERP fetch pending capture |
-| Timetable and today's classes | Working on CSV/sample data; ERP fetch pending capture |
-| Excel and PDF progress report | Working |
-| Tableau export (CSVs, optional `.hyper`) | Working (`docs/tableau-guide.md`) |
-| Experimental exam prediction vs a simple baseline | Working on pooled synthetic data |
-| Automatic fetch of marks from the SIST ERP, change detection, history | Login, terms and results mapped; CAE mapping needs one probe run |
-| Alerts (desktop, Telegram, email) on new or changed marks | Built; real delivery untested |
+## How it works
+1. `tools/open_erp_chrome.py` opens your Chrome. You log in to the ERP yourself.
+2. `python -m tracker.tracker --adapter browser --export-tableau` reads your marks from that session, keeps a change history, and writes Tableau-ready data.
+3. `python scripts/build_tableau_workbook.py` generates `tableau/SistPerf_Live.twbx` (6 dashboards, 18 sheets, all calculated fields, built-in extract). Open it in Tableau Desktop Public Edition.
+4. After new marks: repeat step 2, then Data > marks_long > Refresh Extract in Tableau.
 
-## Quick start
-```
-pip install -r requirements.txt
-python scripts/make_sample_sist.py && python scripts/make_sample_extra.py
-streamlit run app.py
-```
-Real data: `python -m tracker.tracker --adapter sist` (asks for your register number and password, hidden, never saved) writes `data/private/marks.csv`, which the app reads automatically. Check that SIST permits automated access to your own data first.
+See `docs/tableau.md` for the dashboards, fields and rules.
 
 ## Layout
-`data_pipeline/` extract-validate-transform | `analytics/` metrics, attendance, prediction, report | `tracker/` ERP adapter, change detection, alerts | `tools/` sanitizer and endpoint finder | `scripts/` sample data and Tableau export | `docs/` regulations, data dictionary, security, Tableau guide
+`tracker/` ERP fetch, change detection, alerts | `scripts/` Tableau data export and workbook generator | `data_pipeline/` validation | `data/curriculum_r2023_cse_ds.csv` credits and maxima | `tableau/` workbooks and demo data | `tools/` helpers | `docs/`
 
 ## Privacy
-No passwords, cookies, `.env`, raw ERP responses, HAR files or real-data extracts are committed. See `docs/security.md`. Predictions and credit-based GPA figures are estimates; marks and rules come from the ERP and the regulations.
+No passwords, cookies, `.env`, raw ERP responses, HAR files or real-data workbooks are committed (see `docs/security.md`). Use Tableau Public only for the synthetic demo workbook.
+
+Educational and portfolio project. Planned later: attendance dashboard, what-if calculator, prediction versus actual.

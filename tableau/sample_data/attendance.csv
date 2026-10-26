@@ -1,281 +1,281 @@
-Student_ID,Subject_Code,Subject,Type,Present,Total,Percent,Required %,Status,Can still miss,Classes needed
-STU001,S12BLH31,Programming in Java,Theory,36,37,97.3,80,OK,8,0
-STU001,S731BLH32,Machine Learning Essentials,Theory,35,37,94.6,80,OK,6,0
-STU001,SCSB1303,Theory of Computation,Theory,37,43,86.0,80,OK,3,0
-STU001,SCSBOB1301,Computer Architecture and Organization,Theory,30,36,83.3,80,OK,1,0
-STU001,SISB4301,Universal Human Values,Theory,36,41,87.8,80,OK,4,0
-STU001,SMTB1304,Matrices and Linear Algebra,Theory,33,36,91.7,80,OK,5,0
-STU001,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU002,S12BLH31,Programming in Java,Theory,41,42,97.6,80,OK,9,0
-STU002,S731BLH32,Machine Learning Essentials,Theory,34,37,91.9,80,OK,5,0
-STU002,SCSB1303,Theory of Computation,Theory,35,41,85.4,80,OK,2,0
-STU002,SCSBOB1301,Computer Architecture and Organization,Theory,40,44,90.9,80,OK,6,0
-STU002,SISB4301,Universal Human Values,Theory,34,37,91.9,80,OK,5,0
-STU002,SMTB1304,Matrices and Linear Algebra,Theory,34,40,85.0,80,OK,2,0
-STU002,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU003,S12BLH31,Programming in Java,Theory,36,44,81.8,80,OK,1,0
-STU003,S731BLH32,Machine Learning Essentials,Theory,31,41,75.6,80,Below minimum,0,9
-STU003,SCSB1303,Theory of Computation,Theory,32,39,82.1,80,OK,1,0
-STU003,SCSBOB1301,Computer Architecture and Organization,Theory,30,41,73.2,80,Below minimum,0,14
-STU003,SISB4301,Universal Human Values,Theory,38,45,84.4,80,OK,2,0
-STU003,SMTB1304,Matrices and Linear Algebra,Theory,32,41,78.0,80,Below minimum,0,4
-STU003,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU004,S12BLH31,Programming in Java,Theory,38,44,86.4,80,OK,3,0
-STU004,S731BLH32,Machine Learning Essentials,Theory,37,43,86.0,80,OK,3,0
-STU004,SCSB1303,Theory of Computation,Theory,33,40,82.5,80,OK,1,0
-STU004,SCSBOB1301,Computer Architecture and Organization,Theory,41,45,91.1,80,OK,6,0
-STU004,SISB4301,Universal Human Values,Theory,37,44,84.1,80,OK,2,0
-STU004,SMTB1304,Matrices and Linear Algebra,Theory,41,44,93.2,80,OK,7,0
-STU004,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU005,S12BLH31,Programming in Java,Theory,33,41,80.5,80,No margin,0,0
-STU005,S731BLH32,Machine Learning Essentials,Theory,40,45,88.9,80,OK,5,0
-STU005,SCSB1303,Theory of Computation,Theory,35,37,94.6,80,OK,6,0
-STU005,SCSBOB1301,Computer Architecture and Organization,Theory,30,38,78.9,80,Below minimum,0,2
-STU005,SISB4301,Universal Human Values,Theory,32,39,82.1,80,OK,1,0
-STU005,SMTB1304,Matrices and Linear Algebra,Theory,34,45,75.6,80,Below minimum,0,10
-STU005,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU006,S12BLH31,Programming in Java,Theory,33,36,91.7,80,OK,5,0
-STU006,S731BLH32,Machine Learning Essentials,Theory,35,36,97.2,80,OK,7,0
-STU006,SCSB1303,Theory of Computation,Theory,42,45,93.3,80,OK,7,0
-STU006,SCSBOB1301,Computer Architecture and Organization,Theory,40,44,90.9,80,OK,6,0
-STU006,SISB4301,Universal Human Values,Theory,34,36,94.4,80,OK,6,0
-STU006,SMTB1304,Matrices and Linear Algebra,Theory,33,36,91.7,80,OK,5,0
-STU006,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU007,S12BLH31,Programming in Java,Theory,34,45,75.6,80,Below minimum,0,10
-STU007,S731BLH32,Machine Learning Essentials,Theory,35,39,89.7,80,OK,4,0
-STU007,SCSB1303,Theory of Computation,Theory,37,40,92.5,80,OK,6,0
-STU007,SCSBOB1301,Computer Architecture and Organization,Theory,30,36,83.3,80,OK,1,0
-STU007,SISB4301,Universal Human Values,Theory,36,40,90.0,80,OK,5,0
-STU007,SMTB1304,Matrices and Linear Algebra,Theory,30,37,81.1,80,No margin,0,0
-STU007,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU008,S12BLH31,Programming in Java,Theory,35,41,85.4,80,OK,2,0
-STU008,S731BLH32,Machine Learning Essentials,Theory,36,43,83.7,80,OK,2,0
-STU008,SCSB1303,Theory of Computation,Theory,34,36,94.4,80,OK,6,0
-STU008,SCSBOB1301,Computer Architecture and Organization,Theory,36,42,85.7,80,OK,3,0
-STU008,SISB4301,Universal Human Values,Theory,33,36,91.7,80,OK,5,0
-STU008,SMTB1304,Matrices and Linear Algebra,Theory,45,45,100.0,80,OK,11,0
-STU008,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU009,S12BLH31,Programming in Java,Theory,35,38,92.1,80,OK,5,0
-STU009,S731BLH32,Machine Learning Essentials,Theory,40,44,90.9,80,OK,6,0
-STU009,SCSB1303,Theory of Computation,Theory,32,40,80.0,80,No margin,0,0
-STU009,SCSBOB1301,Computer Architecture and Organization,Theory,36,38,94.7,80,OK,7,0
-STU009,SISB4301,Universal Human Values,Theory,37,41,90.2,80,OK,5,0
-STU009,SMTB1304,Matrices and Linear Algebra,Theory,37,39,94.9,80,OK,7,0
-STU009,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU010,S12BLH31,Programming in Java,Theory,36,43,83.7,80,OK,2,0
-STU010,S731BLH32,Machine Learning Essentials,Theory,33,37,89.2,80,OK,4,0
-STU010,SCSB1303,Theory of Computation,Theory,35,36,97.2,80,OK,7,0
-STU010,SCSBOB1301,Computer Architecture and Organization,Theory,28,37,75.7,80,Below minimum,0,8
-STU010,SISB4301,Universal Human Values,Theory,37,44,84.1,80,OK,2,0
-STU010,SMTB1304,Matrices and Linear Algebra,Theory,35,36,97.2,80,OK,7,0
-STU010,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU011,S12BLH31,Programming in Java,Theory,36,44,81.8,80,OK,1,0
-STU011,S731BLH32,Machine Learning Essentials,Theory,38,43,88.4,80,OK,4,0
-STU011,SCSB1303,Theory of Computation,Theory,35,41,85.4,80,OK,2,0
-STU011,SCSBOB1301,Computer Architecture and Organization,Theory,34,42,81.0,80,No margin,0,0
-STU011,SISB4301,Universal Human Values,Theory,36,40,90.0,80,OK,5,0
-STU011,SMTB1304,Matrices and Linear Algebra,Theory,37,43,86.0,80,OK,3,0
-STU011,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU012,S12BLH31,Programming in Java,Theory,28,36,77.8,80,Below minimum,0,4
-STU012,S731BLH32,Machine Learning Essentials,Theory,40,42,95.2,80,OK,8,0
-STU012,SCSB1303,Theory of Computation,Theory,32,37,86.5,80,OK,3,0
-STU012,SCSBOB1301,Computer Architecture and Organization,Theory,43,45,95.6,80,OK,8,0
-STU012,SISB4301,Universal Human Values,Theory,34,38,89.5,80,OK,4,0
-STU012,SMTB1304,Matrices and Linear Algebra,Theory,37,42,88.1,80,OK,4,0
-STU012,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU013,S12BLH31,Programming in Java,Theory,29,38,76.3,80,Below minimum,0,7
-STU013,S731BLH32,Machine Learning Essentials,Theory,36,37,97.3,80,OK,8,0
-STU013,SCSB1303,Theory of Computation,Theory,31,38,81.6,80,No margin,0,0
-STU013,SCSBOB1301,Computer Architecture and Organization,Theory,35,42,83.3,80,OK,1,0
-STU013,SISB4301,Universal Human Values,Theory,34,42,81.0,80,No margin,0,0
-STU013,SMTB1304,Matrices and Linear Algebra,Theory,31,37,83.8,80,OK,1,0
-STU013,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU014,S12BLH31,Programming in Java,Theory,34,39,87.2,80,OK,3,0
-STU014,S731BLH32,Machine Learning Essentials,Theory,32,37,86.5,80,OK,3,0
-STU014,SCSB1303,Theory of Computation,Theory,36,39,92.3,80,OK,6,0
-STU014,SCSBOB1301,Computer Architecture and Organization,Theory,40,45,88.9,80,OK,5,0
-STU014,SISB4301,Universal Human Values,Theory,28,39,71.8,80,Below minimum,0,16
-STU014,SMTB1304,Matrices and Linear Algebra,Theory,33,36,91.7,80,OK,5,0
-STU014,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU015,S12BLH31,Programming in Java,Theory,38,42,90.5,80,OK,5,0
-STU015,S731BLH32,Machine Learning Essentials,Theory,41,45,91.1,80,OK,6,0
-STU015,SCSB1303,Theory of Computation,Theory,41,44,93.2,80,OK,7,0
-STU015,SCSBOB1301,Computer Architecture and Organization,Theory,34,36,94.4,80,OK,6,0
-STU015,SISB4301,Universal Human Values,Theory,33,40,82.5,80,OK,1,0
-STU015,SMTB1304,Matrices and Linear Algebra,Theory,30,37,81.1,80,No margin,0,0
-STU015,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU016,S12BLH31,Programming in Java,Theory,35,44,79.5,80,Below minimum,0,1
-STU016,S731BLH32,Machine Learning Essentials,Theory,35,41,85.4,80,OK,2,0
-STU016,SCSB1303,Theory of Computation,Theory,39,44,88.6,80,OK,4,0
-STU016,SCSBOB1301,Computer Architecture and Organization,Theory,26,36,72.2,80,Below minimum,0,14
-STU016,SISB4301,Universal Human Values,Theory,37,43,86.0,80,OK,3,0
-STU016,SMTB1304,Matrices and Linear Algebra,Theory,34,36,94.4,80,OK,6,0
-STU016,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU017,S12BLH31,Programming in Java,Theory,34,41,82.9,80,OK,1,0
-STU017,S731BLH32,Machine Learning Essentials,Theory,31,38,81.6,80,No margin,0,0
-STU017,SCSB1303,Theory of Computation,Theory,33,36,91.7,80,OK,5,0
-STU017,SCSBOB1301,Computer Architecture and Organization,Theory,38,38,100.0,80,OK,9,0
-STU017,SISB4301,Universal Human Values,Theory,37,45,82.2,80,OK,1,0
-STU017,SMTB1304,Matrices and Linear Algebra,Theory,39,43,90.7,80,OK,5,0
-STU017,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU018,S12BLH31,Programming in Java,Theory,36,40,90.0,80,OK,5,0
-STU018,S731BLH32,Machine Learning Essentials,Theory,36,41,87.8,80,OK,4,0
-STU018,SCSB1303,Theory of Computation,Theory,37,42,88.1,80,OK,4,0
-STU018,SCSBOB1301,Computer Architecture and Organization,Theory,33,39,84.6,80,OK,2,0
-STU018,SISB4301,Universal Human Values,Theory,37,45,82.2,80,OK,1,0
-STU018,SMTB1304,Matrices and Linear Algebra,Theory,36,43,83.7,80,OK,2,0
-STU018,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU019,S12BLH31,Programming in Java,Theory,38,41,92.7,80,OK,6,0
-STU019,S731BLH32,Machine Learning Essentials,Theory,38,43,88.4,80,OK,4,0
-STU019,SCSB1303,Theory of Computation,Theory,37,42,88.1,80,OK,4,0
-STU019,SCSBOB1301,Computer Architecture and Organization,Theory,38,45,84.4,80,OK,2,0
-STU019,SISB4301,Universal Human Values,Theory,33,39,84.6,80,OK,2,0
-STU019,SMTB1304,Matrices and Linear Algebra,Theory,38,42,90.5,80,OK,5,0
-STU019,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU020,S12BLH31,Programming in Java,Theory,40,44,90.9,80,OK,6,0
-STU020,S731BLH32,Machine Learning Essentials,Theory,39,42,92.9,80,OK,6,0
-STU020,SCSB1303,Theory of Computation,Theory,35,43,81.4,80,No margin,0,0
-STU020,SCSBOB1301,Computer Architecture and Organization,Theory,32,37,86.5,80,OK,3,0
-STU020,SISB4301,Universal Human Values,Theory,33,40,82.5,80,OK,1,0
-STU020,SMTB1304,Matrices and Linear Algebra,Theory,32,38,84.2,80,OK,2,0
-STU020,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU021,S12BLH31,Programming in Java,Theory,31,38,81.6,80,No margin,0,0
-STU021,S731BLH32,Machine Learning Essentials,Theory,41,43,95.3,80,OK,8,0
-STU021,SCSB1303,Theory of Computation,Theory,32,40,80.0,80,No margin,0,0
-STU021,SCSBOB1301,Computer Architecture and Organization,Theory,38,44,86.4,80,OK,3,0
-STU021,SISB4301,Universal Human Values,Theory,44,44,100.0,80,OK,11,0
-STU021,SMTB1304,Matrices and Linear Algebra,Theory,30,39,76.9,80,Below minimum,0,6
-STU021,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU022,S12BLH31,Programming in Java,Theory,36,40,90.0,80,OK,5,0
-STU022,S731BLH32,Machine Learning Essentials,Theory,34,38,89.5,80,OK,4,0
-STU022,SCSB1303,Theory of Computation,Theory,41,44,93.2,80,OK,7,0
-STU022,SCSBOB1301,Computer Architecture and Organization,Theory,33,37,89.2,80,OK,4,0
-STU022,SISB4301,Universal Human Values,Theory,37,40,92.5,80,OK,6,0
-STU022,SMTB1304,Matrices and Linear Algebra,Theory,39,44,88.6,80,OK,4,0
-STU022,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU023,S12BLH31,Programming in Java,Theory,40,44,90.9,80,OK,6,0
-STU023,S731BLH32,Machine Learning Essentials,Theory,29,36,80.6,80,No margin,0,0
-STU023,SCSB1303,Theory of Computation,Theory,31,37,83.8,80,OK,1,0
-STU023,SCSBOB1301,Computer Architecture and Organization,Theory,36,45,80.0,80,No margin,0,0
-STU023,SISB4301,Universal Human Values,Theory,37,37,100.0,80,OK,9,0
-STU023,SMTB1304,Matrices and Linear Algebra,Theory,38,41,92.7,80,OK,6,0
-STU023,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU024,S12BLH31,Programming in Java,Theory,35,38,92.1,80,OK,5,0
-STU024,S731BLH32,Machine Learning Essentials,Theory,38,44,86.4,80,OK,3,0
-STU024,SCSB1303,Theory of Computation,Theory,36,41,87.8,80,OK,4,0
-STU024,SCSBOB1301,Computer Architecture and Organization,Theory,32,36,88.9,80,OK,4,0
-STU024,SISB4301,Universal Human Values,Theory,35,44,79.5,80,Below minimum,0,1
-STU024,SMTB1304,Matrices and Linear Algebra,Theory,32,42,76.2,80,Below minimum,0,8
-STU024,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU025,S12BLH31,Programming in Java,Theory,32,40,80.0,80,No margin,0,0
-STU025,S731BLH32,Machine Learning Essentials,Theory,42,45,93.3,80,OK,7,0
-STU025,SCSB1303,Theory of Computation,Theory,33,38,86.8,80,OK,3,0
-STU025,SCSBOB1301,Computer Architecture and Organization,Theory,37,39,94.9,80,OK,7,0
-STU025,SISB4301,Universal Human Values,Theory,32,43,74.4,80,Below minimum,0,12
-STU025,SMTB1304,Matrices and Linear Algebra,Theory,32,36,88.9,80,OK,4,0
-STU025,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU026,S12BLH31,Programming in Java,Theory,36,43,83.7,80,OK,2,0
-STU026,S731BLH32,Machine Learning Essentials,Theory,40,44,90.9,80,OK,6,0
-STU026,SCSB1303,Theory of Computation,Theory,29,36,80.6,80,No margin,0,0
-STU026,SCSBOB1301,Computer Architecture and Organization,Theory,41,45,91.1,80,OK,6,0
-STU026,SISB4301,Universal Human Values,Theory,34,44,77.3,80,Below minimum,0,6
-STU026,SMTB1304,Matrices and Linear Algebra,Theory,35,41,85.4,80,OK,2,0
-STU026,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU027,S12BLH31,Programming in Java,Theory,36,38,94.7,80,OK,7,0
-STU027,S731BLH32,Machine Learning Essentials,Theory,40,40,100.0,80,OK,10,0
-STU027,SCSB1303,Theory of Computation,Theory,33,36,91.7,80,OK,5,0
-STU027,SCSBOB1301,Computer Architecture and Organization,Theory,35,37,94.6,80,OK,6,0
-STU027,SISB4301,Universal Human Values,Theory,34,36,94.4,80,OK,6,0
-STU027,SMTB1304,Matrices and Linear Algebra,Theory,35,42,83.3,80,OK,1,0
-STU027,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU028,S12BLH31,Programming in Java,Theory,40,40,100.0,80,OK,10,0
-STU028,S731BLH32,Machine Learning Essentials,Theory,31,38,81.6,80,No margin,0,0
-STU028,SCSB1303,Theory of Computation,Theory,41,45,91.1,80,OK,6,0
-STU028,SCSBOB1301,Computer Architecture and Organization,Theory,32,36,88.9,80,OK,4,0
-STU028,SISB4301,Universal Human Values,Theory,32,39,82.1,80,OK,1,0
-STU028,SMTB1304,Matrices and Linear Algebra,Theory,28,36,77.8,80,Below minimum,0,4
-STU028,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU029,S12BLH31,Programming in Java,Theory,34,39,87.2,80,OK,3,0
-STU029,S731BLH32,Machine Learning Essentials,Theory,33,42,78.6,80,Below minimum,0,3
-STU029,SCSB1303,Theory of Computation,Theory,38,43,88.4,80,OK,4,0
-STU029,SCSBOB1301,Computer Architecture and Organization,Theory,35,45,77.8,80,Below minimum,0,5
-STU029,SISB4301,Universal Human Values,Theory,32,38,84.2,80,OK,2,0
-STU029,SMTB1304,Matrices and Linear Algebra,Theory,27,37,73.0,80,Below minimum,0,13
-STU029,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU030,S12BLH31,Programming in Java,Theory,35,39,89.7,80,OK,4,0
-STU030,S731BLH32,Machine Learning Essentials,Theory,32,36,88.9,80,OK,4,0
-STU030,SCSB1303,Theory of Computation,Theory,36,41,87.8,80,OK,4,0
-STU030,SCSBOB1301,Computer Architecture and Organization,Theory,38,44,86.4,80,OK,3,0
-STU030,SISB4301,Universal Human Values,Theory,34,36,94.4,80,OK,6,0
-STU030,SMTB1304,Matrices and Linear Algebra,Theory,33,37,89.2,80,OK,4,0
-STU030,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU031,S12BLH31,Programming in Java,Theory,33,41,80.5,80,No margin,0,0
-STU031,S731BLH32,Machine Learning Essentials,Theory,37,45,82.2,80,OK,1,0
-STU031,SCSB1303,Theory of Computation,Theory,39,44,88.6,80,OK,4,0
-STU031,SCSBOB1301,Computer Architecture and Organization,Theory,34,40,85.0,80,OK,2,0
-STU031,SISB4301,Universal Human Values,Theory,34,41,82.9,80,OK,1,0
-STU031,SMTB1304,Matrices and Linear Algebra,Theory,35,39,89.7,80,OK,4,0
-STU031,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU032,S12BLH31,Programming in Java,Theory,34,38,89.5,80,OK,4,0
-STU032,S731BLH32,Machine Learning Essentials,Theory,41,43,95.3,80,OK,8,0
-STU032,SCSB1303,Theory of Computation,Theory,33,40,82.5,80,OK,1,0
-STU032,SCSBOB1301,Computer Architecture and Organization,Theory,31,36,86.1,80,OK,2,0
-STU032,SISB4301,Universal Human Values,Theory,33,39,84.6,80,OK,2,0
-STU032,SMTB1304,Matrices and Linear Algebra,Theory,33,42,78.6,80,Below minimum,0,3
-STU032,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU033,S12BLH31,Programming in Java,Theory,43,43,100.0,80,OK,10,0
-STU033,S731BLH32,Machine Learning Essentials,Theory,32,41,78.0,80,Below minimum,0,4
-STU033,SCSB1303,Theory of Computation,Theory,36,43,83.7,80,OK,2,0
-STU033,SCSBOB1301,Computer Architecture and Organization,Theory,38,43,88.4,80,OK,4,0
-STU033,SISB4301,Universal Human Values,Theory,35,44,79.5,80,Below minimum,0,1
-STU033,SMTB1304,Matrices and Linear Algebra,Theory,37,41,90.2,80,OK,5,0
-STU033,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU034,S12BLH31,Programming in Java,Theory,36,37,97.3,80,OK,8,0
-STU034,S731BLH32,Machine Learning Essentials,Theory,37,42,88.1,80,OK,4,0
-STU034,SCSB1303,Theory of Computation,Theory,41,41,100.0,80,OK,10,0
-STU034,SCSBOB1301,Computer Architecture and Organization,Theory,34,42,81.0,80,No margin,0,0
-STU034,SISB4301,Universal Human Values,Theory,32,37,86.5,80,OK,3,0
-STU034,SMTB1304,Matrices and Linear Algebra,Theory,36,39,92.3,80,OK,6,0
-STU034,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU035,S12BLH31,Programming in Java,Theory,36,44,81.8,80,OK,1,0
-STU035,S731BLH32,Machine Learning Essentials,Theory,35,39,89.7,80,OK,4,0
-STU035,SCSB1303,Theory of Computation,Theory,26,39,66.7,80,Below minimum,0,26
-STU035,SCSBOB1301,Computer Architecture and Organization,Theory,36,42,85.7,80,OK,3,0
-STU035,SISB4301,Universal Human Values,Theory,36,39,92.3,80,OK,6,0
-STU035,SMTB1304,Matrices and Linear Algebra,Theory,34,40,85.0,80,OK,2,0
-STU035,SCSL1301,Programming Lab,Practical,10,12,83.3,100,Below minimum,0,cannot recover
-STU036,S12BLH31,Programming in Java,Theory,40,43,93.0,80,OK,7,0
-STU036,S731BLH32,Machine Learning Essentials,Theory,34,38,89.5,80,OK,4,0
-STU036,SCSB1303,Theory of Computation,Theory,38,44,86.4,80,OK,3,0
-STU036,SCSBOB1301,Computer Architecture and Organization,Theory,35,36,97.2,80,OK,7,0
-STU036,SISB4301,Universal Human Values,Theory,33,36,91.7,80,OK,5,0
-STU036,SMTB1304,Matrices and Linear Algebra,Theory,42,44,95.5,80,OK,8,0
-STU036,SCSL1301,Programming Lab,Practical,11,12,91.7,100,Below minimum,0,cannot recover
-STU037,S12BLH31,Programming in Java,Theory,36,42,85.7,80,OK,3,0
-STU037,S731BLH32,Machine Learning Essentials,Theory,33,41,80.5,80,No margin,0,0
-STU037,SCSB1303,Theory of Computation,Theory,31,37,83.8,80,OK,1,0
-STU037,SCSBOB1301,Computer Architecture and Organization,Theory,28,42,66.7,80,Below minimum,0,28
-STU037,SISB4301,Universal Human Values,Theory,35,38,92.1,80,OK,5,0
-STU037,SMTB1304,Matrices and Linear Algebra,Theory,36,42,85.7,80,OK,3,0
-STU037,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU038,S12BLH31,Programming in Java,Theory,40,44,90.9,80,OK,6,0
-STU038,S731BLH32,Machine Learning Essentials,Theory,30,43,69.8,80,Below minimum,0,22
-STU038,SCSB1303,Theory of Computation,Theory,31,36,86.1,80,OK,2,0
-STU038,SCSBOB1301,Computer Architecture and Organization,Theory,37,38,97.4,80,OK,8,0
-STU038,SISB4301,Universal Human Values,Theory,44,44,100.0,80,OK,11,0
-STU038,SMTB1304,Matrices and Linear Algebra,Theory,33,42,78.6,80,Below minimum,0,3
-STU038,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU039,S12BLH31,Programming in Java,Theory,35,39,89.7,80,OK,4,0
-STU039,S731BLH32,Machine Learning Essentials,Theory,36,41,87.8,80,OK,4,0
-STU039,SCSB1303,Theory of Computation,Theory,36,42,85.7,80,OK,3,0
-STU039,SCSBOB1301,Computer Architecture and Organization,Theory,33,37,89.2,80,OK,4,0
-STU039,SISB4301,Universal Human Values,Theory,33,37,89.2,80,OK,4,0
-STU039,SMTB1304,Matrices and Linear Algebra,Theory,32,38,84.2,80,OK,2,0
-STU039,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
-STU040,S12BLH31,Programming in Java,Theory,34,38,89.5,80,OK,4,0
-STU040,S731BLH32,Machine Learning Essentials,Theory,37,41,90.2,80,OK,5,0
-STU040,SCSB1303,Theory of Computation,Theory,38,44,86.4,80,OK,3,0
-STU040,SCSBOB1301,Computer Architecture and Organization,Theory,40,44,90.9,80,OK,6,0
-STU040,SISB4301,Universal Human Values,Theory,36,43,83.7,80,OK,2,0
-STU040,SMTB1304,Matrices and Linear Algebra,Theory,43,43,100.0,80,OK,10,0
-STU040,SCSL1301,Programming Lab,Practical,12,12,100.0,100,No margin,0,0
+Student_ID,Subject_Code,Subject,Type,Present,Total
+STU001,S12BLH31,Programming in Java,Theory,36,37
+STU001,S731BLH32,Machine Learning Essentials,Theory,35,37
+STU001,SCSB1303,Theory of Computation,Theory,37,43
+STU001,SCSBOB1301,Computer Architecture and Organization,Theory,30,36
+STU001,SISB4301,Universal Human Values,Theory,36,41
+STU001,SMTB1304,Matrices and Linear Algebra,Theory,33,36
+STU001,SCSL1301,Programming Lab,Practical,10,12
+STU002,S12BLH31,Programming in Java,Theory,41,42
+STU002,S731BLH32,Machine Learning Essentials,Theory,34,37
+STU002,SCSB1303,Theory of Computation,Theory,35,41
+STU002,SCSBOB1301,Computer Architecture and Organization,Theory,40,44
+STU002,SISB4301,Universal Human Values,Theory,34,37
+STU002,SMTB1304,Matrices and Linear Algebra,Theory,34,40
+STU002,SCSL1301,Programming Lab,Practical,12,12
+STU003,S12BLH31,Programming in Java,Theory,36,44
+STU003,S731BLH32,Machine Learning Essentials,Theory,31,41
+STU003,SCSB1303,Theory of Computation,Theory,32,39
+STU003,SCSBOB1301,Computer Architecture and Organization,Theory,30,41
+STU003,SISB4301,Universal Human Values,Theory,38,45
+STU003,SMTB1304,Matrices and Linear Algebra,Theory,32,41
+STU003,SCSL1301,Programming Lab,Practical,10,12
+STU004,S12BLH31,Programming in Java,Theory,38,44
+STU004,S731BLH32,Machine Learning Essentials,Theory,37,43
+STU004,SCSB1303,Theory of Computation,Theory,33,40
+STU004,SCSBOB1301,Computer Architecture and Organization,Theory,41,45
+STU004,SISB4301,Universal Human Values,Theory,37,44
+STU004,SMTB1304,Matrices and Linear Algebra,Theory,41,44
+STU004,SCSL1301,Programming Lab,Practical,11,12
+STU005,S12BLH31,Programming in Java,Theory,33,41
+STU005,S731BLH32,Machine Learning Essentials,Theory,40,45
+STU005,SCSB1303,Theory of Computation,Theory,35,37
+STU005,SCSBOB1301,Computer Architecture and Organization,Theory,30,38
+STU005,SISB4301,Universal Human Values,Theory,32,39
+STU005,SMTB1304,Matrices and Linear Algebra,Theory,34,45
+STU005,SCSL1301,Programming Lab,Practical,10,12
+STU006,S12BLH31,Programming in Java,Theory,33,36
+STU006,S731BLH32,Machine Learning Essentials,Theory,35,36
+STU006,SCSB1303,Theory of Computation,Theory,42,45
+STU006,SCSBOB1301,Computer Architecture and Organization,Theory,40,44
+STU006,SISB4301,Universal Human Values,Theory,34,36
+STU006,SMTB1304,Matrices and Linear Algebra,Theory,33,36
+STU006,SCSL1301,Programming Lab,Practical,12,12
+STU007,S12BLH31,Programming in Java,Theory,34,45
+STU007,S731BLH32,Machine Learning Essentials,Theory,35,39
+STU007,SCSB1303,Theory of Computation,Theory,37,40
+STU007,SCSBOB1301,Computer Architecture and Organization,Theory,30,36
+STU007,SISB4301,Universal Human Values,Theory,36,40
+STU007,SMTB1304,Matrices and Linear Algebra,Theory,30,37
+STU007,SCSL1301,Programming Lab,Practical,12,12
+STU008,S12BLH31,Programming in Java,Theory,35,41
+STU008,S731BLH32,Machine Learning Essentials,Theory,36,43
+STU008,SCSB1303,Theory of Computation,Theory,34,36
+STU008,SCSBOB1301,Computer Architecture and Organization,Theory,36,42
+STU008,SISB4301,Universal Human Values,Theory,33,36
+STU008,SMTB1304,Matrices and Linear Algebra,Theory,45,45
+STU008,SCSL1301,Programming Lab,Practical,11,12
+STU009,S12BLH31,Programming in Java,Theory,35,38
+STU009,S731BLH32,Machine Learning Essentials,Theory,40,44
+STU009,SCSB1303,Theory of Computation,Theory,32,40
+STU009,SCSBOB1301,Computer Architecture and Organization,Theory,36,38
+STU009,SISB4301,Universal Human Values,Theory,37,41
+STU009,SMTB1304,Matrices and Linear Algebra,Theory,37,39
+STU009,SCSL1301,Programming Lab,Practical,10,12
+STU010,S12BLH31,Programming in Java,Theory,36,43
+STU010,S731BLH32,Machine Learning Essentials,Theory,33,37
+STU010,SCSB1303,Theory of Computation,Theory,35,36
+STU010,SCSBOB1301,Computer Architecture and Organization,Theory,28,37
+STU010,SISB4301,Universal Human Values,Theory,37,44
+STU010,SMTB1304,Matrices and Linear Algebra,Theory,35,36
+STU010,SCSL1301,Programming Lab,Practical,11,12
+STU011,S12BLH31,Programming in Java,Theory,36,44
+STU011,S731BLH32,Machine Learning Essentials,Theory,38,43
+STU011,SCSB1303,Theory of Computation,Theory,35,41
+STU011,SCSBOB1301,Computer Architecture and Organization,Theory,34,42
+STU011,SISB4301,Universal Human Values,Theory,36,40
+STU011,SMTB1304,Matrices and Linear Algebra,Theory,37,43
+STU011,SCSL1301,Programming Lab,Practical,12,12
+STU012,S12BLH31,Programming in Java,Theory,28,36
+STU012,S731BLH32,Machine Learning Essentials,Theory,40,42
+STU012,SCSB1303,Theory of Computation,Theory,32,37
+STU012,SCSBOB1301,Computer Architecture and Organization,Theory,43,45
+STU012,SISB4301,Universal Human Values,Theory,34,38
+STU012,SMTB1304,Matrices and Linear Algebra,Theory,37,42
+STU012,SCSL1301,Programming Lab,Practical,10,12
+STU013,S12BLH31,Programming in Java,Theory,29,38
+STU013,S731BLH32,Machine Learning Essentials,Theory,36,37
+STU013,SCSB1303,Theory of Computation,Theory,31,38
+STU013,SCSBOB1301,Computer Architecture and Organization,Theory,35,42
+STU013,SISB4301,Universal Human Values,Theory,34,42
+STU013,SMTB1304,Matrices and Linear Algebra,Theory,31,37
+STU013,SCSL1301,Programming Lab,Practical,12,12
+STU014,S12BLH31,Programming in Java,Theory,34,39
+STU014,S731BLH32,Machine Learning Essentials,Theory,32,37
+STU014,SCSB1303,Theory of Computation,Theory,36,39
+STU014,SCSBOB1301,Computer Architecture and Organization,Theory,40,45
+STU014,SISB4301,Universal Human Values,Theory,28,39
+STU014,SMTB1304,Matrices and Linear Algebra,Theory,33,36
+STU014,SCSL1301,Programming Lab,Practical,12,12
+STU015,S12BLH31,Programming in Java,Theory,38,42
+STU015,S731BLH32,Machine Learning Essentials,Theory,41,45
+STU015,SCSB1303,Theory of Computation,Theory,41,44
+STU015,SCSBOB1301,Computer Architecture and Organization,Theory,34,36
+STU015,SISB4301,Universal Human Values,Theory,33,40
+STU015,SMTB1304,Matrices and Linear Algebra,Theory,30,37
+STU015,SCSL1301,Programming Lab,Practical,12,12
+STU016,S12BLH31,Programming in Java,Theory,35,44
+STU016,S731BLH32,Machine Learning Essentials,Theory,35,41
+STU016,SCSB1303,Theory of Computation,Theory,39,44
+STU016,SCSBOB1301,Computer Architecture and Organization,Theory,26,36
+STU016,SISB4301,Universal Human Values,Theory,37,43
+STU016,SMTB1304,Matrices and Linear Algebra,Theory,34,36
+STU016,SCSL1301,Programming Lab,Practical,12,12
+STU017,S12BLH31,Programming in Java,Theory,34,41
+STU017,S731BLH32,Machine Learning Essentials,Theory,31,38
+STU017,SCSB1303,Theory of Computation,Theory,33,36
+STU017,SCSBOB1301,Computer Architecture and Organization,Theory,38,38
+STU017,SISB4301,Universal Human Values,Theory,37,45
+STU017,SMTB1304,Matrices and Linear Algebra,Theory,39,43
+STU017,SCSL1301,Programming Lab,Practical,11,12
+STU018,S12BLH31,Programming in Java,Theory,36,40
+STU018,S731BLH32,Machine Learning Essentials,Theory,36,41
+STU018,SCSB1303,Theory of Computation,Theory,37,42
+STU018,SCSBOB1301,Computer Architecture and Organization,Theory,33,39
+STU018,SISB4301,Universal Human Values,Theory,37,45
+STU018,SMTB1304,Matrices and Linear Algebra,Theory,36,43
+STU018,SCSL1301,Programming Lab,Practical,12,12
+STU019,S12BLH31,Programming in Java,Theory,38,41
+STU019,S731BLH32,Machine Learning Essentials,Theory,38,43
+STU019,SCSB1303,Theory of Computation,Theory,37,42
+STU019,SCSBOB1301,Computer Architecture and Organization,Theory,38,45
+STU019,SISB4301,Universal Human Values,Theory,33,39
+STU019,SMTB1304,Matrices and Linear Algebra,Theory,38,42
+STU019,SCSL1301,Programming Lab,Practical,11,12
+STU020,S12BLH31,Programming in Java,Theory,40,44
+STU020,S731BLH32,Machine Learning Essentials,Theory,39,42
+STU020,SCSB1303,Theory of Computation,Theory,35,43
+STU020,SCSBOB1301,Computer Architecture and Organization,Theory,32,37
+STU020,SISB4301,Universal Human Values,Theory,33,40
+STU020,SMTB1304,Matrices and Linear Algebra,Theory,32,38
+STU020,SCSL1301,Programming Lab,Practical,12,12
+STU021,S12BLH31,Programming in Java,Theory,31,38
+STU021,S731BLH32,Machine Learning Essentials,Theory,41,43
+STU021,SCSB1303,Theory of Computation,Theory,32,40
+STU021,SCSBOB1301,Computer Architecture and Organization,Theory,38,44
+STU021,SISB4301,Universal Human Values,Theory,44,44
+STU021,SMTB1304,Matrices and Linear Algebra,Theory,30,39
+STU021,SCSL1301,Programming Lab,Practical,12,12
+STU022,S12BLH31,Programming in Java,Theory,36,40
+STU022,S731BLH32,Machine Learning Essentials,Theory,34,38
+STU022,SCSB1303,Theory of Computation,Theory,41,44
+STU022,SCSBOB1301,Computer Architecture and Organization,Theory,33,37
+STU022,SISB4301,Universal Human Values,Theory,37,40
+STU022,SMTB1304,Matrices and Linear Algebra,Theory,39,44
+STU022,SCSL1301,Programming Lab,Practical,12,12
+STU023,S12BLH31,Programming in Java,Theory,40,44
+STU023,S731BLH32,Machine Learning Essentials,Theory,29,36
+STU023,SCSB1303,Theory of Computation,Theory,31,37
+STU023,SCSBOB1301,Computer Architecture and Organization,Theory,36,45
+STU023,SISB4301,Universal Human Values,Theory,37,37
+STU023,SMTB1304,Matrices and Linear Algebra,Theory,38,41
+STU023,SCSL1301,Programming Lab,Practical,12,12
+STU024,S12BLH31,Programming in Java,Theory,35,38
+STU024,S731BLH32,Machine Learning Essentials,Theory,38,44
+STU024,SCSB1303,Theory of Computation,Theory,36,41
+STU024,SCSBOB1301,Computer Architecture and Organization,Theory,32,36
+STU024,SISB4301,Universal Human Values,Theory,35,44
+STU024,SMTB1304,Matrices and Linear Algebra,Theory,32,42
+STU024,SCSL1301,Programming Lab,Practical,12,12
+STU025,S12BLH31,Programming in Java,Theory,32,40
+STU025,S731BLH32,Machine Learning Essentials,Theory,42,45
+STU025,SCSB1303,Theory of Computation,Theory,33,38
+STU025,SCSBOB1301,Computer Architecture and Organization,Theory,37,39
+STU025,SISB4301,Universal Human Values,Theory,32,43
+STU025,SMTB1304,Matrices and Linear Algebra,Theory,32,36
+STU025,SCSL1301,Programming Lab,Practical,11,12
+STU026,S12BLH31,Programming in Java,Theory,36,43
+STU026,S731BLH32,Machine Learning Essentials,Theory,40,44
+STU026,SCSB1303,Theory of Computation,Theory,29,36
+STU026,SCSBOB1301,Computer Architecture and Organization,Theory,41,45
+STU026,SISB4301,Universal Human Values,Theory,34,44
+STU026,SMTB1304,Matrices and Linear Algebra,Theory,35,41
+STU026,SCSL1301,Programming Lab,Practical,10,12
+STU027,S12BLH31,Programming in Java,Theory,36,38
+STU027,S731BLH32,Machine Learning Essentials,Theory,40,40
+STU027,SCSB1303,Theory of Computation,Theory,33,36
+STU027,SCSBOB1301,Computer Architecture and Organization,Theory,35,37
+STU027,SISB4301,Universal Human Values,Theory,34,36
+STU027,SMTB1304,Matrices and Linear Algebra,Theory,35,42
+STU027,SCSL1301,Programming Lab,Practical,12,12
+STU028,S12BLH31,Programming in Java,Theory,40,40
+STU028,S731BLH32,Machine Learning Essentials,Theory,31,38
+STU028,SCSB1303,Theory of Computation,Theory,41,45
+STU028,SCSBOB1301,Computer Architecture and Organization,Theory,32,36
+STU028,SISB4301,Universal Human Values,Theory,32,39
+STU028,SMTB1304,Matrices and Linear Algebra,Theory,28,36
+STU028,SCSL1301,Programming Lab,Practical,11,12
+STU029,S12BLH31,Programming in Java,Theory,34,39
+STU029,S731BLH32,Machine Learning Essentials,Theory,33,42
+STU029,SCSB1303,Theory of Computation,Theory,38,43
+STU029,SCSBOB1301,Computer Architecture and Organization,Theory,35,45
+STU029,SISB4301,Universal Human Values,Theory,32,38
+STU029,SMTB1304,Matrices and Linear Algebra,Theory,27,37
+STU029,SCSL1301,Programming Lab,Practical,12,12
+STU030,S12BLH31,Programming in Java,Theory,35,39
+STU030,S731BLH32,Machine Learning Essentials,Theory,32,36
+STU030,SCSB1303,Theory of Computation,Theory,36,41
+STU030,SCSBOB1301,Computer Architecture and Organization,Theory,38,44
+STU030,SISB4301,Universal Human Values,Theory,34,36
+STU030,SMTB1304,Matrices and Linear Algebra,Theory,33,37
+STU030,SCSL1301,Programming Lab,Practical,12,12
+STU031,S12BLH31,Programming in Java,Theory,33,41
+STU031,S731BLH32,Machine Learning Essentials,Theory,37,45
+STU031,SCSB1303,Theory of Computation,Theory,39,44
+STU031,SCSBOB1301,Computer Architecture and Organization,Theory,34,40
+STU031,SISB4301,Universal Human Values,Theory,34,41
+STU031,SMTB1304,Matrices and Linear Algebra,Theory,35,39
+STU031,SCSL1301,Programming Lab,Practical,10,12
+STU032,S12BLH31,Programming in Java,Theory,34,38
+STU032,S731BLH32,Machine Learning Essentials,Theory,41,43
+STU032,SCSB1303,Theory of Computation,Theory,33,40
+STU032,SCSBOB1301,Computer Architecture and Organization,Theory,31,36
+STU032,SISB4301,Universal Human Values,Theory,33,39
+STU032,SMTB1304,Matrices and Linear Algebra,Theory,33,42
+STU032,SCSL1301,Programming Lab,Practical,12,12
+STU033,S12BLH31,Programming in Java,Theory,43,43
+STU033,S731BLH32,Machine Learning Essentials,Theory,32,41
+STU033,SCSB1303,Theory of Computation,Theory,36,43
+STU033,SCSBOB1301,Computer Architecture and Organization,Theory,38,43
+STU033,SISB4301,Universal Human Values,Theory,35,44
+STU033,SMTB1304,Matrices and Linear Algebra,Theory,37,41
+STU033,SCSL1301,Programming Lab,Practical,12,12
+STU034,S12BLH31,Programming in Java,Theory,36,37
+STU034,S731BLH32,Machine Learning Essentials,Theory,37,42
+STU034,SCSB1303,Theory of Computation,Theory,41,41
+STU034,SCSBOB1301,Computer Architecture and Organization,Theory,34,42
+STU034,SISB4301,Universal Human Values,Theory,32,37
+STU034,SMTB1304,Matrices and Linear Algebra,Theory,36,39
+STU034,SCSL1301,Programming Lab,Practical,12,12
+STU035,S12BLH31,Programming in Java,Theory,36,44
+STU035,S731BLH32,Machine Learning Essentials,Theory,35,39
+STU035,SCSB1303,Theory of Computation,Theory,26,39
+STU035,SCSBOB1301,Computer Architecture and Organization,Theory,36,42
+STU035,SISB4301,Universal Human Values,Theory,36,39
+STU035,SMTB1304,Matrices and Linear Algebra,Theory,34,40
+STU035,SCSL1301,Programming Lab,Practical,10,12
+STU036,S12BLH31,Programming in Java,Theory,40,43
+STU036,S731BLH32,Machine Learning Essentials,Theory,34,38
+STU036,SCSB1303,Theory of Computation,Theory,38,44
+STU036,SCSBOB1301,Computer Architecture and Organization,Theory,35,36
+STU036,SISB4301,Universal Human Values,Theory,33,36
+STU036,SMTB1304,Matrices and Linear Algebra,Theory,42,44
+STU036,SCSL1301,Programming Lab,Practical,11,12
+STU037,S12BLH31,Programming in Java,Theory,36,42
+STU037,S731BLH32,Machine Learning Essentials,Theory,33,41
+STU037,SCSB1303,Theory of Computation,Theory,31,37
+STU037,SCSBOB1301,Computer Architecture and Organization,Theory,28,42
+STU037,SISB4301,Universal Human Values,Theory,35,38
+STU037,SMTB1304,Matrices and Linear Algebra,Theory,36,42
+STU037,SCSL1301,Programming Lab,Practical,12,12
+STU038,S12BLH31,Programming in Java,Theory,40,44
+STU038,S731BLH32,Machine Learning Essentials,Theory,30,43
+STU038,SCSB1303,Theory of Computation,Theory,31,36
+STU038,SCSBOB1301,Computer Architecture and Organization,Theory,37,38
+STU038,SISB4301,Universal Human Values,Theory,44,44
+STU038,SMTB1304,Matrices and Linear Algebra,Theory,33,42
+STU038,SCSL1301,Programming Lab,Practical,12,12
+STU039,S12BLH31,Programming in Java,Theory,35,39
+STU039,S731BLH32,Machine Learning Essentials,Theory,36,41
+STU039,SCSB1303,Theory of Computation,Theory,36,42
+STU039,SCSBOB1301,Computer Architecture and Organization,Theory,33,37
+STU039,SISB4301,Universal Human Values,Theory,33,37
+STU039,SMTB1304,Matrices and Linear Algebra,Theory,32,38
+STU039,SCSL1301,Programming Lab,Practical,12,12
+STU040,S12BLH31,Programming in Java,Theory,34,38
+STU040,S731BLH32,Machine Learning Essentials,Theory,37,41
+STU040,SCSB1303,Theory of Computation,Theory,38,44
+STU040,SCSBOB1301,Computer Architecture and Organization,Theory,40,44
+STU040,SISB4301,Universal Human Values,Theory,36,43
+STU040,SMTB1304,Matrices and Linear Algebra,Theory,43,43
+STU040,SCSL1301,Programming Lab,Practical,12,12

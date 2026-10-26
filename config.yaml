@@ -6,7 +6,7 @@ pass_total_pct: 50                           # at least 50% of total marks
 pass_exam_pct: 30                            # and at least 30% in the exam (15/50), otherwise RA (arrear)
 grade_bands: [[90, "A++", 10], [80, "A+", 9], [70, "B++", 8], [60, "B+", 7], [50, "C", 6], [0, "RA", 0]]
 classification: [[9.0, "First Class - Exemplary"], [7.5, "First Class with Distinction"], [6.0, "First Class"], [5.0, "Second Class"]]
-total_credits_required: 165                  # theory 124 + lab 26 + project 10 + training 5
+total_credits_required: 160                  # B.E. CSE-DS Regulations 2023 curriculum (the 2019 regulations say 165)
 default_credits: 3                           # PLACEHOLDER: real credits differ per course. Set them below from your syllabus
 credits: {}                                  # by subject code, e.g. {"SCSB1303": 4, "SCYB2101": 1}
 stable_sd: 5                                 # std-dev (in %) at or below this = "Consistent"

@@ -1,9 +1,7 @@
 numpy
 pandas
-plotly
-pyyaml
 scikit-learn
-streamlit>=1.50
-openpyxl
-fpdf2
-# optional: tableauhyperapi (Tableau .hyper extract), plyer (desktop alerts)
+pyyaml
+playwright
+tableauhyperapi
+# optional: plyer (desktop alerts)

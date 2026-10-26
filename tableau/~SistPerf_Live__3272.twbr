@@ -1,0 +1,2495 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <style-rule element='animation'>
+      <format attr='animation-on' value='ao-off' />
+    </style-rule>
+  </style>
+  <datasources>
+    <datasource caption='marks_long' inline='true' name='federated.sistperf0marks0long' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='C:/git_projects/SistPerf-Tableau/data/private/tableau' name='textscan.sistperf0marks0long'>
+            <connection class='textscan' directory='C:/git_projects/SistPerf-Tableau/data/private/tableau' filename='marks_long.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.sistperf0marks0long' name='marks_long.csv' table='[marks_long#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Student_ID' ordinal='0' />
+            <column datatype='string' name='Academic_Year' ordinal='1' />
+            <column datatype='string' name='Term' ordinal='2' />
+            <column datatype='integer' name='Semester' ordinal='3' />
+            <column datatype='string' name='Semester_Label' ordinal='4' />
+            <column datatype='string' name='Subject_Code' ordinal='5' />
+            <column datatype='string' name='Subject' ordinal='6' />
+            <column datatype='string' name='Assessment' ordinal='7' />
+            <column datatype='integer' name='Assessment_Order' ordinal='8' />
+            <column datatype='real' name='Marks' ordinal='9' />
+            <column datatype='real' name='Maximum_Marks' ordinal='10' />
+            <column datatype='integer' name='Max_Is_Assumed' ordinal='11' />
+            <column datatype='real' name='ERP_Total' ordinal='12' />
+            <column datatype='string' name='Result' ordinal='13' />
+            <column datatype='real' name='Credits' ordinal='14' />
+            <column datatype='string' name='Fetched_On' ordinal='15' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Student_ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Student_ID]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Student_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic_Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Academic_Year]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Academic_Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Term]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Term</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Semester</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Semester]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Semester</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Semester_Label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Semester_Label]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Semester_Label</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subject_Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subject_Code]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Subject_Code</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Subject</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Subject]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Subject</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assessment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Assessment]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Assessment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assessment_Order</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Assessment_Order]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Assessment_Order</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Marks]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Marks</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maximum_Marks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Maximum_Marks]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Maximum_Marks</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Max_Is_Assumed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Max_Is_Assumed]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Max_Is_Assumed</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ERP_Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ERP_Total]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>ERP_Total</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Result</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Result]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Result</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Credits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Credits]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Credits</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fetched_On</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fetched_On]</local-name>
+            <parent-name>[marks_long.csv]</parent-name>
+            <remote-alias>Fetched_On</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Migrated Data]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+      <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+      </column>
+      <column caption='Is Centum' datatype='integer' name='[Calculation_1000000007919]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Marks] = [Maximum_Marks] THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+      </column>
+      <column caption='Max Source' datatype='string' name='[Calculation_1000000023757]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Max_Is_Assumed] = 1 THEN &quot;Assumed&quot; ELSE &quot;From curriculum / ERP&quot; END' />
+      </column>
+      <column caption='Total Marks' datatype='real' name='[Calculation_1000000031676]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Marks] END)}' />
+      </column>
+      <column caption='Total Max' datatype='real' name='[Calculation_1000000039595]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+      </column>
+      <column caption='Subject Total %' datatype='real' default-format='p0.0%' name='[Calculation_1000000047514]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1000000031676] / [Calculation_1000000039595]' />
+      </column>
+      <column caption='Exam %' datatype='real' default-format='p0.0%' name='[Calculation_1000000055433]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Marks] END)} / {FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+      </column>
+      <column caption='Has Exam' datatype='integer' name='[Calculation_1000000063352]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : MAX(IF [Assessment] = &quot;Exam&quot; THEN 1 ELSE 0 END)}' />
+      </column>
+      <column caption='Grade' datatype='string' name='[Calculation_1000000071271]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_1000000063352] = 0 THEN &quot;Pending&quot; ELSEIF [Calculation_1000000055433] &lt; 0.3 OR [Calculation_1000000047514] &lt; 0.5 THEN &quot;RA&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.9 THEN &quot;A++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.8 THEN &quot;A+&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.7 THEN &quot;B++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.6 THEN &quot;B+&quot; ELSE &quot;C&quot; END' />
+      </column>
+      <column caption='Grade Points' datatype='integer' name='[Calculation_1000000079190]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [Calculation_1000000071271] WHEN &quot;A++&quot; THEN 10 WHEN &quot;A+&quot; THEN 9 WHEN &quot;B++&quot; THEN 8 WHEN &quot;B+&quot; THEN 7 WHEN &quot;C&quot; THEN 6 ELSE 0 END' />
+      </column>
+      <column caption='Credit Points' datatype='real' name='[Calculation_1000000087109]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;RA&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;Pending&quot; THEN [Calculation_1000000079190] * [Credits] END' />
+      </column>
+      <column caption='Credits Cleared' datatype='real' name='[Calculation_1000000095028]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;RA&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;Pending&quot; THEN [Credits] END' />
+      </column>
+      <column caption='SGPA' datatype='real' default-format='0.00' name='[Calculation_1000000102947]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Calculation_1000000087109]) / SUM([Calculation_1000000095028])' />
+      </column>
+      <column caption='CGPA' datatype='real' default-format='0.00' name='[Calculation_1000000110866]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Student_ID] : SUM([Calculation_1000000087109])} / {FIXED [Student_ID] : SUM([Calculation_1000000095028])}' />
+      </column>
+      <column caption='Arrear' datatype='integer' name='[Calculation_1000000118785]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] = &quot;RA&quot; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='CAE 1 Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000126704]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Assessment] = &quot;CAE 1&quot; THEN [Calculation_1000000000000] END' />
+      </column>
+      <column caption='CAE 2 Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000134623]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Assessment] = &quot;CAE 2&quot; THEN [Calculation_1000000000000] END' />
+      </column>
+      <column caption='CAE Improvement' datatype='real' default-format='p0.0%' name='[Calculation_1000000142542]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_1000000134623]) - AVG([Calculation_1000000126704])' />
+      </column>
+      <column caption='Semesters Completed' datatype='integer' name='[Calculation_1000000150461]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD(IF [Assessment] = &quot;Exam&quot; THEN [Semester] END)' />
+      </column>
+      <column datatype='integer' name='[Max_Is_Assumed]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+      <column caption='Migrated Data' datatype='table' name='[__tableau_internal_object_id__].[Migrated Data]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' object-id='Migrated Data' units='records' user-specific='false'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Extracts/marks_long.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/26/2026 04:36:49 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='marks_long.csv' increment-value='%null%' refresh-type='create' rows-inserted='60' timestamp-start='2026-10-26 16:36:49' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Student_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Student_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Student_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Academic_Year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Academic_Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Academic_Year</remote-alias>
+              <ordinal>1</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Term</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Term]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Term</remote-alias>
+              <ordinal>2</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Semester</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Semester]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Semester</remote-alias>
+              <ordinal>3</ordinal>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Semester_Label</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Semester_Label]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Semester_Label</remote-alias>
+              <ordinal>4</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Subject_Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Subject_Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Subject_Code</remote-alias>
+              <ordinal>5</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Subject</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Subject]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Subject</remote-alias>
+              <ordinal>6</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Assessment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Assessment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Assessment</remote-alias>
+              <ordinal>7</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Assessment_Order</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Assessment_Order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Assessment_Order</remote-alias>
+              <ordinal>8</ordinal>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Marks</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Marks]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Marks</remote-alias>
+              <ordinal>9</ordinal>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Maximum_Marks</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Maximum_Marks]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Maximum_Marks</remote-alias>
+              <ordinal>10</ordinal>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Max_Is_Assumed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Max_Is_Assumed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Max_Is_Assumed</remote-alias>
+              <ordinal>11</ordinal>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ERP_Total</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ERP_Total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ERP_Total</remote-alias>
+              <ordinal>12</ordinal>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Result</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Result]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Result</remote-alias>
+              <ordinal>13</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Credits</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Credits]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Credits</remote-alias>
+              <ordinal>14</ordinal>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fetched_On</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Fetched_On]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fetched_On</remote-alias>
+              <ordinal>15</ordinal>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[Migrated Data]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_1000000015838:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;1. CAE 1&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;4. Exam&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;3. Internal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2. CAE 2&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Migrated Data' id='Migrated Data'>
+            <properties context=''>
+              <relation connection='textscan.sistperf0marks0long' name='marks_long.csv' table='[marks_long#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Student_ID' ordinal='0' />
+                  <column datatype='string' name='Academic_Year' ordinal='1' />
+                  <column datatype='string' name='Term' ordinal='2' />
+                  <column datatype='integer' name='Semester' ordinal='3' />
+                  <column datatype='string' name='Semester_Label' ordinal='4' />
+                  <column datatype='string' name='Subject_Code' ordinal='5' />
+                  <column datatype='string' name='Subject' ordinal='6' />
+                  <column datatype='string' name='Assessment' ordinal='7' />
+                  <column datatype='integer' name='Assessment_Order' ordinal='8' />
+                  <column datatype='real' name='Marks' ordinal='9' />
+                  <column datatype='real' name='Maximum_Marks' ordinal='10' />
+                  <column datatype='integer' name='Max_Is_Assumed' ordinal='11' />
+                  <column datatype='real' name='ERP_Total' ordinal='12' />
+                  <column datatype='string' name='Result' ordinal='13' />
+                  <column datatype='real' name='Credits' ordinal='14' />
+                  <column datatype='string' name='Fetched_On' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='CAE 1 vs CAE 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>CAE 1 vs CAE 2 by subject</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Avg' name='[avg:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.sistperf0marks0long].[none:Assessment:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;CAE 1&quot;' />
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;CAE 2&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.sistperf0marks0long].[none:Assessment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.sistperf0marks0long].[none:Calculation_1000000015838:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]</rows>
+        <cols>[federated.sistperf0marks0long].[none:Subject:nk]</cols>
+      </table>
+      <simple-id uuid='{2358D691-56FD-4D39-AF44-57465BBF51AF}' />
+    </worksheet>
+    <worksheet name='CAE Improvement'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>CAE improvement (CAE 2 - CAE 1)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column caption='CAE 1 Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000126704]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;CAE 1&quot; THEN [Calculation_1000000000000] END' />
+            </column>
+            <column caption='CAE 2 Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000134623]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;CAE 2&quot; THEN [Calculation_1000000000000] END' />
+            </column>
+            <column caption='CAE Improvement' datatype='real' default-format='p0.0%' name='[Calculation_1000000142542]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_1000000134623]) - AVG([Calculation_1000000126704])' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000142542]' derivation='User' name='[usr:Calculation_1000000142542:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.sistperf0marks0long].[none:Assessment:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;CAE 1&quot;' />
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;CAE 2&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.sistperf0marks0long].[none:Assessment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[none:Subject:nk]</rows>
+        <cols>[federated.sistperf0marks0long].[usr:Calculation_1000000142542:qk]</cols>
+      </table>
+      <simple-id uuid='{210ADC73-726A-4C40-8538-30EB5DB2DC42}' />
+    </worksheet>
+    <worksheet name='DQ Assumed Max'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Maximum marks: assumed vs from curriculum / ERP</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Max Source' datatype='string' name='[Calculation_1000000023757]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Max_Is_Assumed] = 1 THEN &quot;Assumed&quot; ELSE &quot;From curriculum / ERP&quot; END' />
+            </column>
+            <column datatype='integer' name='[Max_Is_Assumed]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Subject_Code]' derivation='CountD' name='[ctd:Subject_Code:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000023757]' derivation='None' name='[none:Calculation_1000000023757:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[ctd:Subject_Code:qk]</rows>
+        <cols>([federated.sistperf0marks0long].[none:Calculation_1000000023757:nk] / [federated.sistperf0marks0long].[none:Assessment:nk])</cols>
+      </table>
+      <simple-id uuid='{F870CEBB-94C5-462D-BD20-70F22191B10C}' />
+    </worksheet>
+    <worksheet name='ERP Results'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>ERP result per subject</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='real' name='[ERP_Total]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Semester_Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column-instance column='[ERP_Total]' derivation='Avg' name='[avg:ERP_Total:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Result]' derivation='None' name='[none:Result:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Semester_Label]' derivation='None' name='[none:Semester_Label:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.sistperf0marks0long].[none:Assessment:nk]'>
+            <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;Exam&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.sistperf0marks0long].[none:Assessment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[avg:ERP_Total:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.sistperf0marks0long].[none:Semester_Label:nk] / ([federated.sistperf0marks0long].[none:Subject:nk] / [federated.sistperf0marks0long].[none:Result:nk]))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{4C64F0A6-D4D7-4183-B091-70A5E4A1C0C8}' />
+    </worksheet>
+    <worksheet name='Grade Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Grade distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Total Marks' datatype='real' name='[Calculation_1000000031676]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Marks] END)}' />
+            </column>
+            <column caption='Total Max' datatype='real' name='[Calculation_1000000039595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Subject Total %' datatype='real' default-format='p0.0%' name='[Calculation_1000000047514]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1000000031676] / [Calculation_1000000039595]' />
+            </column>
+            <column caption='Exam %' datatype='real' default-format='p0.0%' name='[Calculation_1000000055433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Marks] END)} / {FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Has Exam' datatype='integer' name='[Calculation_1000000063352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : MAX(IF [Assessment] = &quot;Exam&quot; THEN 1 ELSE 0 END)}' />
+            </column>
+            <column caption='Grade' datatype='string' name='[Calculation_1000000071271]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1000000063352] = 0 THEN &quot;Pending&quot; ELSEIF [Calculation_1000000055433] &lt; 0.3 OR [Calculation_1000000047514] &lt; 0.5 THEN &quot;RA&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.9 THEN &quot;A++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.8 THEN &quot;A+&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.7 THEN &quot;B++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.6 THEN &quot;B+&quot; ELSE &quot;C&quot; END' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Student_ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Subject_Code]' derivation='CountD' name='[ctd:Subject_Code:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000071271]' derivation='None' name='[none:Calculation_1000000071271:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.sistperf0marks0long].[none:Assessment:nk]'>
+            <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;Exam&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.sistperf0marks0long].[none:Assessment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[ctd:Subject_Code:qk]</rows>
+        <cols>[federated.sistperf0marks0long].[none:Calculation_1000000071271:nk]</cols>
+      </table>
+      <simple-id uuid='{D5964A12-14FF-4691-B6A8-A6CE27548A1B}' />
+    </worksheet>
+    <worksheet name='Internal vs Exam by Subject'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Internal vs Exam by subject</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Avg' name='[avg:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.sistperf0marks0long].[none:Assessment:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;Internal&quot;' />
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;Exam&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.sistperf0marks0long].[none:Assessment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.sistperf0marks0long].[none:Calculation_1000000015838:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[none:Subject:nk]</rows>
+        <cols>[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]</cols>
+      </table>
+      <simple-id uuid='{4D0FF4F3-8162-4075-9439-D1548A22D046}' />
+    </worksheet>
+    <worksheet name='KPI Arrears'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Arrears (RA)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Total Marks' datatype='real' name='[Calculation_1000000031676]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Marks] END)}' />
+            </column>
+            <column caption='Total Max' datatype='real' name='[Calculation_1000000039595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Subject Total %' datatype='real' default-format='p0.0%' name='[Calculation_1000000047514]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1000000031676] / [Calculation_1000000039595]' />
+            </column>
+            <column caption='Exam %' datatype='real' default-format='p0.0%' name='[Calculation_1000000055433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Marks] END)} / {FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Has Exam' datatype='integer' name='[Calculation_1000000063352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : MAX(IF [Assessment] = &quot;Exam&quot; THEN 1 ELSE 0 END)}' />
+            </column>
+            <column caption='Grade' datatype='string' name='[Calculation_1000000071271]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1000000063352] = 0 THEN &quot;Pending&quot; ELSEIF [Calculation_1000000055433] &lt; 0.3 OR [Calculation_1000000047514] &lt; 0.5 THEN &quot;RA&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.9 THEN &quot;A++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.8 THEN &quot;A+&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.7 THEN &quot;B++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.6 THEN &quot;B+&quot; ELSE &quot;C&quot; END' />
+            </column>
+            <column caption='Arrear' datatype='integer' name='[Calculation_1000000118785]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] = &quot;RA&quot; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Student_ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000118785]' derivation='Sum' name='[sum:Calculation_1000000118785:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[sum:Calculation_1000000118785:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F961F20C-8F7B-4724-BBE1-6034AAE0778E}' />
+    </worksheet>
+    <worksheet name='KPI CGPA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>CGPA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Total Marks' datatype='real' name='[Calculation_1000000031676]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Marks] END)}' />
+            </column>
+            <column caption='Total Max' datatype='real' name='[Calculation_1000000039595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Subject Total %' datatype='real' default-format='p0.0%' name='[Calculation_1000000047514]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1000000031676] / [Calculation_1000000039595]' />
+            </column>
+            <column caption='Exam %' datatype='real' default-format='p0.0%' name='[Calculation_1000000055433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Marks] END)} / {FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Has Exam' datatype='integer' name='[Calculation_1000000063352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : MAX(IF [Assessment] = &quot;Exam&quot; THEN 1 ELSE 0 END)}' />
+            </column>
+            <column caption='Grade' datatype='string' name='[Calculation_1000000071271]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1000000063352] = 0 THEN &quot;Pending&quot; ELSEIF [Calculation_1000000055433] &lt; 0.3 OR [Calculation_1000000047514] &lt; 0.5 THEN &quot;RA&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.9 THEN &quot;A++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.8 THEN &quot;A+&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.7 THEN &quot;B++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.6 THEN &quot;B+&quot; ELSE &quot;C&quot; END' />
+            </column>
+            <column caption='Grade Points' datatype='integer' name='[Calculation_1000000079190]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Calculation_1000000071271] WHEN &quot;A++&quot; THEN 10 WHEN &quot;A+&quot; THEN 9 WHEN &quot;B++&quot; THEN 8 WHEN &quot;B+&quot; THEN 7 WHEN &quot;C&quot; THEN 6 ELSE 0 END' />
+            </column>
+            <column caption='Credit Points' datatype='real' name='[Calculation_1000000087109]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;RA&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;Pending&quot; THEN [Calculation_1000000079190] * [Credits] END' />
+            </column>
+            <column caption='Credits Cleared' datatype='real' name='[Calculation_1000000095028]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;RA&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;Pending&quot; THEN [Credits] END' />
+            </column>
+            <column caption='CGPA' datatype='real' default-format='0.00' name='[Calculation_1000000110866]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID] : SUM([Calculation_1000000087109])} / {FIXED [Student_ID] : SUM([Calculation_1000000095028])}' />
+            </column>
+            <column datatype='real' name='[Credits]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Student_ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000110866]' derivation='Avg' name='[avg:Calculation_1000000110866:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[avg:Calculation_1000000110866:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4EC82D0A-8943-42ED-B792-ACD09EC06E09}' />
+    </worksheet>
+    <worksheet name='KPI Centums'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Centums</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column caption='Is Centum' datatype='integer' name='[Calculation_1000000007919]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Marks] = [Maximum_Marks] THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1000000007919]' derivation='Sum' name='[sum:Calculation_1000000007919:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[sum:Calculation_1000000007919:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8BD29148-D543-4D9C-9DCE-285F855CB703}' />
+    </worksheet>
+    <worksheet name='KPI Overall Average'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Overall average</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Avg' name='[avg:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4C2C1B6D-5894-4F10-8E11-10F85CBB552B}' />
+    </worksheet>
+    <worksheet name='KPI Semesters'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Semesters completed</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Semesters Completed' datatype='integer' name='[Calculation_1000000150461]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD(IF [Assessment] = &quot;Exam&quot; THEN [Semester] END)' />
+            </column>
+            <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_1000000150461]' derivation='User' name='[usr:Calculation_1000000150461:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[usr:Calculation_1000000150461:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A3C18DEC-B9A8-4E53-8CB4-18F9AD6F85D3}' />
+    </worksheet>
+    <worksheet name='KPI Subjects'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Subjects</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Subject_Code]' derivation='CountD' name='[ctd:Subject_Code:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[ctd:Subject_Code:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3229DBC9-CCD0-4202-9FCE-922E2C634D60}' />
+    </worksheet>
+    <worksheet name='Results Table'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Marks by subject and assessment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+            <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+            </column>
+            <column caption='Total Marks' datatype='real' name='[Calculation_1000000031676]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Marks] END)}' />
+            </column>
+            <column caption='Total Max' datatype='real' name='[Calculation_1000000039595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Subject Total %' datatype='real' default-format='p0.0%' name='[Calculation_1000000047514]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1000000031676] / [Calculation_1000000039595]' />
+            </column>
+            <column caption='Exam %' datatype='real' default-format='p0.0%' name='[Calculation_1000000055433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Marks] END)} / {FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Has Exam' datatype='integer' name='[Calculation_1000000063352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : MAX(IF [Assessment] = &quot;Exam&quot; THEN 1 ELSE 0 END)}' />
+            </column>
+            <column caption='Grade' datatype='string' name='[Calculation_1000000071271]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1000000063352] = 0 THEN &quot;Pending&quot; ELSEIF [Calculation_1000000055433] &lt; 0.3 OR [Calculation_1000000047514] &lt; 0.5 THEN &quot;RA&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.9 THEN &quot;A++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.8 THEN &quot;A+&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.7 THEN &quot;B++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.6 THEN &quot;B+&quot; ELSE &quot;C&quot; END' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Semester_Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Student_ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000071271]' derivation='None' name='[none:Calculation_1000000071271:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Semester_Label]' derivation='None' name='[none:Semester_Label:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Marks]' derivation='Sum' name='[sum:Marks:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.sistperf0marks0long].[sum:Marks:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.sistperf0marks0long].[none:Semester_Label:nk] / ([federated.sistperf0marks0long].[none:Subject:nk] / [federated.sistperf0marks0long].[none:Calculation_1000000071271:nk]))</rows>
+        <cols>[federated.sistperf0marks0long].[none:Calculation_1000000015838:nk]</cols>
+      </table>
+      <simple-id uuid='{CF7774CF-E974-4F02-8951-F305009CA310}' />
+    </worksheet>
+    <worksheet name='SGPA by Semester'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>SGPA by semester</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column caption='Total Marks' datatype='real' name='[Calculation_1000000031676]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Marks] END)}' />
+            </column>
+            <column caption='Total Max' datatype='real' name='[Calculation_1000000039595]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Internal&quot; OR [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Subject Total %' datatype='real' default-format='p0.0%' name='[Calculation_1000000047514]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1000000031676] / [Calculation_1000000039595]' />
+            </column>
+            <column caption='Exam %' datatype='real' default-format='p0.0%' name='[Calculation_1000000055433]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Marks] END)} / {FIXED [Student_ID],[Semester],[Subject_Code] : SUM(IF [Assessment] = &quot;Exam&quot; THEN [Maximum_Marks] END)}' />
+            </column>
+            <column caption='Has Exam' datatype='integer' name='[Calculation_1000000063352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Student_ID],[Semester],[Subject_Code] : MAX(IF [Assessment] = &quot;Exam&quot; THEN 1 ELSE 0 END)}' />
+            </column>
+            <column caption='Grade' datatype='string' name='[Calculation_1000000071271]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_1000000063352] = 0 THEN &quot;Pending&quot; ELSEIF [Calculation_1000000055433] &lt; 0.3 OR [Calculation_1000000047514] &lt; 0.5 THEN &quot;RA&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.9 THEN &quot;A++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.8 THEN &quot;A+&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.7 THEN &quot;B++&quot; ELSEIF [Calculation_1000000047514] &gt;= 0.6 THEN &quot;B+&quot; ELSE &quot;C&quot; END' />
+            </column>
+            <column caption='Grade Points' datatype='integer' name='[Calculation_1000000079190]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='CASE [Calculation_1000000071271] WHEN &quot;A++&quot; THEN 10 WHEN &quot;A+&quot; THEN 9 WHEN &quot;B++&quot; THEN 8 WHEN &quot;B+&quot; THEN 7 WHEN &quot;C&quot; THEN 6 ELSE 0 END' />
+            </column>
+            <column caption='Credit Points' datatype='real' name='[Calculation_1000000087109]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;RA&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;Pending&quot; THEN [Calculation_1000000079190] * [Credits] END' />
+            </column>
+            <column caption='Credits Cleared' datatype='real' name='[Calculation_1000000095028]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Assessment] = &quot;Exam&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;RA&quot; AND [Calculation_1000000071271] &lt;&gt; &quot;Pending&quot; THEN [Credits] END' />
+            </column>
+            <column caption='SGPA' datatype='real' default-format='0.00' name='[Calculation_1000000102947]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Calculation_1000000087109]) / SUM([Calculation_1000000095028])' />
+            </column>
+            <column datatype='real' name='[Credits]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Semester]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Semester_Label]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Student_ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Subject_Code]' role='dimension' type='nominal' />
+            <column-instance column='[Semester_Label]' derivation='None' name='[none:Semester_Label:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000102947]' derivation='User' name='[usr:Calculation_1000000102947:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[usr:Calculation_1000000102947:qk]</rows>
+        <cols>[federated.sistperf0marks0long].[none:Semester_Label:nk]</cols>
+      </table>
+      <simple-id uuid='{1B43A7EC-50D9-4289-9B4E-F22AE42B2840}' />
+    </worksheet>
+    <worksheet name='Score Progress'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Score progress by semester</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Semester_Label]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Avg' name='[avg:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Semester_Label]' derivation='None' name='[none:Semester_Label:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.sistperf0marks0long].[none:Calculation_1000000015838:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]</rows>
+        <cols>[federated.sistperf0marks0long].[none:Semester_Label:nk]</cols>
+      </table>
+      <simple-id uuid='{2E4DCF19-AC93-44C2-BC93-659CD1270B5E}' />
+    </worksheet>
+    <worksheet name='Semester Performance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Internal vs Exam by semester</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Semester_Label]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Avg' name='[avg:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assessment]' derivation='None' name='[none:Assessment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Semester_Label]' derivation='None' name='[none:Semester_Label:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.sistperf0marks0long].[none:Assessment:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;Internal&quot;' />
+              <groupfilter function='member' level='[none:Assessment:nk]' member='&quot;Exam&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.sistperf0marks0long].[none:Assessment:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.sistperf0marks0long].[none:Calculation_1000000015838:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]</rows>
+        <cols>[federated.sistperf0marks0long].[none:Semester_Label:nk]</cols>
+      </table>
+      <simple-id uuid='{F63AD48B-13C9-45FE-9304-9914A5BA62A8}' />
+    </worksheet>
+    <worksheet name='Subject Consistency'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Subject consistency (std. deviation of %)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Stdev' name='[std:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[none:Subject:nk]</rows>
+        <cols>[federated.sistperf0marks0long].[std:Calculation_1000000000000:qk]</cols>
+      </table>
+      <simple-id uuid='{E3742A69-5564-48BB-8932-B1C7A7532A02}' />
+    </worksheet>
+    <worksheet name='Subject Heatmap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Subject performance heatmap</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='marks_long' name='federated.sistperf0marks0long' />
+          </datasources>
+          <datasource-dependencies datasource='federated.sistperf0marks0long'>
+            <column datatype='string' name='[Assessment]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Assessment_Order]' role='dimension' type='ordinal' />
+            <column caption='Pct' datatype='real' default-format='p0.0%' name='[Calculation_1000000000000]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Marks] / [Maximum_Marks]' />
+            </column>
+            <column caption='Assessment Label' datatype='string' name='[Calculation_1000000015838]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR([Assessment_Order]) + &quot;. &quot; + [Assessment]' />
+            </column>
+            <column datatype='real' name='[Marks]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Maximum_Marks]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Subject]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1000000000000]' derivation='Avg' name='[avg:Calculation_1000000000000:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1000000015838]' derivation='None' name='[none:Calculation_1000000015838:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Subject]' derivation='None' name='[none:Subject:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]' />
+              <text column='[federated.sistperf0marks0long].[avg:Calculation_1000000000000:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.sistperf0marks0long].[none:Subject:nk]</rows>
+        <cols>[federated.sistperf0marks0long].[none:Calculation_1000000015838:nk]</cols>
+      </table>
+      <simple-id uuid='{94EF5C80-A23E-40D1-89E5-073979035EC4}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Assessment Analysis'>
+      <style>
+        <style-rule element='dashboard'>
+          <format attr='background-color' value='#F2F2F3' />
+        </style-rule>
+      </style>
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='4979' id='11' type-v2='text' w='58152' x='571' y='889'>
+            <formatted-text>
+              <run bold='true' fontcolor='#1f1f1f' fontsize='24'>Assessment analysis</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='45263' id='12' name='CAE 1 vs CAE 2' w='49429' x='571' y='6773'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='45263' id='13' name='CAE Improvement' w='48703' x='50726' y='6773'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='45264' id='14' name='Internal vs Exam by Subject' w='49429' x='571' y='53847'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='45264' id='15' name='Score Progress' w='48703' x='50726' y='53847'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{6D4A0DDF-806C-46FC-B518-B3DE2D1CE79B}' />
+    </dashboard>
+    <dashboard name='Data Quality'>
+      <style>
+        <style-rule element='dashboard'>
+          <format attr='background-color' value='#F2F2F3' />
+        </style-rule>
+      </style>
+      <size maxheight='500' maxwidth='1400' minheight='500' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='9023' id='11' type-v2='text' w='87227' x='571' y='1600'>
+            <formatted-text>
+              <run bold='true' fontcolor='#1f1f1f' fontsize='20'>Data quality: how many marks use an assumed maximum</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='86136' id='12' name='DQ Assumed Max' w='98858' x='571' y='12264'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{00DD5F2F-59D2-4B22-A61D-07E1AC26D004}' />
+    </dashboard>
+    <dashboard name='Detailed Marks'>
+      <style>
+        <style-rule element='dashboard'>
+          <format attr='background-color' value='#F2F2F3' />
+        </style-rule>
+      </style>
+      <size maxheight='1100' maxwidth='1400' minheight='1100' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='4044' id='11' type-v2='text' w='58151' x='571' y='727'>
+            <formatted-text>
+              <run bold='true' fontcolor='#1f1f1f' fontsize='24'>Detailed marks</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='93767' id='12' name='Results Table' w='65420' x='571' y='5506'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='93767' id='13' name='ERP Results' w='32711' x='66718' y='5506'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{3336C553-6F8A-4383-A7A2-40414BD73643}' />
+    </dashboard>
+    <dashboard name='Home'>
+      <style>
+        <style-rule element='dashboard'>
+          <format attr='background-color' value='#F2F2F3' />
+        </style-rule>
+      </style>
+      <size maxheight='1180' maxwidth='1400' minheight='1180' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='3797' id='11' type-v2='text' w='58152' x='571' y='678'>
+            <formatted-text>
+              <run bold='true' fontcolor='#1f1f1f' fontsize='24'>SistPerf - Academic performance</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='9494' id='12' name='KPI Overall Average' w='15991' x='571' y='5165'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='9494' id='13' name='KPI CGPA' w='15992' x='17143' y='5165'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='9494' id='14' name='KPI Centums' w='15991' x='33717' y='5165'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='9494' id='15' name='KPI Arrears' w='15991' x='50291' y='5165'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='9494' id='16' name='KPI Subjects' w='15992' x='66863' y='5165'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='9494' id='17' name='KPI Semesters' w='15992' x='83437' y='5165'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='28480' id='18' name='Score Progress' w='49429' x='571' y='16040'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='28480' id='19' name='CAE 1 vs CAE 2' w='48703' x='50726' y='16040'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='53508' id='20' name='Subject Heatmap' w='49429' x='571' y='45814'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='25891' id='21' name='Semester Performance' w='48703' x='50726' y='45814'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='26322' id='22' name='Grade Distribution' w='48703' x='50726' y='73000'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{5B52C73F-438F-4C89-95D1-9131F8DBBDB8}' />
+    </dashboard>
+    <dashboard name='Semester Analysis'>
+      <style>
+        <style-rule element='dashboard'>
+          <format attr='background-color' value='#F2F2F3' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1400' minheight='800' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='5614' id='11' type-v2='text' w='58152' x='571' y='1000'>
+            <formatted-text>
+              <run bold='true' fontcolor='#1f1f1f' fontsize='24'>Semester analysis</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='44661' id='12' name='SGPA by Semester' w='49429' x='571' y='7635'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='44661' id='13' name='Semester Performance' w='48703' x='50726' y='7635'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='44662' id='14' name='Score Progress' w='49429' x='571' y='54338'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='44662' id='15' name='Grade Distribution' w='48703' x='50726' y='54338'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{AD125ACE-9ADD-4D79-A35C-311AA2957807}' />
+    </dashboard>
+    <dashboard name='Subject Analysis'>
+      <style>
+        <style-rule element='dashboard'>
+          <format attr='background-color' value='#F2F2F3' />
+        </style-rule>
+      </style>
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='4979' id='11' type-v2='text' w='58152' x='571' y='889'>
+            <formatted-text>
+              <run bold='true' fontcolor='#1f1f1f' fontsize='24'>Subject analysis</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='92338' id='12' name='Subject Heatmap' w='49429' x='571' y='6773'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='45263' id='13' name='Subject Consistency' w='48703' x='50726' y='6773'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='45262' id='14' name='Internal vs Exam by Subject' w='48703' x='50726' y='53847'>
+            <zone-style>
+              <format attr='border-color' value='#444444' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{E4DC4152-FC42-4C9E-B9C8-C9EE91B92DC1}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='37'>
+    <window class='dashboard' name='Home'>
+      <viewpoints>
+        <viewpoint name='CAE 1 vs CAE 2' />
+        <viewpoint name='Grade Distribution' />
+        <viewpoint name='KPI Arrears' />
+        <viewpoint name='KPI CGPA' />
+        <viewpoint name='KPI Centums' />
+        <viewpoint name='KPI Overall Average' />
+        <viewpoint name='KPI Semesters' />
+        <viewpoint name='KPI Subjects' />
+        <viewpoint name='Score Progress' />
+        <viewpoint name='Semester Performance' />
+        <viewpoint name='Subject Heatmap' />
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{B10A3675-7305-4BF8-BA41-B0A92B300F67}' />
+    </window>
+    <window class='dashboard' name='Assessment Analysis'>
+      <viewpoints>
+        <viewpoint name='CAE 1 vs CAE 2' />
+        <viewpoint name='CAE Improvement' />
+        <viewpoint name='Internal vs Exam by Subject' />
+        <viewpoint name='Score Progress' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{63A50B12-F008-4757-A516-CA3277C1C4E2}' />
+    </window>
+    <window class='dashboard' name='Subject Analysis'>
+      <viewpoints>
+        <viewpoint name='Internal vs Exam by Subject' />
+        <viewpoint name='Subject Consistency' />
+        <viewpoint name='Subject Heatmap' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{6162AEDE-D46F-4EDD-9817-3902AF1A1F69}' />
+    </window>
+    <window class='dashboard' name='Semester Analysis'>
+      <viewpoints>
+        <viewpoint name='Grade Distribution' />
+        <viewpoint name='SGPA by Semester' />
+        <viewpoint name='Score Progress' />
+        <viewpoint name='Semester Performance' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0E5DB36C-C084-4054-8F65-B5F95D51AE31}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Detailed Marks'>
+      <viewpoints>
+        <viewpoint name='ERP Results' />
+        <viewpoint name='Results Table' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{81A5C8AB-C9B9-4D91-AF52-46B2677CACC4}' />
+    </window>
+    <window class='dashboard' name='Data Quality'>
+      <viewpoints>
+        <viewpoint name='DQ Assumed Max' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{3E828EDB-3D92-4879-B3B5-13134BA8CD1F}' />
+    </window>
+    <window class='worksheet' name='KPI Overall Average'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{21DE059F-4A9C-45D5-89AB-70AFC4744418}' />
+    </window>
+    <window class='worksheet' name='KPI CGPA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3B677F2E-E29F-4AC8-A9A9-23E848E26334}' />
+    </window>
+    <window class='worksheet' name='KPI Centums'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8CC53BC9-7FDA-4D67-B719-E0B5DC55169E}' />
+    </window>
+    <window class='worksheet' name='KPI Arrears'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5CF6C8E1-C72F-45E6-8C38-C897A7FCD361}' />
+    </window>
+    <window class='worksheet' name='KPI Subjects'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0811E1F8-27B4-4F4A-A8E6-5EFC458AF532}' />
+    </window>
+    <window class='worksheet' name='KPI Semesters'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16E6094C-2DC7-42A1-9095-BF3EA4FB7C0D}' />
+    </window>
+    <window class='worksheet' name='Score Progress'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{99DAA1D1-DFFB-4CF8-B285-5DB2B03B9F64}' />
+    </window>
+    <window class='worksheet' name='CAE 1 vs CAE 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{719FE5C3-77DF-4F65-9287-770F5BC549C3}' />
+    </window>
+    <window class='worksheet' name='Semester Performance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4A6738D0-2E14-4B0C-82A8-8E9EF8F8A256}' />
+    </window>
+    <window class='worksheet' name='Subject Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E683ED57-D955-453C-866F-EC93574C231A}' />
+    </window>
+    <window class='worksheet' name='Internal vs Exam by Subject'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{736A3022-9E8B-4666-8BC1-B9A3D5CAE11F}' />
+    </window>
+    <window class='worksheet' name='Grade Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CA73D2A-BF61-445D-9409-7F5AAD17081C}' />
+    </window>
+    <window class='worksheet' name='SGPA by Semester'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{74835F40-D314-4EE9-A586-768131D6F58A}' />
+    </window>
+    <window class='worksheet' name='CAE Improvement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8AFBCB5D-9B3A-45CE-8CF5-84A5DBF28CA7}' />
+    </window>
+    <window class='worksheet' name='Subject Consistency'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD81CF80-9795-435A-AA44-7715A3F5A946}' />
+    </window>
+    <window class='worksheet' name='Results Table'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{660DB1F7-2A18-43B7-A2D4-ABDA34A3EF85}' />
+    </window>
+    <window class='worksheet' name='ERP Results'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{713C44A0-BFDF-43BE-99B6-778D7B62418C}' />
+    </window>
+    <window class='worksheet' name='DQ Assumed Max'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E7876C98-14A8-40B9-8E10-46E09A850F65}' />
+    </window>
+  </windows>
+</workbook>

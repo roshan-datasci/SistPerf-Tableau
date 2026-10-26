@@ -14,3 +14,6 @@ Source: SIST Academic Regulations 2019, UG B.E./B.Tech. (clause numbers in brack
 
 ## What the ERP shows vs. what is estimated
 The ERP result table gives Internal, Exam and Total per subject (out of 50 + 50, labs 25 + 25 in your data). Before the Internal mark is published, the dashboard estimates it from your CAEs. If you know your assignment marks, put them in `assignment_marks` in `config.yaml`.
+
+## Your curriculum (B.E. CSE Data Science, Regulations 2023)
+Credits per course, L-T-P-C hours and the CAE/ESE maxima are in `data/curriculum_r2023_cse_ds.csv` (built from the curriculum PDF; theory and theory+practical courses are 50/50, pure labs 25/25). Total programme credits: 160. This replaces the older 165 figure from the 2019 regulations for your batch.

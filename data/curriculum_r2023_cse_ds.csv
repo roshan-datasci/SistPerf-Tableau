@@ -1,0 +1,154 @@
+Course_Code,Course_Title,Course_Type,Plan,L,T,P,EL,Credits,CAE_Max,ESE_Max
+SHSB1101,Technical English,Theory,1,3,0,0,0,3,50,50
+SMTB1103,Calculus and Numerical Methods,Theory,1,3,1,0,0,3,50,50
+SPHB1101,Physics,Theory,1,3,0,0,0,3,50,50
+SEEB1101,Electrical & Electronics Engineering,Theory,1,3,0,0,0,3,50,50
+S11BLH11,Programming in C,Theory+Practical,1,2,0,4,0,4,50,50
+SPHB2101,Physics Lab,Practical,1,0,0,2,0,1,25,25
+SMTB1203,Discrete Structures,Theory,2,3,1,0,0,3,50,50
+SCYB1101,Chemistry,Theory,2,3,0,0,0,3,50,50
+SCSB1231,Data and Information Science,Theory,2,3,0,0,0,3,50,50
+SCSB1232,Exploratory Data Analysis,Theory,2,3,0,0,0,3,50,50
+S11BLH21,Programming in Python,Theory+Practical,2,3,0,2,1,4,50,50
+S731BLH22,Data Structures & Algorithms,Theory+Practical,2,3,0,2,0,4,50,50
+SCYB2101,Chemistry Lab,Practical,2,0,0,2,0,1,25,25
+SMTB1304,Matrices and Linear Algebra,Theory,3,3,1,0,0,3,50,50
+SCSB1301,Computer Architecture and Organization,Theory,3,3,0,0,0,3,50,50
+SISB4301,Universal Human Values,Theory+Project,3,2,0,0,3,3,50,50
+SCSB1303,Theory of Computation,Theory,3,3,1,0,0,3,50,50
+S731BLH32,Machine Learning Essentials,Theory+Practical,3,3,0,2,0,4,50,50
+S12BLH31,Programming in Java,Theory+Practical,3,3,0,2,1,4,50,50
+SMTB1402,Probability and Statistics,Theory,4,3,1,0,0,3,50,50
+SCSB1401,Operating System and Unix,Theory,4,3,0,0,0,3,50,50
+S11BLH41,Database Management Systems,Theory+Practical,4,3,0,2,1,4,50,50
+SCSB1431,Data Mining and Data Warehousing,Theory,4,3,0,0,0,3,50,50
+SCSBDPROJ,Design Thinking and Innovations,Practical,4,0,0,4,0,2,50,50
+SCSB1501,Data Communication and Computer Networks,Theory,5,3,0,0,0,3,50,50
+SCSB1551,Data Modeling and Predictive Analytics,Theory,5,3,0,0,0,3,50,50
+SCSB1531,Time Series Analysis and Forecasting,Theory,5,3,0,0,0,3,50,50
+S733BLH51,R Programming,Theory+Practical,5,3,0,2,0,4,50,50
+S733BPT1,Professional Training-I,Internship,5,0,0,0,6,2,50,50
+SCSB1631,Statistical Learning Models,Theory,6,3,0,0,0,3,50,50
+SCSB1451,Neural Networks and Deep Learning,Theory,6,3,0,0,0,3,50,50
+S731BLH61,Natural Language Processing,Theory+Practical,6,3,0,2,0,4,50,50
+S733BLH61,Data Visualization,Theory+Practical,6,3,0,2,0,4,50,50
+S733BPT2,Professional Training-II,Internship/Project,6,0,0,0,9,3,,100
+S733BIPROJ,Interdisciplinary Project,Internship/Project,6,0,0,0,9,3,,100
+S733BCPROJ,Community Internship,Internship/Project,6,0,0,0,9,3,,100
+SCSB1712,Computer Vision,Theory,7,3,0,0,0,3,50,50
+S12BLH71,Big Data Analytics,Theory+Practical,7,3,0,2,0,4,50,50
+SCSB2752,Computer Vision Lab,Practical,7,0,0,4,0,2,50,50
+S733BPROJ1,Project Phase1,Project,7,0,0,6,0,3,50,50
+S733BPROJ2,Project Phase 2,Project,8,0,0,14,0,7,50,50
+SCSB3004,Cryptography and Network Security,Theory,Professional Elective 1,3,0,0,0,3,50,50
+SCSB3526,Web Security,Theory,Professional Elective 1,3,0,0,0,3,50,50
+SCSB3038,Advanced Computer Networks,Theory,Professional Elective 1,3,0,0,0,3,50,50
+SCSB1502,Design Analysis and Algorithm,Theory,Professional Elective 1,3,0,0,0,3,50,50
+SCSB3424,Applied Statistics,Theory,Professional Elective 1,3,0,0,0,3,50,50
+SCSB3713,Bayesian Statistics,Theory,Professional Elective 1,3,0,0,0,3,50,50
+SCSB3524,Green Computing,Theory,Professional Elective 2,3,0,0,0,3,50,50
+SCSB3621,Distributed Database and Information System,Theory,Professional Elective 2,3,0,0,0,3,50,50
+SCSB3616,Soft Computing,Theory,Professional Elective 2,3,0,0,0,3,50,50
+SCSB3818,Performance Evaluation of Computers,Theory,Professional Elective 2,3,0,0,0,3,50,50
+SCSB3027,Data Science and Society,Theory,Professional Elective 2,3,0,0,0,3,50,50
+SCSB3037,Comprehensive Linux,Theory,Professional Elective 2,3,0,0,0,3,50,50
+SCSB3812,Stream Analytics,Theory,Professional Elective 3,3,0,0,0,3,50,50
+SCSB3616,System Modeling and Simulation,Theory,Professional Elective 3,3,0,0,0,3,50,50
+SCSB3516,Intelligent Data Analytics,Theory,Professional Elective 3,3,0,0,0,3,50,50
+SCSB3028,Mathematical Tool for Data Science,Theory,Professional Elective 3,3,0,0,0,3,50,50
+SCSB3812,Data Science for IoT,Theory,Professional Elective 3,3,0,0,0,3,50,50
+SCSB3422,Knowledge Management Systems,Theory,Professional Elective 3,3,0,0,0,3,50,50
+SCSB3816,Quantum Computing,Theory,Professional Elective 4,3,0,0,0,3,50,50
+SCSB3825,Parallel System Programming,Theory,Professional Elective 4,3,0,0,0,3,50,50
+SCSB3522,Software Defined Networks,Theory,Professional Elective 4,3,0,0,0,3,50,50
+SCSB3029,Machine Learning for Data Science,Theory,Professional Elective 4,3,0,0,0,3,50,50
+SCSB3034,Predictive Analysis and Segmentation,Theory,Professional Elective 4,3,0,0,0,3,50,50
+SCSB3035,Cognitive Science,Theory,Professional Elective 4,3,0,0,0,3,50,50
+SCSB3573,Data Privacy,Theory,Professional Elective 5,3,0,0,0,3,50,50
+SCSB3838,Information Retrieval,Theory,Professional Elective 5,3,0,0,0,3,50,50
+SCSB3839,Computational Methods and Techniques,Theory,Professional Elective 5,3,0,0,0,3,50,50
+SCSB3871,Data Security Services,Theory,Professional Elective 5,3,0,0,0,3,50,50
+SCSB3840,Decision Support System,Theory,Professional Elective 5,3,0,0,0,3,50,50
+SCSB1311,Foundation of Artificial Intelligence,Theory,Professional Elective 5,3,0,0,0,3,50,50
+SCSB3841,Business Intelligence,Theory,Professional Elective 6,3,0,0,0,3,50,50
+SCSB3451,Reinforcement Learning,Theory,Professional Elective 6,3,0,0,0,3,50,50
+SCSB3036,Malware Data Science,Theory,Professional Elective 6,3,0,0,0,3,50,50
+SCSB3842,Regression Analysis and Predictive Modeling,Theory,Professional Elective 6,3,0,0,0,3,50,50
+SCSB3711,ML tools and Techniques,Theory,Professional Elective 6,3,0,0,0,3,50,50
+SCSB3843,Cloud Service Management,Theory,Professional Elective 6,3,0,0,0,3,50,50
+SAEB4001,Satellite Communication and Satellite Technology,Theory,Open Elective,3,0,0,0,3,50,50
+SAEB4002,Drone Design and Technology,Theory,Open Elective,3,0,0,0,3,50,50
+SAEB4003,Space Vehicle Design and Simulation,Theory,Open Elective,3,0,0,0,3,50,50
+SALB3071,Information Technology Law,Theory,Open Elective,3,0,0,0,3,50,50
+SALB3083,Intellectual Property Law,Theory,Open Elective,3,0,0,0,3,50,50
+SALB3073,International Human Rights,Theory,Open Elective,3,0,0,0,3,50,50
+SALB3096,Penology and Victimology,Theory,Open Elective,3,0,0,0,3,50,50
+SALB3084,Land Laws Including Tenure and Tenancy System,Theory,Open Elective,3,0,0,0,3,50,50
+SBMB4001,Telehealth Technology,Theory,Open Elective,3,0,0,0,3,50,50
+SBMB4002,Embedded systems for Biomedical Applications,Theory,Open Elective,3,0,0,0,3,50,50
+SBMB4003,Human factors in Engineering and Design,Theory,Open Elective,3,0,0,0,3,50,50
+SBMB4004,Biometric System,Theory,Open Elective,3,0,0,0,3,50,50
+SBMB4005,Forensic Science,Theory,Open Elective,3,0,0,0,3,50,50
+SBTB4001,Biology for Engineers,Theory,Open Elective,3,0,0,0,3,50,50
+SBTB4002,Entrepreneurship in Biotechnology,Theory,Open Elective,3,0,0,0,3,50,50
+SBTB4003,Organic Agriculture,Theory,Open Elective,3,0,0,0,3,50,50
+SBTB4004,Ornamental Aquaculture,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4001,Energy Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4002,Industrial Pollution Prevention and Cleaner Production,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4003,Air Pollution and Control Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4004,Industrial Wastewater Treatment,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4005,Process Safety Management,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4006,Sustainable Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SCHB4007,Corrosion Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SCIB4001,Disaster Management,Theory,Open Elective,3,0,0,0,3,50,50
+SCIB4002,Public Health Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4001,5G Networks,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4002,Malware Analysis,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4003,Design and Development of Blockchain,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4004,IOT Networks,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4005,Hardware Interfaces and Its Application,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4008,Intelligent Systems Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4009,Introduction to Machine learning,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4010,IoT in Cloud Environment,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4011,Cyber Security Essentials for Engineers,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4012,Decentralized Systems and Block Chain Technology,Theory,Open Elective,3,0,0,0,3,50,50
+SCSB4013,Introduction to Data Science,Theory,Open Elective,3,0,0,0,3,50,50
+SCYB4001,Applications of Python and Artificial Intelligence in Chemistry,Theory,Open Elective,3,0,0,0,3,50,50
+SCYB4002,Chem Intelligence,Theory,Open Elective,3,0,0,0,3,50,50
+SECB4001,Artificial Intelligence Search Methods and Reasoning,Theory,Open Elective,3,0,0,0,3,50,50
+SECB4002,Software Tools for Engineering Applications,Theory,Open Elective,3,0,0,0,3,50,50
+SECB4003,Drone Electronics,Theory,Open Elective,3,0,0,0,3,50,50
+SEEB4001,Smart Grid,Theory,Open Elective,3,0,0,0,3,50,50
+SEEB4002,Electric Vehicle,Theory,Open Elective,3,0,0,0,3,50,50
+SEEB4003,Green Energy Systems,Theory,Open Elective,3,0,0,0,3,50,50
+SITB4001,Artificial intelligence and Machine Learning,Theory,Open Elective,3,0,0,0,3,50,50
+SITB4002,User Interface Design,Theory,Open Elective,3,0,0,0,3,50,50
+SMEB4001,Wind and Solar Energy,Theory,Open Elective,3,0,0,0,3,50,50
+SMEB4002,Industrial Robotics and Expert Systems,Theory,Open Elective,3,0,0,0,3,50,50
+SMEB4003,Industrial Safety Engineering,Theory,Open Elective,3,0,0,0,3,50,50
+SMRB4001,Introduction to Mechatronics,Theory,Open Elective,3,0,0,0,3,50,50
+SMRB4002,Electrical and Electronic Ceramics,Theory,Open Elective,3,0,0,0,3,50,50
+SMRB4003,Resource Management Techniques,Theory,Open Elective,3,0,0,0,3,50,50
+SBAB4001,Principles and Practices of Management,Theory,Management Elective,3,0,0,0,3,50,50
+S24BPB41,Venture Creation,Theory,Management Elective,2,0,0,3,3,50,50
+SCSB4006,Software Project Management,Theory,Management Elective,3,0,0,0,3,50,50
+SCSB1714,Smart Product Development,Theory,Management Elective,3,0,0,0,3,50,50
+SPCB1401,Problem Solving & Behavioral Skills Development,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB1501,Computer programming for IT services,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB1601,Advanced Programming - Product Developer,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB1602,Advanced Programming - Dream Developer,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB1603,Advanced Programming - Super Dream Developer,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB1604,Advanced Core Engineering,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB4001,French,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB4002,German,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB4003,Mandarin,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB4004,Japanese,Skill,Skill Enhancement,1,0,0,2,1,,100
+SPCB4005,Communicative English,Skill,Skill Enhancement,1,0,0,2,1,,100
+SBAB4003,Entrepreneurship Essentials,Skill,Skill Enhancement,1,0,0,2,1,,100
+SBAB4004,Innovation and entrepreneurship,Skill,Skill Enhancement,1,0,0,2,1,,100
+SBAB4005,Intellectual Property Rights,Skill,Skill Enhancement,1,0,0,2,1,,100
+SISB4151,Environmental Science and Engineering,Audit,Mandatory Audit,1,0,0,3,0,,
+SISB4152,Basic Health and Hygiene for Engineering,Audit,Mandatory Audit,1,0,0,3,0,,
+SISB4153,Constitutional Law,Audit,Mandatory Audit,1,0,0,3,0,,
+SISB4154,Human Relations at Work,Audit,Mandatory Audit,1,0,0,3,0,,
+SISB4155,Yoga,Audit,Mandatory Audit,1,0,0,3,0,,

@@ -7,7 +7,7 @@
 Never print, log or save the token, the password or raw responses.
 Maximum marks are not in the data: assumed 50 internal + 50 exam, or 25 + 25 when the title contains "Lab".
 """
-import getpass, json, re, ssl, time, urllib.error, urllib.request
+import getpass, json, os, re, ssl, sys, time, urllib.error, urllib.request
 from datetime import date
 from tracker.adapters.base import Adapter
 
@@ -20,6 +20,29 @@ CAE_FIELDS = {   # lower-case candidate names
     "max": ["maxmark", "maxmarks", "maximummark", "maximummarks", "maxscore", "outof", "max"],
     "obt": ["obtainedmark", "obtainedmarks", "markobtained", "obtained", "scoredmark", "mark", "marks", "score"],
 }
+
+def ask_password(prompt="ERP password: "):
+    """Hidden input that shows one * per key on Windows, so you can see that typing works. Never stored."""
+    if os.name != "nt":
+        return getpass.getpass(prompt)
+    import msvcrt
+    sys.stdout.write(prompt); sys.stdout.flush()
+    chars = []
+    while True:
+        ch = msvcrt.getwch()
+        if ch in ("\r", "\n"):
+            sys.stdout.write("\n"); break
+        if ch == "\x03":
+            raise KeyboardInterrupt
+        if ch in ("\b", "\x7f"):
+            if chars:
+                chars.pop(); sys.stdout.write("\b \b")
+        elif ch in ("\x00", "\xe0"):
+            msvcrt.getwch()          # arrow/function keys: ignore
+        else:
+            chars.append(ch); sys.stdout.write("*")
+        sys.stdout.flush()
+    return "".join(chars)
 
 class ErpError(Exception):
     pass
@@ -56,11 +79,15 @@ def map_results(items, term, student="ME"):
         vals = [float(it[k]) for k in ("InternalMark", "ExternalMark") if it.get(k) not in (None, "")]
         mx = 25.0 if "lab" in title.lower() and max(vals or [0]) <= 25 else 50.0   # a lab with a mark above 25 must be out of 50
         base = dict(Student_ID=student, Academic_Year=term["Academic_Year"], Term=term["Term"], Semester=term["Semester"],
-                    Subject_Code=it["SubjectCode"], Subject=title, Maximum_Marks=mx, Date=date.today().isoformat())
+                    Subject_Code=it["SubjectCode"], Subject=title, Maximum_Marks=mx, Date=date.today().isoformat(),
+                    Result=it.get("Result"), ERP_Total=_num(it["TotalMark"]) if it.get("TotalMark") not in (None, "") else None,
+                    Max_Is_Assumed=1)   # the ERP does not send maximum marks for results
         for assess, key in (("Internal", "InternalMark"), ("Exam", "ExternalMark")):
             if it.get(key) not in (None, ""):
                 out.append({**base, "Assessment": assess, "Marks": _num(it[key])})
     return out
+
+CAE_DEFAULT_MAX = 50.0   # regulation 14: each CAE is out of 50. The ERP rows carry no maximum field.
 
 def map_cae(items, term, student="ME", hint=""):
     out = []
@@ -68,22 +95,30 @@ def map_cae(items, term, student="ME", hint=""):
         vals = {k: _pick(it, v) for k, v in CAE_FIELDS.items()}
         if vals["cae"] is None and re.search(r"\d+", hint or ""):
             vals["cae"] = hint
-        missing = [k for k in ("code", "cae", "obt", "max") if vals[k] is None]
+        missing = [k for k in ("code", "cae", "obt") if vals[k] is None]
         if missing:
             raise MapperError(f"Could not find {missing} in a CAE row. Fields present: {sorted(it.keys())}. "
                               "Send me this list (names only) so I can map it.")
         n = re.search(r"\d+", str(vals["cae"]))
+        try:
+            obt = _num(vals["obt"])
+        except ValueError:
+            continue                      # absent / not a number: no mark to record
         if not n:
-            raise MapperError(f"CAE number not understood. Fields present: {sorted(it.keys())}")
+            continue                      # not a numbered CAE (e.g. an assignment row)
+        mx = _num(vals["max"]) if vals["max"] is not None else CAE_DEFAULT_MAX
+        if obt > mx:
+            mx = 100.0                    # a mark above the assumed maximum: the paper must have been out of 100
         out.append(dict(Student_ID=student, Academic_Year=term["Academic_Year"], Term=term["Term"], Semester=term["Semester"],
                         Subject_Code=vals["code"], Subject=vals["title"] or vals["code"], Assessment=f"CAE {n.group()}",
-                        Marks=_num(vals["obt"]), Maximum_Marks=_num(vals["max"]), Date=date.today().isoformat()))
+                        Marks=obt, Maximum_Marks=mx, Date=date.today().isoformat(), Result=it.get("Result"), ERP_Total=None,
+                        Max_Is_Assumed=0 if vals["max"] is not None else 1))
     return out
 
 class SistErpAdapter(Adapter):
     def __init__(self, register_number=None):
         self.reg = register_number or input("Register number: ").strip()
-        self._pw = getpass.getpass("ERP password (hidden, not saved): ")
+        self._pw = ask_password("ERP password (shown as ****, not saved): ")
         self.token, self.student_id = None, None
 
     def _post(self, endpoint, body):
@@ -92,18 +127,28 @@ class SistErpAdapter(Adapter):
                    "Origin": "https://erp.sathyabama.ac.in", "Referer": "https://erp.sathyabama.ac.in/student/view"}
         if self.token:
             headers["Authorization"] = f"Bearer {self.token}"
+        last = ""
         for attempt in range(3):
             try:
                 req = urllib.request.Request(f"{BASE}/{endpoint}", json.dumps(body).encode(), headers, method="POST")
                 with urllib.request.urlopen(req, timeout=15, context=ssl.create_default_context()) as r:
                     return json.loads(r.read().decode("utf-8", "replace"))
             except urllib.error.HTTPError as e:
+                msg = ""
+                try:
+                    msg = str(json.loads(e.read().decode("utf-8", "replace")).get("message", ""))[:120]
+                except Exception:
+                    pass
+                last = f"HTTP {e.code}" + (f" - {msg}" if msg else "")
                 if e.code in (401, 403):
-                    raise ErpError("ERP rejected the request (wrong password, or access blocked).")
+                    raise ErpError(f"ERP rejected the request ({last}). Wrong password, or the ERP now blocks scripted logins (e.g. Cloudflare).")
+                if 400 <= e.code < 500 and e.code != 429:
+                    raise ErpError(f"ERP answered {last} for '{endpoint}'. The endpoint or request format may have changed.")
                 time.sleep(2 * (attempt + 1))
-            except (urllib.error.URLError, TimeoutError):
+            except (urllib.error.URLError, TimeoutError) as e:
+                last = f"{type(e).__name__}: {getattr(e, 'reason', e)}"
                 time.sleep(2 * (attempt + 1))
-        raise ErpError("ERP unreachable right now. Try again later.")
+        raise ErpError(f"ERP unreachable ({last}).")
 
     def login(self):
         d = self._post("MasterStudent/login", {"RegisterNumber": self.reg, "Password": self._pw})
