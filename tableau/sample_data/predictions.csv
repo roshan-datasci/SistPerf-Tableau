@@ -1,0 +1,721 @@
+Student_ID,Kind,Semester,Semester_Label,Subject_Code,Subject,Series,Pct,Low,High,Error,Method,Trained_On,N_Train,Run_At
+STU001,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.66,0.56,0.76,0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.72,0.62,0.82,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.81,0.7100000000000001,0.91,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.77,0.67,0.87,0.16999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.94,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.84,0.74,0.94,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.81,0.7100000000000001,0.91,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU001,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.72,0.6257023667509961,0.8142976332490038,,CAE average baseline (leave-one-out error 5.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU001,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.72,0.6257023667509961,0.8142976332490038,,CAE average baseline (leave-one-out error 5.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU001,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.92,0.8257023667509962,1.0,,CAE average baseline (leave-one-out error 5.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU001,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.64,0.5457023667509961,0.7342976332490039,,CAE average baseline (leave-one-out error 5.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU001,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.7,0.6057023667509961,0.7942976332490038,,CAE average baseline (leave-one-out error 5.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU001,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.74,0.6457023667509961,0.8342976332490039,,CAE average baseline (leave-one-out error 5.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.91,0.7918510770256454,1.0,0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.98,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,1.0,0.8818510770256454,1.0,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,1.0,0.8818510770256454,1.0,-0.18000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.8200000000000001,0.7018510770256454,0.9381489229743547,-0.1200000000000001,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.89,0.7718510770256454,1.0,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.74,0.6218510770256453,0.8581489229743546,-0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU002,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.88,0.7492370917200976,1.0,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU002,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.82,0.6892370917200975,0.9507629082799024,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU002,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.94,0.8092370917200975,1.0,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU002,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.84,0.7092370917200975,0.9707629082799024,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU002,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.78,0.6492370917200976,0.9107629082799025,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU002,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.98,0.8492370917200975,1.0,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.78,0.6650847964801871,0.8949152035198129,0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.79,0.6750847964801872,0.9049152035198129,0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.95,0.8350847964801871,1.0,-0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.9299999999999999,0.8150847964801871,1.0,0.07000000000000006,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.86,0.7450847964801872,0.9749152035198128,0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.87,0.7550847964801872,0.9849152035198128,-0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU003,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.92,0.8194346164744729,1.0,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU003,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.62,0.5194346164744729,0.7205653835255271,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU003,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.88,0.7794346164744729,0.9805653835255271,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU003,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.86,0.7594346164744729,0.9605653835255271,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU003,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.72,0.6194346164744728,0.8205653835255271,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU003,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.8,0.6994346164744729,0.9005653835255272,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.55,0.4049584335440355,0.6950415664559646,-0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.5,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.52,0.37495843354403546,0.6650415664559646,0.07999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.6,0.4549584335440354,0.7450415664559645,-0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.54,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.73,0.5849584335440354,0.8750415664559645,-0.20999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.52,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.65,0.5049584335440355,0.7950415664559646,0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.51,0.36495843354403545,0.6550415664559646,0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU004,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.5748616600790514,0.4610645410666657,0.688658779091437,,Linear regression on CAE average (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU004,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.5789723320158102,0.46517521300342457,0.6927694510281959,,Linear regression on CAE average (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU004,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6118577075098813,0.4980605884974957,0.725654826522267,,Linear regression on CAE average (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU004,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.6036363636363636,0.489839244623978,0.7174334826487493,,Linear regression on CAE average (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU004,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.5707509881422925,0.4569538691299069,0.6845481071546782,,Linear regression on CAE average (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU004,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.587193675889328,0.4733965568769424,0.7009907949017137,,Linear regression on CAE average (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.95,0.8339498039639742,1.0,-0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.8899999999999999,0.7739498039639742,1.0,-0.1499999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.77,0.6539498039639743,0.8860501960360258,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.8300000000000001,0.7139498039639743,0.9460501960360258,-0.15000000000000002,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.8300000000000001,0.7139498039639743,0.9460501960360258,-0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.86,0.7439498039639743,0.9760501960360257,-0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU005,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.7680996309963101,0.66484626491882,0.8713529970738001,,Linear regression on CAE average (leave-one-out error 6.3 pts),Sem 1-2,11,2026-10-27 02:27
+STU005,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.7956734317343174,0.6924200656568273,0.8989267978118074,,Linear regression on CAE average (leave-one-out error 6.3 pts),Sem 1-2,11,2026-10-27 02:27
+STU005,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.7759778597785978,0.6727244937011078,0.8792312258560878,,Linear regression on CAE average (leave-one-out error 6.3 pts),Sem 1-2,11,2026-10-27 02:27
+STU005,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.7484040590405905,0.6451506929631005,0.8516574251180805,,Linear regression on CAE average (leave-one-out error 6.3 pts),Sem 1-2,11,2026-10-27 02:27
+STU005,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.724769372693727,0.621516006616237,0.828022738771217,,Linear regression on CAE average (leave-one-out error 6.3 pts),Sem 1-2,11,2026-10-27 02:27
+STU005,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.7877952029520295,0.6845418368745395,0.8910485690295196,,Linear regression on CAE average (leave-one-out error 6.3 pts),Sem 1-2,11,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.88,0.7186996838192807,1.0,-0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.73,0.5686996838192807,0.8913003161807193,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.66,0.49869968381928076,0.8213003161807193,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.69,0.5286996838192807,0.8513003161807192,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.89,0.7286996838192807,1.0,-0.20999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.79,0.6286996838192808,0.9513003161807193,-0.15000000000000002,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU006,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.6544674663758633,0.5284517958111581,0.7804831369405685,,Linear regression on CAE average (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU006,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.610381679389313,0.4843660088246078,0.7363973499540182,,Linear regression on CAE average (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU006,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.7205961468556887,0.5945804762909835,0.8466118174203939,,Linear regression on CAE average (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU006,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.6324245728825881,0.5064089023178829,0.7584402434472933,,Linear regression on CAE average (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU006,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.6324245728825881,0.5064089023178829,0.7584402434472933,,Linear regression on CAE average (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU006,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.7095747001090512,0.583559029544346,0.8355903706737564,,Linear regression on CAE average (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.86,0.76,0.96,-0.16000000000000003,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.75,0.65,0.85,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.8200000000000001,0.7200000000000001,0.92,0.09999999999999998,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.79,0.6900000000000001,0.89,0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.9199999999999999,0.82,1.0,1.1102230246251565e-16,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.8999999999999999,0.7999999999999999,0.9999999999999999,0.10000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU007,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.74,0.6353697419046913,0.8446302580953087,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU007,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.88,0.7753697419046913,0.9846302580953087,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU007,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.9,0.7953697419046913,1.0,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU007,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.84,0.7353697419046913,0.9446302580953087,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU007,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.98,0.8753697419046913,1.0,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU007,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,1.0,0.8953697419046913,1.0,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.68,0.5800000000000001,0.78,0.039999999999999925,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.6799999999999999,0.58,0.7799999999999999,-0.09999999999999998,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.64,0.54,0.74,-0.07999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.56,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.65,0.55,0.75,0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.62,0.52,0.72,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.52,0.42000000000000004,0.62,0.07999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU008,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.84,0.7614739417888442,0.9185260582111557,,CAE average baseline (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU008,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.82,0.7414739417888442,0.8985260582111557,,CAE average baseline (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU008,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.62,0.5414739417888442,0.6985260582111558,,CAE average baseline (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU008,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.68,0.6014739417888443,0.7585260582111558,,CAE average baseline (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU008,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.74,0.6614739417888442,0.8185260582111558,,CAE average baseline (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU008,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.74,0.6614739417888442,0.8185260582111558,,CAE average baseline (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.77,0.6023248855673569,0.9376751144326432,-0.07000000000000006,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.77,0.6023248855673569,0.9376751144326432,0.08999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.86,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.73,0.5623248855673568,0.8976751144326431,-0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.59,0.42232488556735676,0.7576751144326432,0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.81,0.6423248855673569,0.9776751144326432,0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.8600000000000001,0.6923248855673569,1.0,0.019999999999999907,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU009,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.76,0.6270344952457765,0.8929655047542235,,CAE average baseline (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU009,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.74,0.6070344952457765,0.8729655047542235,,CAE average baseline (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU009,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.76,0.6270344952457765,0.8929655047542235,,CAE average baseline (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU009,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.8,0.6670344952457765,0.9329655047542236,,CAE average baseline (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU009,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.82,0.6870344952457763,0.9529655047542236,,CAE average baseline (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU009,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,1.0,0.8670344952457765,1.0,,CAE average baseline (leave-one-out error 8.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.83,0.73,0.9299999999999999,-0.16999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,1.0,0.9,1.0,-0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.96,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.9299999999999999,0.83,1.0,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.96,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.77,0.67,0.87,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.94,0.84,1.0,-0.15999999999999992,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.63,0.53,0.73,0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU010,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.6,0.49529858905179236,0.7047014109482076,,CAE average baseline (leave-one-out error 5.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU010,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.68,0.5752985890517924,0.7847014109482077,,CAE average baseline (leave-one-out error 5.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU010,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.68,0.5752985890517924,0.7847014109482077,,CAE average baseline (leave-one-out error 5.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU010,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.72,0.6152985890517924,0.8247014109482076,,CAE average baseline (leave-one-out error 5.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU010,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.8,0.6952985890517924,0.9047014109482077,,CAE average baseline (leave-one-out error 5.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU010,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.76,0.6552985890517924,0.8647014109482076,,CAE average baseline (leave-one-out error 5.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.5900000000000001,0.4234031933079149,0.7565968066920852,0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.66,0.4934031933079149,0.8265968066920852,-0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.78,0.6134031933079149,0.9465968066920851,-0.18000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.6799999999999999,0.5134031933079148,0.846596806692085,-0.019999999999999907,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.78,0.6134031933079149,0.9465968066920851,-0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.64,0.47340319330791486,0.8065968066920852,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU011,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.6854004576659039,0.5782196295184439,0.7925812858133638,,Linear regression on CAE average (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU011,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.686370709382151,0.579189881234691,0.7935515375296109,,Linear regression on CAE average (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU011,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6892814645308923,0.5821006363834325,0.7964622926783522,,Linear regression on CAE average (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU011,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.686370709382151,0.579189881234691,0.7935515375296109,,Linear regression on CAE average (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU011,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.6786086956521739,0.571427867504714,0.7857895237996337,,Linear regression on CAE average (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU011,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.6834599542334096,0.5762791260859497,0.7906407823808694,,Linear regression on CAE average (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.71,0.61,0.8099999999999999,0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.69,0.59,0.7899999999999999,-0.08999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.6499999999999999,0.5499999999999999,0.7499999999999999,0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.8300000000000001,0.7300000000000001,0.93,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.6699999999999999,0.57,0.7699999999999999,-0.10999999999999988,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.56,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.73,0.63,0.83,-0.13,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU012,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.84,0.738549859984863,0.9414501400151369,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU012,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.72,0.618549859984863,0.8214501400151369,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU012,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.78,0.6785498599848631,0.881450140015137,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU012,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.58,0.47854985998486294,0.6814501400151369,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU012,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.74,0.638549859984863,0.841450140015137,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU012,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.64,0.538549859984863,0.741450140015137,,CAE average baseline (leave-one-out error 6.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.87,0.7421280640640802,0.9978719359359198,-0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.84,0.7121280640640801,0.9678719359359198,-0.21999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.69,0.5621280640640801,0.8178719359359198,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.6799999999999999,0.5521280640640801,0.8078719359359198,0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.71,0.5821280640640801,0.8378719359359198,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.79,0.6621280640640802,0.9178719359359199,-0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU013,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.7603679175864606,0.6333287678775599,0.8874070672953613,,Linear regression on CAE average (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU013,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.7625165562913907,0.63547740658249,0.8895557060002914,,Linear regression on CAE average (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU013,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.768962472406181,0.6419233226972803,0.8960016221150817,,Linear regression on CAE average (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU013,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.7668138337012509,0.6397746839923502,0.8938529834101516,,Linear regression on CAE average (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU013,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.7603679175864606,0.6333287678775599,0.8874070672953613,,Linear regression on CAE average (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU013,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.7797056659308316,0.652666516221931,0.9067448156397322,,Linear regression on CAE average (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.5900000000000001,0.4900000000000001,0.6900000000000001,0.10999999999999988,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.54,0.44000000000000006,0.64,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.56,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.48,0.38,0.58,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.48,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.56,0.4600000000000001,0.66,0.07999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.6,0.5,0.7,-0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.53,0.43000000000000005,0.63,0.08999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU014,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.4,0.31606478688893447,0.4839352131110656,,CAE average baseline (leave-one-out error 5.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU014,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.66,0.5760647868889345,0.7439352131110656,,CAE average baseline (leave-one-out error 5.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU014,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.56,0.4760647868889345,0.6439352131110656,,CAE average baseline (leave-one-out error 5.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU014,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.6,0.5160647868889344,0.6839352131110655,,CAE average baseline (leave-one-out error 5.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU014,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.64,0.5560647868889345,0.7239352131110656,,CAE average baseline (leave-one-out error 5.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU014,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.74,0.6560647868889344,0.8239352131110655,,CAE average baseline (leave-one-out error 5.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.87,0.7361190977024729,1.0,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.71,0.5761190977024728,0.8438809022975271,-0.13,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.79,0.6561190977024729,0.9238809022975272,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.76,0.6261190977024729,0.8938809022975271,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.81,0.6761190977024729,0.9438809022975272,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.76,0.6261190977024729,0.8938809022975271,0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU015,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.86,0.7517317808739459,0.9682682191260541,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU015,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.96,0.8517317808739459,1.0,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU015,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.86,0.7517317808739459,0.9682682191260541,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU015,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.74,0.6317317808739459,0.8482682191260541,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU015,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.74,0.6317317808739459,0.8482682191260541,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU015,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.82,0.7117317808739458,0.9282682191260541,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.8300000000000001,0.7247593994695964,0.9352406005304037,-0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.65,0.5447593994695964,0.7552406005304036,0.13,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.75,0.6447593994695964,0.8552406005304036,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.73,0.6247593994695964,0.8352406005304036,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.68,0.5747593994695964,0.7852406005304037,0.12,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.69,0.5847593994695963,0.7952406005304036,-0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU016,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.6779866180048661,0.5588060080409438,0.7971672279687885,,Linear regression on CAE average (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU016,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.6382177615571776,0.5190371515932553,0.7573983715210999,,Linear regression on CAE average (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU016,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6893491484184915,0.5701685384545692,0.8085297583824138,,Linear regression on CAE average (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU016,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.6893491484184915,0.5701685384545692,0.8085297583824138,,Linear regression on CAE average (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU016,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.6723053527980536,0.5531247428341313,0.7914859627619759,,Linear regression on CAE average (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU016,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.6950304136253042,0.5758498036613818,0.8142110235892265,,Linear regression on CAE average (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.77,0.67,0.87,-0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.7,0.6,0.7999999999999999,0.20000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.78,0.68,0.88,0.07999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.86,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.9299999999999999,0.83,1.0,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.96,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.9199999999999999,0.82,1.0,-0.17999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.6799999999999999,0.58,0.7799999999999999,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU017,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.9,0.7789986025625399,1.0,,CAE average baseline (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU017,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.64,0.5189986025625399,0.7610013974374601,,CAE average baseline (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU017,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.7,0.5789986025625399,0.82100139743746,,CAE average baseline (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU017,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.72,0.5989986025625399,0.84100139743746,,CAE average baseline (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU017,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.82,0.6989986025625399,0.94100139743746,,CAE average baseline (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU017,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.82,0.6989986025625399,0.94100139743746,,CAE average baseline (leave-one-out error 7.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.79,0.6652410323864453,0.9147589676135548,-0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.75,0.6252410323864452,0.8747589676135548,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.76,0.6352410323864452,0.8847589676135548,-0.18000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.65,0.5252410323864453,0.7747589676135548,-0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.54,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.77,0.6452410323864453,0.8947589676135548,0.08999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.86,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.75,0.6252410323864452,0.8747589676135548,-0.15000000000000002,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU018,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.86,0.7199956364316389,1.0,,CAE average baseline (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU018,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.68,0.539995636431639,0.8200043635683611,,CAE average baseline (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU018,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.94,0.7999956364316388,1.0,,CAE average baseline (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU018,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.72,0.5799956364316389,0.8600043635683611,,CAE average baseline (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU018,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.68,0.539995636431639,0.8200043635683611,,CAE average baseline (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU018,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.98,0.8399956364316389,1.0,,CAE average baseline (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.78,0.6672436964068085,0.8927563035931916,0.039999999999999925,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.89,0.7772436964068085,1.0,-0.13,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,1.0,0.8872436964068084,1.0,-0.26,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.94,0.8272436964068084,1.0,-0.15999999999999992,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.8899999999999999,0.7772436964068083,1.0,0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.98,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.9199999999999999,0.8072436964068084,1.0,0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU019,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.96,0.8032326564618766,1.0,,CAE average baseline (leave-one-out error 10.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU019,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,1.0,0.8432326564618766,1.0,,CAE average baseline (leave-one-out error 10.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU019,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,1.0,0.8432326564618766,1.0,,CAE average baseline (leave-one-out error 10.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU019,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.8,0.6432326564618767,0.9567673435381234,,CAE average baseline (leave-one-out error 10.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU019,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.64,0.48323265646187663,0.7967673435381234,,CAE average baseline (leave-one-out error 10.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU019,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.84,0.6832326564618766,0.9967673435381234,,CAE average baseline (leave-one-out error 10.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.87,0.6904346581324781,1.0,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.86,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.66,0.48043465813247804,0.839565341867522,-0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.76,0.580434658132478,0.939565341867522,-0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,1.0,0.820434658132478,1.0,-0.36,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.79,0.610434658132478,0.9695653418675221,-0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.64,0.460434658132478,0.819565341867522,0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU020,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.88,0.6913257737888833,1.0,,CAE average baseline (leave-one-out error 10.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU020,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.66,0.4713257737888833,0.8486742262111168,,CAE average baseline (leave-one-out error 10.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU020,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.76,0.5713257737888833,0.9486742262111167,,CAE average baseline (leave-one-out error 10.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU020,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.74,0.5513257737888833,0.9286742262111167,,CAE average baseline (leave-one-out error 10.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU020,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.7,0.5113257737888832,0.8886742262111167,,CAE average baseline (leave-one-out error 10.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU020,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.7,0.5113257737888832,0.8886742262111167,,CAE average baseline (leave-one-out error 10.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.84,0.7207468574837543,0.9592531425162456,0.09999999999999998,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.94,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.69,0.5707468574837543,0.8092531425162456,0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.78,0.6607468574837544,0.8992531425162457,-0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.6599999999999999,0.5407468574837543,0.7792531425162456,0.10000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.6699999999999999,0.5507468574837543,0.7892531425162456,-0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.83,0.7107468574837543,0.9492531425162456,-0.18999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU021,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.7,0.5610099807376606,0.8389900192623393,,CAE average baseline (leave-one-out error 9.0 pts),Sem 1-2,11,2026-10-27 02:27
+STU021,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.72,0.5810099807376606,0.8589900192623393,,CAE average baseline (leave-one-out error 9.0 pts),Sem 1-2,11,2026-10-27 02:27
+STU021,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.8,0.6610099807376607,0.9389900192623394,,CAE average baseline (leave-one-out error 9.0 pts),Sem 1-2,11,2026-10-27 02:27
+STU021,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.72,0.5810099807376606,0.8589900192623393,,CAE average baseline (leave-one-out error 9.0 pts),Sem 1-2,11,2026-10-27 02:27
+STU021,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.78,0.6410099807376607,0.9189900192623394,,CAE average baseline (leave-one-out error 9.0 pts),Sem 1-2,11,2026-10-27 02:27
+STU021,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.54,0.4010099807376607,0.6789900192623394,,CAE average baseline (leave-one-out error 9.0 pts),Sem 1-2,11,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.45999999999999996,0.36,0.5599999999999999,0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.52,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.67,0.5700000000000001,0.77,0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.8,0.7000000000000001,0.9,-0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.64,0.54,0.74,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.73,0.63,0.83,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.54,0.44000000000000006,0.64,0.15999999999999992,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU022,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.5858021978021978,0.49772284698887803,0.6738815486155175,,Linear regression on CAE average (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU022,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.6163076923076923,0.5282283414943726,0.7043870431210121,,Linear regression on CAE average (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU022,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6264761904761905,0.5383968396628708,0.7145555412895103,,Linear regression on CAE average (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU022,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.6671501831501832,0.5790708323368634,0.7552295339635029,,Linear regression on CAE average (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU022,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.7078241758241759,0.6197448250108561,0.7959035266374956,,Linear regression on CAE average (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU022,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.6671501831501832,0.5790708323368634,0.7552295339635029,,Linear regression on CAE average (leave-one-out error 5.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.94,0.84,1.0,-0.09999999999999998,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.9299999999999999,0.83,1.0,-0.16999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.8500000000000001,0.7500000000000001,0.9500000000000001,-0.13000000000000012,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.8600000000000001,0.7600000000000001,0.9600000000000001,0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.97,0.87,1.0,-0.08999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.8,0.7000000000000001,0.9,-0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU023,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.7977405857740584,0.700578458116355,0.8949027134317618,,Linear regression on CAE average (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU023,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.6907322175732215,0.5935700899155181,0.7878943452309248,,Linear regression on CAE average (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU023,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.7977405857740584,0.700578458116355,0.8949027134317618,,Linear regression on CAE average (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU023,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.9475523012552302,0.8503901735975268,1.0,,Linear regression on CAE average (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU023,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.7549372384937236,0.6577751108360202,0.852099366151427,,Linear regression on CAE average (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU023,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.8405439330543932,0.7433818053966899,0.9377060607120966,,Linear regression on CAE average (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.66,0.557280498443577,0.7627195015564231,-0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.56,0.457280498443577,0.6627195015564231,-0.16000000000000003,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.4,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.6699999999999999,0.5672804984435769,0.772719501556423,-0.009999999999999898,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.64,0.537280498443577,0.7427195015564231,0.12,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.71,0.6072804984435769,0.812719501556423,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.55,0.447280498443577,0.6527195015564231,0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU024,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.54,0.4343779637317357,0.6456220362682643,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU024,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.66,0.5543779637317356,0.7656220362682644,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU024,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6,0.49437796373173565,0.7056220362682644,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU024,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.54,0.4343779637317357,0.6456220362682643,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU024,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.52,0.4143779637317357,0.6256220362682643,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU024,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.62,0.5143779637317356,0.7256220362682644,,CAE average baseline (leave-one-out error 6.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.9,0.8,1.0,0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.96,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.9099999999999999,0.8099999999999999,1.0,0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.87,0.77,0.97,-0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.97,0.87,1.0,-0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.9199999999999999,0.82,1.0,-0.039999999999999925,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.78,0.68,0.88,-0.12,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU025,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.7456455070074197,0.6476123881710505,0.8436786258437889,,Linear regression on CAE average (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU025,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.7988788128606761,0.7008456940243069,0.8969119316970453,,Linear regression on CAE average (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU025,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.7988788128606761,0.7008456940243069,0.8969119316970453,,Linear regression on CAE average (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU025,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.9585787304204452,0.8605456115840759,1.0,,Linear regression on CAE average (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU025,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.9408342951360263,0.8428011762996571,1.0,,Linear regression on CAE average (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU025,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.8343676834295136,0.7363345645931444,0.9324008022658828,,Linear regression on CAE average (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.9,0.8,1.0,-0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.71,0.61,0.8099999999999999,0.07000000000000006,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.85,0.75,0.95,-0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.84,0.74,0.94,-0.039999999999999925,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.9,0.8,1.0,-0.16000000000000003,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.75,0.65,0.85,0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU026,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.8569063856168628,0.7683314300567059,0.9454813411770198,,Linear regression on CAE average (leave-one-out error 4.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU026,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.8660756354618722,0.7775006799017152,0.9546505910220291,,Linear regression on CAE average (leave-one-out error 4.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU026,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.8110601363918164,0.7224851808316595,0.8996350919519733,,Linear regression on CAE average (leave-one-out error 4.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU026,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.8202293862368256,0.7316544306766687,0.9088043417969826,,Linear regression on CAE average (leave-one-out error 4.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU026,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.8477371357718535,0.7591621802116966,0.9363120913320104,,Linear regression on CAE average (leave-one-out error 4.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU026,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.8477371357718535,0.7591621802116966,0.9363120913320104,,Linear regression on CAE average (leave-one-out error 4.8 pts),Sem 1-2,11,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.75,0.65,0.85,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.82,0.72,0.9199999999999999,0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.9299999999999999,0.83,1.0,-0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.78,0.68,0.88,-0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.72,0.62,0.82,0.18000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.9099999999999999,0.8099999999999999,1.0,-0.009999999999999898,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU027,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,1.0,0.8960839499665935,1.0,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU027,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.8,0.6960839499665935,0.9039160500334066,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU027,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.76,0.6560839499665935,0.8639160500334065,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU027,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,1.0,0.8960839499665935,1.0,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU027,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.72,0.6160839499665934,0.8239160500334065,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU027,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.8,0.6960839499665935,0.9039160500334066,,CAE average baseline (leave-one-out error 6.1 pts),Sem 1-2,11,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.78,0.68,0.88,-0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.74,0.64,0.84,-0.19999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.54,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.6,0.5,0.7,-0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.58,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.65,0.55,0.75,-0.08999999999999997,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.56,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.61,0.51,0.71,0.07000000000000006,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.79,0.6900000000000001,0.89,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU028,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.68,0.5822129958439355,0.7777870041560646,,CAE average baseline (leave-one-out error 5.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU028,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.72,0.6222129958439354,0.8177870041560645,,CAE average baseline (leave-one-out error 5.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU028,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.64,0.5422129958439355,0.7377870041560646,,CAE average baseline (leave-one-out error 5.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU028,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.54,0.4422129958439355,0.6377870041560646,,CAE average baseline (leave-one-out error 5.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU028,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.56,0.4622129958439355,0.6577870041560646,,CAE average baseline (leave-one-out error 5.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU028,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.68,0.5822129958439355,0.7777870041560646,,CAE average baseline (leave-one-out error 5.6 pts),Sem 1-2,11,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.74,0.579923218423158,0.900076781576842,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.71,0.549923218423158,0.870076781576842,0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.6000000000000001,0.439923218423158,0.7600767815768421,0.21999999999999986,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.71,0.549923218423158,0.870076781576842,-0.1499999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.56,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.59,0.4299232184231579,0.7500767815768421,0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.59,0.4299232184231579,0.7500767815768421,0.15000000000000002,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU029,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.6931344071824664,0.5619586516888877,0.8243101626760452,,Linear regression on CAE average (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU029,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.6704779508846054,0.5393021953910266,0.8016537063781841,,Linear regression on CAE average (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU029,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.689358331132823,0.5581825756392442,0.8205340866264017,,Linear regression on CAE average (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU029,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.7006865592817535,0.5695108037881746,0.8318623147753323,,Linear regression on CAE average (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU029,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.6704779508846054,0.5393021953910266,0.8016537063781841,,Linear regression on CAE average (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU029,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.712014787430684,0.5808390319371053,0.8431905429242628,,Linear regression on CAE average (leave-one-out error 8.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.76,0.5983952475946329,0.9216047524053671,0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.6399999999999999,0.4783952475946328,0.801604752405367,0.04000000000000015,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.89,0.7283952475946329,1.0,0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.8300000000000001,0.668395247594633,0.9916047524053672,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.67,0.508395247594633,0.8316047524053671,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.62,0.4583952475946329,0.7816047524053671,-0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.56,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU030,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.7,0.5782011195752306,0.8217988804247693,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU030,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.8,0.6782011195752307,0.9217988804247694,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU030,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.62,0.4982011195752306,0.7417988804247694,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU030,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.72,0.5982011195752306,0.8417988804247694,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU030,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.8,0.6782011195752307,0.9217988804247694,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU030,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.78,0.6582011195752306,0.9017988804247694,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.81,0.5985092909842138,1.0,0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.98,0.7685092909842137,1.0,-0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.94,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.81,0.5985092909842138,1.0,0.009999999999999898,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.89,0.6785092909842138,1.0,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.77,0.5585092909842138,0.9814907090157863,0.04999999999999993,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.82,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.75,0.5385092909842137,0.9614907090157863,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU031,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.8,0.6542618038461372,0.9457381961538629,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU031,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.86,0.7142618038461371,1.0,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU031,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.96,0.8142618038461371,1.0,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU031,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.7,0.5542618038461371,0.8457381961538628,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU031,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.82,0.6742618038461371,0.9657381961538628,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU031,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.78,0.6342618038461372,0.9257381961538629,,CAE average baseline (leave-one-out error 8.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.83,0.73,0.9299999999999999,0.09000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.9199999999999999,0.82,1.0,0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.8200000000000001,0.7200000000000001,0.92,-0.18000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.95,0.85,1.0,0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.9099999999999999,0.8099999999999999,1.0,-0.10999999999999988,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.7,0.6,0.7999999999999999,0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU032,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,1.0,0.8800494647402901,1.0,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU032,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.76,0.6400494647402901,0.8799505352597099,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU032,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.58,0.46004946474029007,0.6999505352597098,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU032,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.9,0.7800494647402901,1.0,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU032,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.92,0.8000494647402902,1.0,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU032,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.9,0.7800494647402901,1.0,,CAE average baseline (leave-one-out error 8.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.88,0.7380411327179595,1.0,0.020000000000000018,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.8200000000000001,0.6780411327179595,0.9619588672820406,-0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.87,0.7280411327179594,1.0,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.86,0.7180411327179594,1.0,0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.95,0.8080411327179594,1.0,-0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.9299999999999999,0.7880411327179594,1.0,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.94,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU033,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.82,0.7080124682264705,0.9319875317735294,,CAE average baseline (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU033,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.94,0.8280124682264705,1.0,,CAE average baseline (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU033,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,1.0,0.8880124682264705,1.0,,CAE average baseline (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU033,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,1.0,0.8880124682264705,1.0,,CAE average baseline (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU033,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,1.0,0.8880124682264705,1.0,,CAE average baseline (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU033,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.98,0.8680124682264705,1.0,,CAE average baseline (leave-one-out error 6.4 pts),Sem 1-2,11,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.89,0.7821452829033426,0.9978547170966574,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.74,0.6321452829033426,0.8478547170966574,-0.09999999999999998,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.64,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.8,0.6921452829033427,0.9078547170966574,-0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.91,0.8021452829033426,1.0,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.8,0.6921452829033427,0.9078547170966574,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.9299999999999999,0.8221452829033425,1.0,-0.20999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU034,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.72,0.5923495682448636,0.8476504317551363,,CAE average baseline (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU034,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.9,0.7723495682448637,1.0,,CAE average baseline (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU034,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6,0.4723495682448636,0.7276504317551363,,CAE average baseline (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU034,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.78,0.6523495682448637,0.9076504317551364,,CAE average baseline (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU034,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.64,0.5123495682448637,0.7676504317551364,,CAE average baseline (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU034,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.94,0.8123495682448636,1.0,,CAE average baseline (leave-one-out error 7.5 pts),Sem 1-2,11,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.56,0.4417124858660053,0.6782875141339948,-0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.52,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.61,0.49171248586600524,0.7282875141339947,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.54,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.4,0.2817124858660053,0.5182875141339948,0.09999999999999998,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.5,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.76,0.6417124858660053,0.8782875141339948,-0.06000000000000005,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.7,0.5817124858660052,0.8182875141339947,-0.07999999999999996,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.72,0.6017124858660052,0.8382875141339947,-0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU035,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.72,0.6158691731958825,0.8241308268041174,,CAE average baseline (leave-one-out error 6.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU035,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.72,0.6158691731958825,0.8241308268041174,,CAE average baseline (leave-one-out error 6.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU035,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.72,0.6158691731958825,0.8241308268041174,,CAE average baseline (leave-one-out error 6.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU035,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.62,0.5158691731958827,0.7241308268041173,,CAE average baseline (leave-one-out error 6.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU035,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.64,0.5358691731958827,0.7441308268041174,,CAE average baseline (leave-one-out error 6.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU035,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.56,0.45586917319588266,0.6641308268041175,,CAE average baseline (leave-one-out error 6.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.96,0.8527546364638545,1.0,-0.05999999999999994,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.9,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.79,0.6827546364638546,0.8972453635361455,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.9199999999999999,0.8127546364638545,1.0,0.040000000000000036,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.96,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.75,0.6427546364638546,0.8572453635361454,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.74,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.9,0.7927546364638546,1.0,-0.14,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.76,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.85,0.7427546364638545,0.9572453635361454,0.15000000000000002,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU036,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.86,0.749081586084841,0.970918413915159,,CAE average baseline (leave-one-out error 6.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU036,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.88,0.769081586084841,0.990918413915159,,CAE average baseline (leave-one-out error 6.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU036,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.9,0.789081586084841,1.0,,CAE average baseline (leave-one-out error 6.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU036,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.9,0.789081586084841,1.0,,CAE average baseline (leave-one-out error 6.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU036,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.76,0.6490815860848409,0.8709184139151591,,CAE average baseline (leave-one-out error 6.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU036,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.94,0.8290815860848408,1.0,,CAE average baseline (leave-one-out error 6.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.6799999999999999,0.5721452829033425,0.7878547170966573,-0.019999999999999907,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.85,0.7421452829033426,0.9578547170966574,0.15000000000000002,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.69,0.5821452829033426,0.7978547170966573,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.62,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.73,0.6221452829033426,0.8378547170966574,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.73,0.6221452829033426,0.8378547170966574,-0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.8300000000000001,0.7221452829033427,0.9378547170966575,-0.13000000000000012,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.7,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU037,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.657814371257485,0.5415160835265906,0.7741126589883793,,Linear regression on CAE average (leave-one-out error 7.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU037,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.9892964071856288,0.8729981194547345,1.0,,Linear regression on CAE average (leave-one-out error 7.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU037,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6276796407185629,0.5113813529876685,0.7439779284494572,,Linear regression on CAE average (leave-one-out error 7.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU037,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.44687125748503,0.33057296975413564,0.5631695452159243,,Linear regression on CAE average (leave-one-out error 7.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU037,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.7783532934131737,0.6620550056822794,0.8946515811440681,,Linear regression on CAE average (leave-one-out error 7.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU037,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.5975449101796407,0.4812466224487464,0.7138431979105351,,Linear regression on CAE average (leave-one-out error 7.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.8999999999999999,0.7999999999999999,0.9999999999999999,-0.039999999999999925,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.86,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.99,0.89,1.0,-0.13,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.86,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.87,0.77,0.97,-0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.84,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,1.0,0.9,1.0,-0.12,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.88,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.95,0.85,1.0,-0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.92,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.97,0.87,1.0,0.030000000000000027,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,1.0,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU038,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,1.0,0.9119088075809041,1.0,,CAE average baseline (leave-one-out error 5.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU038,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.86,0.7719088075809041,0.9480911924190959,,CAE average baseline (leave-one-out error 5.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU038,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.96,0.871908807580904,1.0,,CAE average baseline (leave-one-out error 5.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU038,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.92,0.8319088075809041,1.0,,CAE average baseline (leave-one-out error 5.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU038,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.96,0.871908807580904,1.0,,CAE average baseline (leave-one-out error 5.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU038,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.66,0.5719088075809041,0.7480911924190959,,CAE average baseline (leave-one-out error 5.7 pts),Sem 1-2,11,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.79,0.6900000000000001,0.89,-0.13,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.6,0.5,0.7,0.0,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.6,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.73,0.63,0.83,-0.06999999999999995,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.7,0.6,0.7999999999999999,0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.61,0.51,0.71,0.050000000000000044,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.66,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.5900000000000001,0.4900000000000001,0.6900000000000001,-0.15000000000000008,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.44,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU039,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.708443113772455,0.6014753212876726,0.8154109062572373,,Linear regression on CAE average (leave-one-out error 6.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU039,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.6715568862275448,0.5645890937427624,0.7785246787123272,,Linear regression on CAE average (leave-one-out error 6.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU039,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.6346706586826347,0.5277028661978523,0.7416384511674171,,Linear regression on CAE average (leave-one-out error 6.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU039,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.6346706586826347,0.5277028661978523,0.7416384511674171,,Linear regression on CAE average (leave-one-out error 6.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU039,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.6346706586826347,0.5277028661978523,0.7416384511674171,,Linear regression on CAE average (leave-one-out error 6.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU039,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.6531137724550897,0.5461459799703073,0.7600815649398721,,Linear regression on CAE average (leave-one-out error 6.2 pts),Sem 1-2,11,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,S11BLH21,Programming in Python,Predicted,0.8200000000000001,0.6864867347414498,0.9535132652585503,0.11999999999999988,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,S11BLH21,Programming in Python,Actual,0.94,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Predicted,0.71,0.5764867347414497,0.8435132652585502,-0.029999999999999916,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,S731BLH22,Data Structures & Algorithms,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Predicted,0.72,0.5864867347414497,0.8535132652585502,0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SCSB1231,Data and Information Science,Actual,0.8,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Predicted,0.8,0.6664867347414498,0.9335132652585503,-0.08000000000000007,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SCSB1232,Exploratory Data Analysis,Actual,0.72,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SCYB1101,Chemistry,Predicted,0.67,0.5364867347414498,0.8035132652585503,0.010000000000000009,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SCYB1101,Chemistry,Actual,0.68,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Predicted,0.67,0.5364867347414498,0.8035132652585503,0.10999999999999999,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Backtest,2,Sem 2,SMTB1212,Discrete Structures,Actual,0.78,,,,CAE average baseline (only 5 past subjects),Sem 1,5,2026-10-27 02:27
+STU040,Forecast,3,Sem 3,S12BLH31,Programming in Java,Predicted,0.72,0.6012349607609438,0.8387650392390561,,CAE average baseline (leave-one-out error 7.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU040,Forecast,3,Sem 3,S731BLH32,Machine Learning Essentials,Predicted,0.64,0.5212349607609439,0.7587650392390561,,CAE average baseline (leave-one-out error 7.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU040,Forecast,3,Sem 3,SCSB1303,Theory of Computation,Predicted,0.78,0.6612349607609439,0.8987650392390562,,CAE average baseline (leave-one-out error 7.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU040,Forecast,3,Sem 3,SCSBOB1301,Computer Architecture and Organization,Predicted,0.64,0.5212349607609439,0.7587650392390561,,CAE average baseline (leave-one-out error 7.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU040,Forecast,3,Sem 3,SISB4301,Universal Human Values,Predicted,0.64,0.5212349607609439,0.7587650392390561,,CAE average baseline (leave-one-out error 7.9 pts),Sem 1-2,11,2026-10-27 02:27
+STU040,Forecast,3,Sem 3,SMTB1304,Matrices and Linear Algebra,Predicted,0.78,0.6612349607609439,0.8987650392390562,,CAE average baseline (leave-one-out error 7.9 pts),Sem 1-2,11,2026-10-27 02:27

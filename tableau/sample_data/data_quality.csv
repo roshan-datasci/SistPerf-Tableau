@@ -1,0 +1,12 @@
+Check,Issues,Total_Records,Run_At
+Missing or non-numeric marks,0,2160,2026-10-27 02:27
+Negative marks,0,2160,2026-10-27 02:27
+Marks above maximum,0,2160,2026-10-27 02:27
+Invalid maximum marks,0,2160,2026-10-27 02:27
+Unknown assessment name,0,2160,2026-10-27 02:27
+Invalid date,0,2160,2026-10-27 02:27
+Duplicate record,0,2160,2026-10-27 02:27
+Missing identifier,0,2160,2026-10-27 02:27
+Marks using an assumed maximum,0,2160,2026-10-27 02:27
+Rows without credits,0,2160,2026-10-27 02:27
+Result rows without an ERP result,0,2160,2026-10-27 02:27

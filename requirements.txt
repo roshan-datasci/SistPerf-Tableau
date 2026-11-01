@@ -1,7 +1,7 @@
 numpy
 pandas
-plotly
-pyyaml
 scikit-learn
-streamlit
-streamlit>=1.50
+pyyaml
+playwright
+tableauhyperapi
+# optional: plyer (desktop alerts)

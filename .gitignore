@@ -251,3 +251,41 @@ logs/
 raw_responses/
 captures/
 erp_dump*
+# --- paste at the bottom of your .gitignore (safe to repeat) ---
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.*
+secrets.*
+cookies.json
+session.json
+storage_state.json
+auth.json
+*.session
+# PRIVATE academic data: never commit
+data/private/*
+!data/private/.gitkeep
+data/raw/
+*.db
+*.sqlite
+*.sqlite3
+# Tableau: generated workbooks and extracts (the Live one holds your real marks)
+*.twbx
+*.twb
+*.twbr
+*.hyper
+!scripts/hyper_templates/*.hyper
+tableau/.build/
+hyperd.log
+# captures, logs, caches
+captures/
+logs/
+*.log
+*.har
+__pycache__/
+*.pyc
+config.local.*
+config.private.*

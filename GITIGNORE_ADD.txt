@@ -1,35 +1,38 @@
-# --- paste at the bottom of your existing .gitignore ---
+# --- paste at the bottom of your .gitignore (safe to repeat) ---
 # secrets
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 credentials.*
 secrets.*
-# ERP sessions
 cookies.json
 session.json
 storage_state.json
 auth.json
 *.session
-# private data
+# PRIVATE academic data: never commit
 data/private/*
 !data/private/.gitkeep
 data/raw/
 *.db
 *.sqlite
 *.sqlite3
-# Tableau extracts and real-data workbooks
+# Tableau: generated workbooks and extracts (the Live one holds your real marks)
+*.twbx
+*.twb
+*.twbr
 *.hyper
-*.tde
-tableau/private/
-# local config and logs
-config.local.*
-config.private.*
+!scripts/hyper_templates/*.hyper
+tableau/.build/
+hyperd.log
+# captures, logs, caches
+captures/
 logs/
 *.log
-# raw ERP captures (contain personal data and tokens)
 *.har
-raw_responses/
-captures/
-erp_dump*
+__pycache__/
+*.pyc
+config.local.*
+config.private.*
